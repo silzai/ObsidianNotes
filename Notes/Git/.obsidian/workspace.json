@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Version Control.md",
+                "file": "GitHub.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Version Control.md",
+                "file": "GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +124,8 @@
   },
   "active": "0d20319a6e7a73f3",
   "lastOpenFiles": [
-    "GitHub.md",
     "Version Control.md",
+    "GitHub.md",
     "Untitled.md",
     "ExamSchedule.md",
     "EthicsNotes.md",

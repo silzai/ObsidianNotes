@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2765f6d81758eb8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Useful Links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Final Exams Schedule.md",
+                "file": "Useful Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,10 +171,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6a5f80bee7e20f94",
+  "active": "2765f6d81758eb8c",
   "lastOpenFiles": [
-    "Database/Additional Topics in DB by Prof Gassemi.md",
     "Final Exams Schedule.md",
+    "Useful Links.md",
+    "Database/Additional Topics in DB by Prof Gassemi.md",
     "Database/DML (Data Manipulation Language).md",
     "DataStructures/BB TSP.md",
     "DataStructures/Instruction Format to Hex.md",
