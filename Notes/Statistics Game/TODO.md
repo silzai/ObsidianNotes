@@ -1,0 +1,3 @@
+- add the NPCs to the scenes and maps.
+- need to add the dialogic nodes to the NPCs when colliding with them.
+- 

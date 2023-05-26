@@ -1,0 +1,2 @@
+- `// TODO` will tell you what you need to do
+- `// FIXME` will give you what you need to look into

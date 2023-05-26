@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "1ae49c12414d403c",
+    "type": "split",
+    "children": [
+      {
+        "id": "17c989278de4d37a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aaadccebe83dc7b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/DML (Data Manipulation Language).md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d0d35153a823629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DataStructures/BB TSP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3370ea74c72ce7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Exams Schedule.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a5f80bee7e20f94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Final Exams Schedule.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "142a223d72ac0f1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "56e72cfb03b29518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "671873ace68dbf23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "981b8b3380a31a20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f703d328d6826436",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f8d2d644b06ac3c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc9b28e647833e4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbbb240c955b4573",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Final Exams Schedule.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "31e59406150344f5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "6a5f80bee7e20f94",
+  "lastOpenFiles": [
+    "Database/Additional Topics in DB by Prof Gassemi.md",
+    "Final Exams Schedule.md",
+    "Database/DML (Data Manipulation Language).md",
+    "DataStructures/BB TSP.md",
+    "DataStructures/Instruction Format to Hex.md",
+    "Database/PL-SQL.md",
+    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/DDL (Data Definition Language).md",
+    "Database/Indexes (not in syllabus of CMPS).md",
+    "Database/DCL (Data Control Language).md",
+    "Database/Oracle.md",
+    "Database/JDBC.md",
+    "DataStructures/Algos.md",
+    "Java/IO.md",
+    "Java/Exceptions.md",
+    "Java/Comment Keywords.md",
+    "Java/Abstraction.md",
+    "Java/Random.md",
+    "Java/LabProject.md",
+    "Java/LabProject02.md",
+    "Java/Polymorphism.md",
+    "ExamSchedule.md"
+  ]
+}

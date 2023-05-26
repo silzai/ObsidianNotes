@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "1ae49c12414d403c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf3cefba77cf48f7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "GitHub.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "142a223d72ac0f1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "56e72cfb03b29518",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "671873ace68dbf23",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "981b8b3380a31a20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f8d2d644b06ac3c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc9b28e647833e4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbbb240c955b4573",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GitHub.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cf3cefba77cf48f7",
+  "lastOpenFiles": [
+    "Version Control.md",
+    "GitHub.md"
+  ]
+}

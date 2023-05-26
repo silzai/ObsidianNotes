@@ -1,0 +1,13 @@
+- set minlength as infinity
+- conditions:
+	- bound less than minlength
+- will start from a city
+- will look at the outgoing lengths
+- will go to the min outgoing length
+- and continue to do so
+- consequence of doing like this will make us visit the same city again but we can ignore cuz it is bound
+start:
+- calculate bound by summing all the outgoing lengths of all nodes, and that will be the bound of our dreams
+- if node is promising then we will queue its children
+- will calculate bound by picking a node after v1 named v? and then summing the minlengths of all nodes in the sequence in state spaced tree but excluding the node v? and the previous node at a particular node we are at. so will exclude only 2 nodes values, while summing the rest.
+- 
