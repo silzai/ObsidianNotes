@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "16080bdf557c5008",
+    "type": "split",
+    "children": [
+      {
+        "id": "347843ba792cbc45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e703878a8e09f57",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66e9132128040f2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a2293d26a26f77e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dc40c057649ffc8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "08f3403156e2a1ba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85d8fe7727976c38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "974a6709fbc1b25d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0117672c10f83c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81393319469d574d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e019ee7c8aa6819a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2fc360ee8db1a457",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "881ac662a2c41a9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7dc40c057649ffc8",
+  "lastOpenFiles": [
+    "Prob&Stats/Statistical Inference, Parameter Estimation.md",
+    "Prob&Stats/Confidence Intervals.md",
+    "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+    "Phys2 Chap 29, Magnetic Field BY Current.md",
+    "hypothesis testing.md",
+    "Prob&Stats",
+    "Untitled.canvas",
+    "2023-05-30.md"
+  ]
+}
