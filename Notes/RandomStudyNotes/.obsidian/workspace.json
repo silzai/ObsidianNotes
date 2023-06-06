@@ -14,8 +14,45 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "a1dc563d49de8419",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Backtracking, chap 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "251934cca06016de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Backtracking, chap 5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b56c04c4e7ea6371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Greedy, chap 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+                "file": "Algorithms/Greedy, chap 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+                "file": "Algorithms/Greedy, chap 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Prob&Stats/Statistical Inference, Hypothesis Testing.md"
+                "file": "Algorithms/Greedy, chap 4.md"
               }
             }
           }
@@ -142,8 +179,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dc40c057649ffc8",
+  "active": "b56c04c4e7ea6371",
   "lastOpenFiles": [
+    "Algorithms/Backtracking, chap 5.md",
+    "Algorithms/Greedy, chap 4.md",
+    "Algorithms/Branch and Bound, chap 6.md",
+    "Algorithms",
     "Prob&Stats/Statistical Inference, Parameter Estimation.md",
     "Prob&Stats/Confidence Intervals.md",
     "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
