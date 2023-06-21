@@ -1,9 +1,9 @@
 - Problems Included:
-- Minimum Spanning Tree
-- Shortest Path (Dijkstra)
-- Scheduling and Scheduling with deadlines
-- Huffman code
-- Fractional Knapsack (0-1 knapsack is done using dynamic programming or backtracking/branch and bound)
+1) Minimum Spanning Tree
+2) Shortest Path (Dijkstra)
+3) Scheduling and Scheduling with deadlines
+4) Huffman code
+5) Fractional Knapsack (0-1 knapsack is done using dynamic programming or backtracking/branch and bound)
 # Minimum Spanning Tree:
 - There are 2 approaches:
 	- Prim's Algorithm
@@ -29,7 +29,7 @@
 	- It runs better on sparse graphs
 
 # Dijkstra's Algorithm:
-- We will start from any 
+- We will start from any vertex.
 - Complexity: 
 	- $\theta(n^2)$ 
 

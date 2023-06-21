@@ -4,55 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "347843ba792cbc45",
+        "id": "41cb9a5f9914502a",
         "type": "tabs",
         "children": [
           {
-            "id": "9e703878a8e09f57",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a1dc563d49de8419",
+            "id": "f46d120b1c1b4512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Backtracking, chap 5.md",
+                "file": "NumericalMethods/Lecture/Part1-Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "251934cca06016de",
+            "id": "a230e22b6df28ed8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Backtracking, chap 5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b56c04c4e7ea6371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Greedy, chap 4.md",
+                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Greedy, chap 4.md",
+                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Greedy, chap 4.md",
+                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms/Greedy, chap 4.md"
+                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md"
               }
             }
           }
@@ -179,16 +159,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b56c04c4e7ea6371",
+  "active": "7dc40c057649ffc8",
   "lastOpenFiles": [
-    "Algorithms/Backtracking, chap 5.md",
+    "NumericalMethods/Lecture/Part1-Intro.md",
+    "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
+    "NumericalMethods/Lab/lab1.md",
+    "Dawa/Reflection Journal.md",
+    "NumericalMethods/Lab/lab2.md",
+    "Dawa/Intro.md",
+    "NumericalMethods/Lecture",
+    "Phys2 Chap 29, Magnetic Field BY Current.md",
+    "NumericalMethods/Lab",
+    "NumericalMethods",
+    "Dawa",
+    "Test Chap 1 & 7.md",
+    "Test Chap 12.md",
+    "Keep talking and nobody explodes.md",
     "Algorithms/Greedy, chap 4.md",
+    "Arabic.md",
+    "Algorithms/Backtracking, chap 5.md",
     "Algorithms/Branch and Bound, chap 6.md",
     "Algorithms",
     "Prob&Stats/Statistical Inference, Parameter Estimation.md",
     "Prob&Stats/Confidence Intervals.md",
     "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
-    "Phys2 Chap 29, Magnetic Field BY Current.md",
     "hypothesis testing.md",
     "Prob&Stats",
     "Untitled.canvas",

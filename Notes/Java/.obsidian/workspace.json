@@ -4,71 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "17c989278de4d37a",
+        "id": "a2dc61388c84bef5",
         "type": "tabs",
         "children": [
           {
-            "id": "aaadccebe83dc7b7",
+            "id": "60710a87947bb251",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/DML (Data Manipulation Language).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4d0d35153a823629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DataStructures/BB TSP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3370ea74c72ce7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Final Exams Schedule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a5f80bee7e20f94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Final Exams Schedule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2765f6d81758eb8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Useful Links.md",
+                "file": "Build Automation/Builds.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Useful Links.md",
+                "file": "Build Automation/Builds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,18 +122,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2765f6d81758eb8c",
+  "active": "60710a87947bb251",
   "lastOpenFiles": [
+    "Build Automation",
+    "Useful Links.md",
+    "Build Automation/Builds.md",
+    "Final Exams Schedule.md",
+    "DataStructures/BB TSP.md",
     "Phys2 Chap 29, Magnetic Field BY Current.md",
     "Chap 29, Magnetic Field BY Current 1.md",
     "Chap 29, Magnetic Field BY Current.pdf",
     "Database/DML (Data Manipulation Language).md",
     "Database/DDL (Data Definition Language).md",
     "dsfgsdfgsdf.md",
-    "Useful Links.md",
-    "Final Exams Schedule.md",
     "Database/Additional Topics in DB by Prof Gassemi.md",
-    "DataStructures/BB TSP.md",
     "DataStructures/Instruction Format to Hex.md",
     "Database/PL-SQL.md",
     "Database/SELECTING AND OTHER QUERIES WITH IT.md",
@@ -197,8 +150,6 @@
     "Java/Abstraction.md",
     "Java/Random.md",
     "Java/LabProject.md",
-    "Java/LabProject02.md",
-    "Java/Polymorphism.md",
-    "ExamSchedule.md"
+    "Java/LabProject02.md"
   ]
 }

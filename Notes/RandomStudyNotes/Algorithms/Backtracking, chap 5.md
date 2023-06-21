@@ -1,4 +1,4 @@
-Problems included:
+- Problems included:
 1) N-Queens Problem 
 2) The Sum-of-Subsets
 3) The m-Coloring Problem

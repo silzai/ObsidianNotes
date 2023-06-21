@@ -9,3 +9,6 @@
 - we have to `pull`.
 - do `git pull origin master` to pull/download the changes made in GitHub by another person into my local repo. 
 	- again, 'origin' is the URL and 'master' is the branch.
+#### Cloning VS Forking
+- Forking is "GitHub" specific i.e. it is not a command on Git, and we can fork a public repo, then pull it, and do any changes and push.
+- Cloning is like "pulling" the public repo, but we cannot do any changes on it, but only use it locally.
