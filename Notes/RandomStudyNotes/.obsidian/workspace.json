@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41cb9a5f9914502a",
+        "id": "6675202d28453e24",
         "type": "tabs",
         "children": [
           {
-            "id": "f46d120b1c1b4512",
+            "id": "09ef5f1e058f18ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a230e22b6df28ed8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
+                "file": "NumericalMethods/Lecture/Part1-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
+                "file": "NumericalMethods/Lecture/Part1-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NumericalMethods/Lecture/Part2-RootsOfEquations.md"
+                "file": "NumericalMethods/Lecture/Part1-Intro.md"
               }
             }
           }
@@ -159,14 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7dc40c057649ffc8",
+  "active": "09ef5f1e058f18ae",
   "lastOpenFiles": [
+    "NumericalMethods/Lab/lab2.md",
     "NumericalMethods/Lecture/Part1-Intro.md",
     "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
-    "NumericalMethods/Lab/lab1.md",
+    "NumericalMethods/Lab/Lab3.md",
     "Dawa/Reflection Journal.md",
-    "NumericalMethods/Lab/lab2.md",
     "Dawa/Intro.md",
+    "NumericalMethods/Lab/lab1.md",
     "NumericalMethods/Lecture",
     "Phys2 Chap 29, Magnetic Field BY Current.md",
     "NumericalMethods/Lab",

@@ -13,7 +13,7 @@
 - We can easily adjust/fix highly precise but not accurate solutions by just "moving" them over/translating them closer to the actual value, for example, if we measure something using a ruler and it has a zero error, then we can do $\pm The \space error \space value$ 
 ## Error
 - $Error=Exact\space Value - Approximate \space Value$ or also called *absolute error*
-- $Relative Error=\frac{ExactVal-ApproximateVal}{ExactVal}\times100$ , we can use this to check if experiment lies within this, then we will accept the experiment.
+- $True\space Relative\space Error\space (\epsilon_t)=\frac{ExactVal-ApproximateVal}{ExactVal}\times100$ , we can use this to check if experiment lies within this, then we will accept the experiment.
 ## Iteration method:
 - **But** since there is no exact solution if we cannot solve problem analytically, then we will use percent relative error $\epsilon_a$, $$\epsilon_a=\frac{currentApproximation- previousApproximation}{currentApproximation}\times100$$
 > Numerical methods use iterative approach to compute answers, A present approximation is made based on a previous approximation.
@@ -35,12 +35,12 @@
 
 ## Approximating using Taylor Series
 - The higher the order of approximation applied, the lower the truncation error
-- if we are doing for ex, second order approximation, then we will take upto the second derivative
-- The lower the remainder, the more accurate the solution
-- Remainder term, $R_n$ : $$R_n= \frac{f^{n+1}(\zeta)}{}$$
-- $\zeta$ is not know exactly, it lies somewhere bw the range $h$ or we can say $R=o(h^{n+1})$ , the order of trunacation error is $n+1$ 
+- if we are doing for example, second order approximation, then we will take upto the second derivative
+- Since Taylor approximation is *just* an approximation to the true value of $f(x)$, so there is always a remainder or the *difference between the true value and the approximation*, and that is $R_n$. The lower the remainder, the more accurate the solution
+- Remainder term, $R_n$ : $$R_n= \frac{f^{n+1}(\zeta)}{(n+1)!}(x_{i+1}-x_i)^{n+1}$$
+- $\zeta$ is not know exactly, it lies somewhere between the range $h$ or we can say $R=O(h^{n+1})$ , the order of truncation error is $n+1$ 
 
-- To approximate a funxtion using taylor series, then , we have the given: 
+- To approximate a function using Taylor series, then, we have the given: 
 	- $f(x)$ the function to approximate
 	- $x_{i+1}$ the point to approximate
 	- $x_i$ the reference point
