@@ -28,7 +28,7 @@ plot(y, x);
 - savable scripts that we can write for MATLAB, we have function files, and script files
 
 ### Function files:
-- There are 3 parts to a function file:
+- There are 4 parts to a function file:
 	1) the keyword function
 	2) the output variable
 	3) name of the function

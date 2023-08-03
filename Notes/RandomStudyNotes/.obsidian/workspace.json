@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "6675202d28453e24",
+        "id": "168dd99795e8f57e",
         "type": "tabs",
         "children": [
           {
-            "id": "09ef5f1e058f18ae",
+            "id": "65df193102bb388f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NumericalMethods/Lecture/Part1-Intro.md",
+                "file": "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c1284a1ab4d688e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac790726c7fd9aba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 225.5
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NumericalMethods/Lecture/Part1-Intro.md",
+                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NumericalMethods/Lecture/Part1-Intro.md",
+                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NumericalMethods/Lecture/Part1-Intro.md"
+                "file": "NumericalMethods/Lecture/part4-CurveFitting.md"
               }
             }
           }
@@ -133,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -146,34 +171,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "09ef5f1e058f18ae",
+  "active": "ac790726c7fd9aba",
   "lastOpenFiles": [
-    "NumericalMethods/Lab/lab2.md",
-    "NumericalMethods/Lecture/Part1-Intro.md",
+    "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
+    "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
+    "NumericalMethods/Lecture/FinalExam.md",
+    "NumericalMethods/Lecture/part4-CurveFitting.md",
+    "NumericalMethods/Lecture/part3-LinearSystemOfEqs.md",
+    "Dawa/Intro.md",
     "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
+    "NumericalMethods/Lecture/Part1-Intro.md",
+    "DAWA.canvas",
+    "يب.md",
+    "Phys2 Chap 29, Magnetic Field BY Current.md",
+    "NumericalMethods/Lab/Lab7.md",
+    "Dawa Presentation.md",
+    "Test Chap 12.md",
+    "Test Chap 1 & 7.md",
+    "NumericalMethods/Lab/Lab8.md",
+    "NumericalMethods/Lab/Lab9.md",
+    "NumericalMethods/Lab/Lab10.md",
+    "NumericalMethods/Lab/lab2.md",
     "NumericalMethods/Lab/Lab3.md",
     "Dawa/Reflection Journal.md",
-    "Dawa/Intro.md",
     "NumericalMethods/Lab/lab1.md",
+    "Dawa/Part4-TheOther.md",
+    "Pasted image 20230720145147.png",
+    "NumericalMethods/Lab/Lab6.md",
+    "NumericalMethods/Lab/Lab5-NumMethods.md",
+    "NumericalMethods/Lab/Lab4.md",
+    "NumericalMethods/Lecture/Project.md",
     "NumericalMethods/Lecture",
-    "Phys2 Chap 29, Magnetic Field BY Current.md",
     "NumericalMethods/Lab",
     "NumericalMethods",
     "Dawa",
-    "Test Chap 1 & 7.md",
-    "Test Chap 12.md",
-    "Keep talking and nobody explodes.md",
-    "Algorithms/Greedy, chap 4.md",
-    "Arabic.md",
-    "Algorithms/Backtracking, chap 5.md",
-    "Algorithms/Branch and Bound, chap 6.md",
     "Algorithms",
-    "Prob&Stats/Statistical Inference, Parameter Estimation.md",
-    "Prob&Stats/Confidence Intervals.md",
-    "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
-    "hypothesis testing.md",
-    "Prob&Stats",
-    "Untitled.canvas",
-    "2023-05-30.md"
+    "Prob&Stats"
   ]
 }

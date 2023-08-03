@@ -15,7 +15,8 @@
 - $Error=Exact\space Value - Approximate \space Value$ or also called *absolute error*
 - $True\space Relative\space Error\space (\epsilon_t)=\frac{ExactVal-ApproximateVal}{ExactVal}\times100$ , we can use this to check if experiment lies within this, then we will accept the experiment.
 ## Iteration method:
-- **But** since there is no exact solution if we cannot solve problem analytically, then we will use percent relative error $\epsilon_a$, $$\epsilon_a=\frac{currentApproximation- previousApproximation}{currentApproximation}\times100$$
+- **But** since there is no exact solution if we cannot solve problem analytically, then we will use *percent relative error* $\epsilon_a$, instead of the previous errors mentioned above. $$\epsilon_a=\frac{currentApproximation- previousApproximation}{currentApproximation}\times100$$
+ 
 > Numerical methods use iterative approach to compute answers, A present approximation is made based on a previous approximation.
 
 - We move to the next step only when error between the previous step and current step is within the tolerance range.
@@ -23,24 +24,31 @@
 - Then we stop when we reach a stopping criterion called *percent tolerance* $\epsilon_s$ (we stop the iterations).$$|\epsilon_a| < |\epsilon_s|$$
 
 - to find error of approximate measurement, then we will do similar to analytical solution (exact), but here we do not know the exact value, so we will do the previous measurement minus the next measurement
-- It is also called iterative Process, as we keep subtracting the previous measurement from $f(x_i) - f(_{x+1}) < \epsilon_S$ 
+- It is also called iterative Process, as we keep subtracting from the previous measurement.
 
-## Finding Approximation
-- We can find the *percent tolerance*, for $n$ number of significant figures using the following formula: $$\epsilon_s=(0.5\times10^{2-n})$$
-- For example, if I want a *percent tolerance* for a solution for 3 sig figs, then: $$\epsilon_s=(0.5\times10^{2-n}) = 0.05\%$$
+## Finding Approximations
+- We can find the *percent tolerance*, if we want a result that has $n$ number of significant figures accurately using the following formula: $$\epsilon_s=(0.5\times10^{2-n})$$
+- For example, if I want a *percent tolerance* for a solution for 3 sig figs accurately, then: $$\epsilon_s=(0.5\times10^{2-n}) = 0.05\%$$
 
 ## Types of Errors
-- Round-Off errors
-- Truncation errors: used in approximations
+- Round-Off errors: introduced by error of significant figures
+- Truncation errors: result from using an approximation instead of exact mathematical procedure
 
 ## Approximating using Taylor Series
 - The higher the order of approximation applied, the lower the truncation error
-- if we are doing for example, second order approximation, then we will take upto the second derivative
+- if we are doing for example, second order approximation, then we will take up to the second derivative
+-  Steps:
+	- To approximate a function using Taylor series, then, we have the given: 
+		- $f(x)$ the function to approximate
+		- $x_{i+1}$ the point to approximate
+		- $x_i$ the reference point
+		- and $h$ will be the range: $h=x_{i+1} - x_i$ 
+	- will use the given values above to substitute values in the Taylor series: $$f(x_{i+1})=f(x_i)+f'(x_i)h+f''(x_i)\frac{h^2}{2!}+...+f^{n}(x_i)\frac{h^n}{n!}$$
+	- and check if the answer is below $\epsilon_s$ 
+
+information below is not really needed imo:
 - Since Taylor approximation is *just* an approximation to the true value of $f(x)$, so there is always a remainder or the *difference between the true value and the approximation*, and that is $R_n$. The lower the remainder, the more accurate the solution
 - Remainder term, $R_n$ : $$R_n= \frac{f^{n+1}(\zeta)}{(n+1)!}(x_{i+1}-x_i)^{n+1}$$
 - $\zeta$ is not know exactly, it lies somewhere between the range $h$ or we can say $R=O(h^{n+1})$ , the order of truncation error is $n+1$ 
 
-- To approximate a function using Taylor series, then, we have the given: 
-	- $f(x)$ the function to approximate
-	- $x_{i+1}$ the point to approximate
-	- $x_i$ the reference point
+
