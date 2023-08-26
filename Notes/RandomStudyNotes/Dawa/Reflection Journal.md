@@ -4,6 +4,7 @@
 - Cultures are different from one place to another, when Imam Shafi came to Egypt he saw a different culture so changed about 60% of his teachings when he went from Iraq to Egypt.
 - He also motivated to us the fact that having no guidance (i.e. the Quran and religion) puts no boundaries on what humans are and are not allowed to do, which leads to humans committing atrocities, for example, The American bombing of Hiroshima and Nagasaki. 
 - *Reflection:* this first lecture introduced for me the teaching style would be different from others, where the professor had more of a conversation with the students instead of it being a monologue-style lecture, and the professor would tell us different point of views and information, so we may question and think about them.
+
 ## 20-06-2023
 - Dr Zakaryya got all the students to introduce their countries and their cultures in detail, to get more of a feeling for this day's lecture, which was about the culture of humans, which is basically a process of collection of habits which is added though interactions, behaviors which includes knowledge, belief, art, law, custom and is a product of a socialization process etc. The interaction with our classmates gave me an insight on different cultures such as the history and food of different people
 - equality/frequency of patterns of people in a culture might variate, but all of the patterns will be the same.
@@ -126,7 +127,7 @@ What makes Islamic culture? It is as following
 	- Muhammad
 	- Nuh
 	- Ibraheem
-==REAL REFLECTIVE JOURNAL WRITTEN UPTO HERE==
+
 ## 13-07-2023
 Continuing from previous lecture...
 - The professor was telling a story about prophet Nuh and when he went to preach to people, the professor covered his ears and asked us what he literally did, and after some time when we did not figure it out, he showed us that the people covered their ears with their fingers and covered their faces, but he never gave up in any adversary

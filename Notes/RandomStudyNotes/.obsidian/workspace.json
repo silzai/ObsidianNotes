@@ -4,47 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "168dd99795e8f57e",
+        "id": "d3b6eb09190f9003",
         "type": "tabs",
         "children": [
           {
-            "id": "65df193102bb388f",
+            "id": "28091f8dd54cb08d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 984.6374999999999,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
           {
-            "id": "5c1284a1ab4d688e",
+            "id": "f31b5cfb7dfb39d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac790726c7fd9aba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 200
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -110,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
+                "file": "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
+                "file": "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NumericalMethods/Lecture/part4-CurveFitting.md"
+                "file": "NumericalMethods/Lecture/Part6-SolutionsOfODE.md"
               }
             }
           }
@@ -171,36 +162,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac790726c7fd9aba",
+  "active": "f31b5cfb7dfb39d1",
   "lastOpenFiles": [
-    "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
     "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
-    "NumericalMethods/Lecture/FinalExam.md",
     "NumericalMethods/Lecture/part4-CurveFitting.md",
-    "NumericalMethods/Lecture/part3-LinearSystemOfEqs.md",
-    "Dawa/Intro.md",
-    "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
-    "NumericalMethods/Lecture/Part1-Intro.md",
-    "DAWA.canvas",
-    "يب.md",
+    "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
+    "Untitled.canvas",
     "Phys2 Chap 29, Magnetic Field BY Current.md",
+    "NumericalMethods/Lecture/part3-LinearSystemOfEqs.md",
+    "NumericalMethods/Lab/Lab10.md",
+    "NumericalMethods/Lecture/Part2-RootsOfEquations.md",
+    "NumericalMethods/Lab/Lab6.md",
     "NumericalMethods/Lab/Lab7.md",
+    "NumericalMethods/Lab/Lab5-NumMethods.md",
+    "NumericalMethods/Lab/Lab8.md",
+    "NumericalMethods/Lab/Lab9.md",
+    "NumericalMethods/Lab/lab1.md",
+    "NumericalMethods/Lecture/Part1-Intro.md",
+    "Dawa/Reflection Journal.md",
+    "DAWA.canvas",
+    "Pasted image 20230805144659.png",
+    "Pasted image 20230806060853.png",
+    "Pasted image 20230806060821.png",
+    "Pasted image 20230806060803.png",
+    "Pasted image 20230806060736.png",
+    "Pasted image 20230806060123.png",
+    "Pasted image 20230805235419.png",
+    "Pasted image 20230805234417.png",
+    "Pasted image 20230805234310.png",
+    "Pasted image 20230805234243.png",
+    "canvas-export.html",
+    "Dawa/Intro.md",
+    "Dawa/Part4-TheOther.md",
+    "NumericalMethods/Lecture/FinalExam.md",
+    "NumericalMethods/Lab/lab2.md",
+    "NumericalMethods/Lab/Lab3.md",
+    "يب.md",
     "Dawa Presentation.md",
     "Test Chap 12.md",
     "Test Chap 1 & 7.md",
-    "NumericalMethods/Lab/Lab8.md",
-    "NumericalMethods/Lab/Lab9.md",
-    "NumericalMethods/Lab/Lab10.md",
-    "NumericalMethods/Lab/lab2.md",
-    "NumericalMethods/Lab/Lab3.md",
-    "Dawa/Reflection Journal.md",
-    "NumericalMethods/Lab/lab1.md",
-    "Dawa/Part4-TheOther.md",
-    "Pasted image 20230720145147.png",
-    "NumericalMethods/Lab/Lab6.md",
-    "NumericalMethods/Lab/Lab5-NumMethods.md",
     "NumericalMethods/Lab/Lab4.md",
-    "NumericalMethods/Lecture/Project.md",
     "NumericalMethods/Lecture",
     "NumericalMethods/Lab",
     "NumericalMethods",

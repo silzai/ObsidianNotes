@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"type":"text","text":"Part-6: Solutions of ODE","id":"7fbd47111493ef8c","x":-125,"y":-30,"width":250,"height":60},
+		{"type":"text","text":"1) Runge-Kutta first order methods","id":"4a76e66a46b30505","x":0,"y":-605,"width":250,"height":60},
+		{"type":"text","text":"1) Euler's method","id":"c63c81913edbe239","x":134,"y":-840,"width":250,"height":60},
+		{"type":"text","text":"3) Midpoint method","id":"eb707d503cc3879b","x":360,"y":-445,"width":250,"height":60},
+		{"type":"text","text":"\n2) Heun's method\n","id":"b25b619e6ae7bf0d","x":502,"y":-702,"width":250,"height":57},
+		{"type":"text","text":"2) Runge-Kutta second order methods","id":"cef54abe2f1895b8","x":566,"y":-32,"width":250,"height":60},
+		{"type":"text","text":"1) Heun's method: When $a_2=1/2$","id":"d0a36ebcd953cf21","x":960,"y":-260,"width":250,"height":60},
+		{"type":"text","text":"2) Midpoint method: When $a_2=1$","id":"7ee346b60c754680","x":1117,"y":-24,"width":250,"height":60},
+		{"type":"text","text":"3) Ralston's method: When $a_2=2/3$","id":"e4aed382a5abde63","x":1085,"y":260,"width":250,"height":60},
+		{"type":"text","text":"3) Runge-Kutta fourth order methods","id":"2da04ee82fe163ac","x":125,"y":480,"width":250,"height":60},
+		{"type":"text","text":"Classical fourth order RK method","id":"2dda95cc9f8d9e9f","x":583,"y":621,"width":250,"height":60},
+		{"type":"text","text":"4) Higher order differential equations","id":"3784778f632a3e79","x":-789,"y":-43,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"a15d75093a55458f","fromNode":"7fbd47111493ef8c","fromSide":"top","toNode":"4a76e66a46b30505","toSide":"left"},
+		{"id":"973d1e6e36c6cd71","fromNode":"4a76e66a46b30505","fromSide":"right","toNode":"b25b619e6ae7bf0d","toSide":"left"},
+		{"id":"c1bc4b0bd60c0e53","fromNode":"4a76e66a46b30505","fromSide":"top","toNode":"c63c81913edbe239","toSide":"bottom"},
+		{"id":"4debd81e252efed3","fromNode":"4a76e66a46b30505","fromSide":"bottom","toNode":"eb707d503cc3879b","toSide":"left"},
+		{"id":"45e543694e5af3fb","fromNode":"7fbd47111493ef8c","fromSide":"right","toNode":"cef54abe2f1895b8","toSide":"left"},
+		{"id":"cda471065b4a730b","fromNode":"cef54abe2f1895b8","fromSide":"top","toNode":"d0a36ebcd953cf21","toSide":"left"},
+		{"id":"8507dac5e7ff6c2a","fromNode":"cef54abe2f1895b8","fromSide":"right","toNode":"7ee346b60c754680","toSide":"left"},
+		{"id":"73676382c0a01343","fromNode":"cef54abe2f1895b8","fromSide":"bottom","toNode":"e4aed382a5abde63","toSide":"left"},
+		{"id":"f9f01fc970ac9e54","fromNode":"7fbd47111493ef8c","fromSide":"bottom","toNode":"2da04ee82fe163ac","toSide":"left"},
+		{"id":"491c1c88b63a92bd","fromNode":"2da04ee82fe163ac","fromSide":"right","toNode":"2dda95cc9f8d9e9f","toSide":"left"},
+		{"id":"c7b9042957d77ac1","fromNode":"7fbd47111493ef8c","fromSide":"left","toNode":"3784778f632a3e79","toSide":"right"}
+	]
+}

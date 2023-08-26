@@ -30,7 +30,7 @@ x2 = -2.5000
 ```
 [L, U] = lu(A);
 ```
-	- to divide 2 matrices, for example in 
+- to divide 2 matrices, for example in 
 ```java
 [L]{d} = {b}
 ```

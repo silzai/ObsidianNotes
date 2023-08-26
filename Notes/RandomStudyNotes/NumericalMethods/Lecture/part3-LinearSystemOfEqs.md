@@ -41,7 +41,7 @@
 	- Given the form $[A]\{X\}=\{B\}$
 	1) In LU decomposition, will first decompose the matrix $[A]$ into $[L]$ and $[U]$ matrices where: $$[A]=[L][U]$$
 	- To form $[U]$, simply do forward elimination and produce an upper triangle matrix using $[A]$.
-	- To form $[L]$, simply find the this matrix: $$\begin{bmatrix} 1\ \quad 0 \quad 0 \cr f_{21} \quad 1 \quad 0 \cr f_{31} \quad f_{31} \quad 1 \end{bmatrix}$$
+	- To form $[L]$, simply form this matrix: $$\begin{bmatrix} 1\ \quad 0 \quad 0 \cr f_{21} \quad 1 \quad 0 \cr f_{31} \quad f_{31} \quad 1 \end{bmatrix}$$
 	- Then to find the $f$'s: $$f_{21}=\frac{a_{21}}{a_{11}} ,\quad f_{31}=\frac{a_{31}}{a_{11}}, \quad f_{32}=\frac{a'_{32}}{a'_{22}}$$
 	- to check if $[L]$ and $[U]$ are correct, we can multiply them, we will get $[A]$ 
 	2)  Then $L$ is used to generate an intermediate vector, $\{D\}$ using:$$[L]\{D\}=\{B\}$$
