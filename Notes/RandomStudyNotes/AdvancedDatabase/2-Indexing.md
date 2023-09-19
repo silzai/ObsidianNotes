@@ -7,5 +7,8 @@
 - the size of an index file is always smaller than original file because it the number of records in the index file is same as number of blocks the file is divided into.
 - A record in an index field has only 2 fields, the primary index (primary key field of original file) and the block pointer
 
+- for primary and clustering, will read only one block, so cost will be
+- For tree, will read up to the height of the tree, heightTree + 1, where adding 1 is cost of reading the data
+
 - [Indexes by montanaU](https://www.cs.montana.edu/courses/spring2004/435/lectures/IndexingFiles.html) 
 - [Indexes by ucDavis](https://web.cs.ucdavis.edu/~green/courses/ecs165a-w11/7-indexes.pdf)

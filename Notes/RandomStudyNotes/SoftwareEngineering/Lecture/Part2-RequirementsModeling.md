@@ -1,8 +1,10 @@
-This is not a design model, but a structure model
-SSADM = Structured Systems Analysis and Design Method
-one of the diagrams under this related to OOP, we use data flow diagrams (DFD).
+- This is not a design model, but a structure model
+- SSADM = Structured Systems Analysis and Design Method
+- one of the diagrams under this related to OOP, we use data flow diagrams (DFD).
+- data flow diagram (DFD) are not a formal part of UML, but they can be used to complement UML diagrams and provide additional insight into system requirements and flow.
 
 ## Data Flow Diagrams
+- It is about the flow of data, not the actual processes involved, so will abstract the processes in terms of the data only
 - There are 4 symbols:
 ### 1) Processes: 
 1) its a rounded rectangle
@@ -22,8 +24,8 @@ one of the diagrams under this related to OOP, we use data flow diagrams (DFD).
 ### 3) Data Stores:
 1) is a noun
 ### 4) Data Flow: 
-1) is an arrow
-2) is a noun
+1) is a noun
+2) is an arrow 
 3) 
 
 Different models are used to show the system from different point of views:

@@ -1,7 +1,7 @@
 ## SDLC: Waterfall
 ### 1) requirements analysis (elicitation) (IEEE uses the term SRS (software requirements specification))
 - specifications
-- Use-case models
+- Use-case models, ==data flow diagrams==
 - conceptual domain models
 - Functional requirements:
 	- specify the inputs and outputs

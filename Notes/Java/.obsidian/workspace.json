@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Indexes (not in syllabus of CMPS).md",
+                "file": "Database/DDL (Data Definition Language).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Indexes (not in syllabus of CMPS).md",
+                "file": "Database/DDL (Data Definition Language).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +124,7 @@
   },
   "active": "60710a87947bb251",
   "lastOpenFiles": [
+    "Database/Indexes (not in syllabus of CMPS).md",
     "Database/Additional Topics in DB by Prof Gassemi.md",
     "Database/SELECTING AND OTHER QUERIES WITH IT.md",
     "Useful Links.md",
@@ -139,7 +140,6 @@
     "dsfgsdfgsdf.md",
     "DataStructures/Instruction Format to Hex.md",
     "Database/PL-SQL.md",
-    "Database/Indexes (not in syllabus of CMPS).md",
     "Database/DCL (Data Control Language).md",
     "Database/Oracle.md",
     "Database/JDBC.md",
