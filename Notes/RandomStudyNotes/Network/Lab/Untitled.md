@@ -4,7 +4,7 @@
 
 - devices may have physical or virtual adapters
 
-- 3 types of address:
+- 3 types of addresses:
 	- IP address: which network we are connected to
 	- MAC address: which device we are in
 	- port address: which application we are connected to

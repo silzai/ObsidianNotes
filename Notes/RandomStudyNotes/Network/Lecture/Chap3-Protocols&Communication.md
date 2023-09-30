@@ -39,15 +39,15 @@
 - In OSI model, don't go into details, its only a "reference model", if we want to implement it, we will use a "protocol model", called a "TCP/IP Model", it simplifies the first 3 layers from OSI into "Application", and also the other layers are grouped into total of 4 layers of TCP/IP.
 
 - For OSI:
-	- Session manages the data transfer, but on the application level, such as 
-	- Router operate up to the network layer, 
+	- Session manages the data transfer, but on the application level
+	- Router operates up to the network layer, 
 	- Each layer communicates the same layer on another device: 
 		- routers don't care what happens in the layers below, it just looks at the packet, so it gives the impression that each layer is communicating with the same layer on any different device, by doing this separation, we can do anything without troubling the other layers
 	- Data link, IP address can change according to the network we are in, here we are talking about the MAC address
 	- Physical are the actual bits that are being transmitted
 
 
-- How to know IP address? The http protocol will go DNS and there they have servers that can find the IP address of the domain name
+- How to know IP address? The http protocol will go to the DNS and there they have servers that can find the IP address of the domain name
 ## How to know MAC address of another device? 
 There are 2 scenarios:
 ### 1) devices connected to the same LAN:
@@ -62,5 +62,5 @@ pc1 knows the IP address of the pc2, but does not know its MAC address,
 
 ___
 References:
-[Into to networks-LoyolaUni](http://intronetworks.cs.luc.edu/1/html/intro.html)
+[Intro to networks-LoyolaUni](http://intronetworks.cs.luc.edu/1/html/intro.html)
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ecdc481a1703bf6",
+        "id": "3e53372743ff16a9",
         "type": "tabs",
         "children": [
           {
-            "id": "dc91fcdc2a19e324",
+            "id": "d88d789f5f173440",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "4b2bf54b98c036fa",
+            "id": "212356359cc156d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/Lecture/Chap4-NetworkAccessLayer.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Lecture/Chap4-NetworkAccessLayer.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Lecture/Chap4-NetworkAccessLayer.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Network/Lecture/Chap4-NetworkAccessLayer.md"
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md"
               }
             }
           }
@@ -159,36 +159,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4b2bf54b98c036fa",
+  "active": "212356359cc156d4",
   "lastOpenFiles": [
-    "Network/Lab/Untitled.md",
-    "Network/Lecture/Chap4-NetworkAccessLayer.md",
     "AdvancedDatabase/4-QueryOptimizer.md",
     "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
-    "AdvancedDatabase/IndexesCanvas.canvas",
-    "SoftwareEngineering/Lecture/part4-DomainModels&ClassDiagrams.md",
-    "Network/Lab/Lab1-Intro.md",
-    "SoftwareEngineering/Lecture/ExtraInfo.md",
+    "AdvancedDatabase/5-ConceptsOfConcurrencyControl.md",
+    "Network/Lecture/Chap6-NetworkLayer.md",
+    "Network/Lecture/Chap5-Ethernet.md",
+    "Network/Lecture/Chap4-NetworkAccessLayer.md",
+    "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
+    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
+    "SoftwareEngineering/Lecture/part3-UseCaseDiagrams.md",
     "SoftwareEngineering/Lecture/Part2-RequirementsModeling.md",
     "SoftwareEngineering/Lecture/part1-SDLC&Requirements.md",
+    "SoftwareEngineering/Lab/lab2-UseCaseDiagrams.md",
+    "SoftwareEngineering/Lecture/ExtraInfo.md",
+    "AdvancedDatabase/2-Indexing.md",
+    "AdvancedDatabase/1-Storage.md",
+    "AdvancedDatabase/IndexesCanvas.canvas",
+    "Network/Lab/Lab1-Intro.md",
+    "Network/Lab/Untitled.md",
+    "Algorithms/Backtracking, chap 5.md",
+    "Algorithms/Branch and Bound, chap 6.md",
+    "Algorithms/Greedy, chap 4.md",
+    "AdvancedDatabase/StorageCanvas.canvas",
+    "AdvancedDatabase/0-Intro.md",
     "Network/Lecture/Chap3-Protocols&Communication.md",
     "Network/Lecture/Chap1-Networks.md",
-    "SoftwareEngineering/Lecture/part3-UseCaseDiagrams.md",
-    "AdvancedDatabase/2-Indexing.md",
     "NumericalMethods/Lab/lab1.md",
     "NumericalMethods/Lab/lab2.md",
     "NumericalMethods/Lab/Lab3.md",
-    "NumericalMethods/Lab/Lab4.md",
     "NumericalMethods/ODEcanvas.canvas",
-    "NumericalMethods/Lab/Lab8.md",
-    "NumericalMethods/Lab/Lab7.md",
-    "NumericalMethods/Lab/Lab6.md",
-    "NumericalMethods/Lab/Lab5-NumMethods.md",
-    "Algorithms/Backtracking, chap 5.md",
-    "indexesCanvas.md",
-    "AdvancedDatabase/1-Storage.md",
-    "SoftwareEngineering/Lab/Intro.md",
-    "SoftwareEngineering/Lab/lab2-CaseStudy.md",
     "SoftwareEngineering/Lecture",
     "SoftwareEngineering/Lab",
     "SoftwareEngineering",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/DDL (Data Definition Language).md",
+                "file": "Database/DML (Data Manipulation Language).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/DDL (Data Definition Language).md",
+                "file": "Database/DML (Data Manipulation Language).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,31 +124,32 @@
   },
   "active": "60710a87947bb251",
   "lastOpenFiles": [
-    "Database/Indexes (not in syllabus of CMPS).md",
-    "Database/Additional Topics in DB by Prof Gassemi.md",
-    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
     "Useful Links.md",
+    "Java/Random.md",
+    "Java/Abstraction.md",
+    "DataStructures/SinglyLinkedList VS doublyLinkedList.md",
+    "DataStructures/Instruction Format to Hex.md",
+    "DataStructures/BB TSP.md",
     "Build Automation/Builds.md",
+    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/Oracle.md",
+    "Database/Additional Topics in DB by Prof Gassemi.md",
+    "Database/Indexes (not in syllabus of CMPS).md",
+    "Database/DDL (Data Definition Language).md",
     "Build Automation",
     "Final Exams Schedule.md",
-    "DataStructures/BB TSP.md",
     "Phys2 Chap 29, Magnetic Field BY Current.md",
     "Chap 29, Magnetic Field BY Current 1.md",
     "Chap 29, Magnetic Field BY Current.pdf",
     "Database/DML (Data Manipulation Language).md",
-    "Database/DDL (Data Definition Language).md",
     "dsfgsdfgsdf.md",
-    "DataStructures/Instruction Format to Hex.md",
     "Database/PL-SQL.md",
     "Database/DCL (Data Control Language).md",
-    "Database/Oracle.md",
     "Database/JDBC.md",
     "DataStructures/Algos.md",
     "Java/IO.md",
     "Java/Exceptions.md",
     "Java/Comment Keywords.md",
-    "Java/Abstraction.md",
-    "Java/Random.md",
     "Java/LabProject.md",
     "Java/LabProject02.md"
   ]

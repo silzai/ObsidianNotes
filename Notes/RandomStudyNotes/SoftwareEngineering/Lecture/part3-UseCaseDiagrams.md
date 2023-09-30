@@ -1,12 +1,14 @@
 - Comes under MDD (model driven development)
 - It tells us about the functional requirements i.e. what the system should actually do, its goals/How the system will be used
+- they are stories of using a system to meet goals
 ## Use-case:
 - is a scenario of a system
+- it does not represent one small step in the system, but many steps, so not reasonable to create a use-case called "add item" since that it is only one step. Better to create a "create entry" type use-case that will contain many steps. 
 - For a use-case model, we also have use-case spec documents that tells
 	- brief description
 	- flow of events
 ## Actors:
-- are external object that produce/consumer data (human, organization, machine, external system, sensor etc.)
+- are external objects that produce/consumer data (human, organization, machine, external system, sensor etc.)
 - should be external to the system
 - will use nouns
 - Does not represent positions but roles, so we can merge 2 positions to 1 role to represent an actor.

@@ -69,4 +69,3 @@ public void queens(index i) {
 - We can not obtain efficient time complexities for our backtracking algorithms
 - Therefore, we will analyze our backtracking algorithms using the Monte Carlo technique.
 - This technique enables us to determine whether we can *expect* a given backtracking algorithm to be efficient for a *particular instance*.
-- 

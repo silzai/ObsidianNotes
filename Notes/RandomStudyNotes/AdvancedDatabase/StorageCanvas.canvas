@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"ce1dfa0d8d146030","type":"text","text":"#### Use data buffering for reading data","x":-674,"y":543,"width":289,"height":100,"color":"2"},
+		{"id":"4c6b3bf569c5fce6","type":"text","text":"un-spanned records","x":855,"y":1261,"width":250,"height":60,"color":"5"},
+		{"id":"8e0a7c832a296e42","type":"text","text":"unordered records","x":1167,"y":1251,"width":250,"height":60,"color":"5"},
+		{"id":"e62ef5f9a0bbcd31","type":"text","text":"#### Placement of records in files","x":1335,"y":911,"width":237,"height":89,"color":"5"},
+		{"id":"12d94c9d12086070","type":"text","text":"ordered records","x":1454,"y":1251,"width":250,"height":60,"color":"5"},
+		{"id":"97c417c20945bb48","type":"text","text":"contiguous allocation","x":-58,"y":1246,"width":250,"height":60,"color":"5"},
+		{"id":"4f70cd26ed09da09","type":"text","text":"linked allocation","x":250,"y":1247,"width":250,"height":60,"color":"5"},
+		{"id":"aa4e78f481148b29","type":"text","text":"spanned records","x":560,"y":1258,"width":250,"height":60,"color":"5"},
+		{"id":"1ed3612d441ad326","type":"text","text":"#### Placement of data on hard disc","x":615,"y":543,"width":340,"height":100,"color":"5"},
+		{"id":"ab667de1edfd2746","type":"text","text":"#### placement of records on a block","x":685,"y":952,"width":270,"height":96,"color":"5"},
+		{"id":"f75ae3c4fb6d5a5b","type":"text","text":"#### placement of blocks on the hard disc","x":58,"y":959,"width":309,"height":89,"color":"5"},
+		{"id":"ed7cb02f64740e1c","type":"text","text":"least recently used (LRU)","x":-920,"y":1250,"width":275,"height":52,"color":"2"},
+		{"id":"6db3ec3d249ac6ba","type":"text","text":"First In First Out(FIFO)","x":-437,"y":1245,"width":250,"height":60,"color":"2"},
+		{"id":"fd64aa0e758194f8","type":"text","text":"#### buffer replacement strategies","x":-674,"y":954,"width":289,"height":100,"color":"2"},
+		{"id":"577c4931143090c0","type":"text","text":"# Storage","x":7,"y":240,"width":185,"height":90,"color":"4"}
+	],
+	"edges":[
+		{"id":"ebca0e02bc7f3647","fromNode":"577c4931143090c0","fromSide":"bottom","toNode":"ce1dfa0d8d146030","toSide":"top"},
+		{"id":"213f27d780522174","fromNode":"ce1dfa0d8d146030","fromSide":"bottom","toNode":"fd64aa0e758194f8","toSide":"top"},
+		{"id":"73920ee4a7bf8720","fromNode":"fd64aa0e758194f8","fromSide":"bottom","toNode":"ed7cb02f64740e1c","toSide":"top"},
+		{"id":"85cdf7fbf783c962","fromNode":"fd64aa0e758194f8","fromSide":"bottom","toNode":"6db3ec3d249ac6ba","toSide":"top"},
+		{"id":"d5d74c418b6672a0","fromNode":"577c4931143090c0","fromSide":"bottom","toNode":"1ed3612d441ad326","toSide":"top"},
+		{"id":"41fccb40b2f0ca2a","fromNode":"1ed3612d441ad326","fromSide":"bottom","toNode":"f75ae3c4fb6d5a5b","toSide":"top"},
+		{"id":"d22252a38ef93720","fromNode":"f75ae3c4fb6d5a5b","fromSide":"bottom","toNode":"97c417c20945bb48","toSide":"top"},
+		{"id":"40450c347ccdc896","fromNode":"f75ae3c4fb6d5a5b","fromSide":"bottom","toNode":"4f70cd26ed09da09","toSide":"top"},
+		{"id":"dce934155336de7d","fromNode":"1ed3612d441ad326","fromSide":"bottom","toNode":"ab667de1edfd2746","toSide":"top"},
+		{"id":"80f3a88bf9273ab1","fromNode":"ab667de1edfd2746","fromSide":"bottom","toNode":"aa4e78f481148b29","toSide":"top"},
+		{"id":"f001a07208153f85","fromNode":"ab667de1edfd2746","fromSide":"bottom","toNode":"4c6b3bf569c5fce6","toSide":"top"},
+		{"id":"3fa7544563a88f28","fromNode":"1ed3612d441ad326","fromSide":"bottom","toNode":"e62ef5f9a0bbcd31","toSide":"top"},
+		{"id":"c631d186cc30a7b1","fromNode":"e62ef5f9a0bbcd31","fromSide":"bottom","toNode":"8e0a7c832a296e42","toSide":"top"},
+		{"id":"6ec8e6fb0dcf20e4","fromNode":"e62ef5f9a0bbcd31","fromSide":"bottom","toNode":"12d94c9d12086070","toSide":"top"}
+	]
+}

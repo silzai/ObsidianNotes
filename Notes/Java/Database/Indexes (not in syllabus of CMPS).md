@@ -4,7 +4,7 @@
 - this engine does a "full table scan" on a query, takes a very long time, like searching for a word in a book
 - instead of searching like that, we can just go to the end of the book, and look at the index of the book
 - Oracle by default will put an "index" on a primary key
-- but sometimes we do not query/search using the primary key, so in this case we need an index for the rest of the attributes as well, for ex, an index for first name
+- but sometimes we do not query/search using the primary key, so in this case we need an index for the rest of the attributes as well, e.g., an index for first name
 - so we have a table with 2 columns, 1st column is called the search key, 2nd column is for the attribute value, these 2 columns combined will create a single index
 - advantages:
 	- reduces query time

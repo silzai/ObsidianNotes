@@ -1,16 +1,16 @@
 {
 	"nodes":[
 		{"type":"text","text":"A file of records can use the following indexes:","id":"312a552be95fb252","x":-51,"y":-260,"width":263,"height":74},
-		{"type":"text","text":"#### Dense Indexing:\nEvery record in the index file has a pointer to every record in the original file.","id":"ee9623c36045781d","x":233,"y":80,"width":287,"height":140},
-		{"type":"text","text":"# Indexes","id":"24c9c5745ec93d6e","x":-680,"y":-330,"width":160,"height":70,"color":"4"},
-		{"type":"text","text":"Secondary Indexes","id":"603135f175c7276a","x":763,"y":243,"width":250,"height":60},
-		{"type":"text","text":"## Ordering Field:\nWe can **physically** order the records of a file on disk based on the values of one of its fields—called the ordering field.","id":"d3bde6ac335da8e4","x":-701,"y":-980,"width":362,"height":183},
-		{"type":"text","text":"Clustering Indexes","id":"a2483cc1d6fffea3","x":1047,"y":-376,"width":250,"height":60},
-		{"type":"text","text":"Is an index on the ordering field of the original data file, where the ordering field has non-distinct values in all records.","id":"803d6a05c275cd10","x":1201,"y":-737,"width":300,"height":140},
-		{"type":"text","text":"#### Non-dense (sparse) Indexing: \nEvery record in the index file has a pointer to a **block** of the original file (as opposed to a pointer to every record in the original file).","id":"ea46f59877bef0ca","x":259,"y":-880,"width":407,"height":143},
-		{"type":"text","text":"Primary Indexes","id":"f378aafc52c9b5d9","x":723,"y":-1480,"width":250,"height":60},
-		{"type":"text","text":"Is an index on the ordering field of the original data file, where the ordering field has distinct values in all records (is a primary key).","id":"0db5dfd60167be28","x":877,"y":-1880,"width":340,"height":140},
-		{"type":"text","text":"Created on a file that already has an index created on it (primary or clustering)","id":"6f3730ffe90b951a","x":781,"y":-48,"width":299,"height":108}
+		{"type":"text","text":"#### Dense Indexing:\nEvery record in the index file has a pointer to every record in the original file.","id":"ee9623c36045781d","x":233,"y":80,"width":287,"height":163,"color":"5"},
+		{"type":"text","text":"# Indexes","id":"24c9c5745ec93d6e","x":-680,"y":-330,"width":180,"height":70,"color":"4"},
+		{"type":"text","text":"Secondary Indexes","id":"603135f175c7276a","x":763,"y":243,"width":250,"height":60,"color":"5"},
+		{"type":"text","text":"## Ordering Field:\nWe can **physically** order the records of a file on disk based on the values of one of its fields—called the ordering field.","id":"d3bde6ac335da8e4","x":-701,"y":-980,"width":381,"height":207},
+		{"type":"text","text":"Clustering Indexes","id":"a2483cc1d6fffea3","x":1047,"y":-376,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Is an index on the ordering field of the original data file, where the ordering field has non-distinct values in all records.","id":"803d6a05c275cd10","x":1201,"y":-737,"width":299,"height":157,"color":"2"},
+		{"type":"text","text":"#### Non-dense (sparse) Indexing: \nEvery record in the index file has a pointer to a **block** of the original file (as opposed to a pointer to every record in the original file).","id":"ea46f59877bef0ca","x":259,"y":-880,"width":381,"height":213,"color":"2"},
+		{"type":"text","text":"Primary Indexes","id":"f378aafc52c9b5d9","x":723,"y":-1480,"width":250,"height":60,"color":"2"},
+		{"type":"text","text":"Is an index on the ordering field of the original data file, where the ordering field has distinct values in all records (is a primary key).","id":"0db5dfd60167be28","x":877,"y":-1880,"width":340,"height":140,"color":"2"},
+		{"type":"text","text":"Created on a file that already has an index created on it (primary or clustering)","id":"6f3730ffe90b951a","x":781,"y":-48,"width":299,"height":108,"color":"5"}
 	],
 	"edges":[
 		{"id":"8bf47dbc01e77086","fromNode":"24c9c5745ec93d6e","fromSide":"right","toNode":"312a552be95fb252","toSide":"left"},

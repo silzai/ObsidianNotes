@@ -1,41 +1,39 @@
-## Cisco Packet Tracer
+# Cisco Packet Tracer
 - Packet tracer allows simulation of networks such as testing, configuration
 - we can create or recreate predefined topologies and configure switches, routers
-### Creating a simple network:
+## Creating a simple network:
 - Need at least 2 end devices (computers or servers)
 - connect them both using a switch with any media of our choice, a switch is used to forward a packet
 - different medias can be used to connect routers such as fiber optic, cables, waves
-
-#### to choose a specific port to use
+### 1) To choose a specific port to use for end/network devices 
 - we will use the third cable in the "connections" tab,
 - gigabit ethernet is faster
-- console is used to access the switch
+- console port is used to access the switch
 - side-note: RS-232 is a serial port (serial ports are used for any purpose)
-
-- For end devices, if we click on the device, and go to the "desktop" tab and go to "ip configuration"
-- in "ip configuration":
-	- ipv4 address: we put our own ip address
+### 2) To configure the IP address of the end-devices
+- For end devices, if we click on the device, and go to the "desktop" tab and go to "IP configuration"
+- in "IP configuration":
+	- ipv4 address: we put our own IP address
 	- subnet mask: we put our own subnet mask
-- For servers we will do the same also
-
+### 3) To configure the networking devices
 - Switches/routers have an operating system called IOS (internetworking operating system)
-	- to access it, we need connections to it using a "console cable" (can also use SSH port to access it remotely) that will connect to the "console" port of a switch and computer
+	- to access it, we need connections to it using a "console cable" (can also use SSH port to access it remotely) 
+	- It will connect to the "console" port of a switch and computer
 	- We can use a terminal program such as "TerraTerm" to play with the operating system of switch using an end-device (computer)
-
 ## TerraTerm:
-- select serial
+- select "serial" option on start up
 - can write "show version" to see the version details
 - 
-
-To verify the connection, to check if the network is working, we can do 2 things
-1) Use the "command prompt" of a device:
+## To verify the connection and check if the network is working
+- we can do 2 things
+### 1) Use the "command prompt" of a device:
 - we will go to "desktop" tab
 - then go to "command prompt"
 - will type the command "ping (destination address)"
 - this command will send 4 packets to the destination,
 	- sometimes checking with only 4 packets is not reliable, so we can set the number of packets to send by ping
 - if these packets are sent to the destination, destination device will send an acknowledgment/reply to the sender device
-2) Use the "Add simple PDU":
+### 2) Use the "Add simple PDU":
 - on the top left tab, we can select "add simple PDU"
 - click the devices that we want to send the packet to and from
 
@@ -51,23 +49,28 @@ To verify the connection, to check if the network is working, we can do 2 things
 ### Uses of the IOS:
 - Security: We can allow/block traffic/data, TCP/UDP packets using the IOS
 - Routing: We can also do routing (which route to take for best path) 
-- Qos: 
 - Addressing: switches and routers have many ports, so we can configure them
-
-
-
 ## Navigating around the IOS:
 - To access the IOS CLI, we can use the console port of the networking device, and connect it to the computer using RS-232 port of the computer.
-- Then will go to the terminal of the computer, and will see the prompt: `switch>` 
+- Then will go to the terminal of the computer, and will see the prompt: 
+```
+//if we are working with a switch, will get this prompt:
+switch>
+```
 ### User mode
 - (will see a greater than symbol for this in the prompt) 
 - it is just used to check the current configuration, and we cannot the change the device configuration.
+
+### privilege/enable mode 
 - To change to `privilege/enable` mode, we will type:
 ```
 switch> enable
 ```
-### privilege/enable mode 
-- (will see a hashtag for this in the prompt), now when we type `?` , we will see all the commands that are available in privilege mode.
+- will see a hashtag for this in the prompt like this to confirm we are in privilege mode:
+```
+switch#
+```
+- now when we type `?` , we will see all the commands that are available in privilege mode.
 ### global configuration mode
 - There is another sub-mode called "global configuration mode".
 - Can only go here through "privilege mode". Have additional commands using this. to go to this, we will type:
@@ -104,7 +107,7 @@ switch# copy run start
 ```
 - can `reload` in privilege mode to restart the networking device and see if the changes are saved.
 
-### Securing Device:
+### Securing the Device:
 - To add a password to the networking device using the IOS:
 - Port number always starts with 0 in a router, to add a password to this:
 - will go to `line console 0` and type:
@@ -115,10 +118,10 @@ switch(config-line)# login
 ```
 - will also need to save the password using the method we used to save the name.
 
-- Will also set password for enable mode because any user can open `run file` by typing `show run`, 
+-  Any user can open run file by typing `show run` and see all the passwords listed, so we will also set a password for enable mode:
 ```
 switch(config)# enable password cisco
-// enable secret will override the enable password, and will encrypt the password // in show run
+// enable secret command will override the enable password, and will encrypt the password in show run config file
 ```
 
 #### To encrypt all passwords that we have if they are not encrypted:

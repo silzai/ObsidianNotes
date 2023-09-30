@@ -21,7 +21,7 @@
 	- vertical: one machine increases the resources
 - **Disaster Recovery**: having a standby site/secondary site, in a completely different geographical site. if a primary site fails then we will transfer to secondary site. --Switchover is done intentionally to transfer, switchback is done to revert back to the primary site.
 
-Additional info:
+## Additional info:
 - weblogic server is used in ministry for deploying java software. Configurations are done in this, and these configurations are also data, these are called meta data.
 - ORM: Can be used instead of normal JDBC, maps objects to the DBMS automatically:
 	- Types of ORMs for different languages:
