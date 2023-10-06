@@ -11,7 +11,6 @@
 		3) attributes of conceptual classes
 		4) multiplicity, same as cardinality in ER diagrams, put them in associations
 
-- if information of an actor is used in the system, then it will be a class, otherwise if there is no information of an actor being used, then it will not be a class.
 
 - aggregation:
 	- hollow diamond
@@ -25,7 +24,9 @@
 
 - Will an actor be a class in a class diagram?
 	- If we will manipulate the data of the actor in the system, then actor will be a class
-- A use case will be several different functions
+	- if information of an actor is used in the system, then it will be a class, otherwise if there is no information of an actor being used, then it will not be a class.
+
+- A use case need to consist of several different functions for it to be a use case, not there should not be just one simple function in it
 
 ### Messages
 - [messages by mit](https://web.mit.edu/java_v1.0.2/www/tutorial/java/objects/messages.html)

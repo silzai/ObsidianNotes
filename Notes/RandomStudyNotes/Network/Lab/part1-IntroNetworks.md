@@ -1,7 +1,7 @@
 # Cisco Packet Tracer
 - Packet tracer allows simulation of networks such as testing, configuration
 - we can create or recreate predefined topologies and configure switches, routers
-## Creating a simple network:
+# Creating a simple network:
 - Need at least 2 end devices (computers or servers)
 - connect them both using a switch with any media of our choice, a switch is used to forward a packet
 - different medias can be used to connect routers such as fiber optic, cables, waves
@@ -24,16 +24,16 @@
 - select "serial" option on start up
 - can write "show version" to see the version details
 - 
-## To verify the connection and check if the network is working
+# To verify the connection and check if the network is working
 - we can do 2 things
-### 1) Use the "command prompt" of a device:
+## 1) Use the "command prompt" of a device:
 - we will go to "desktop" tab
 - then go to "command prompt"
 - will type the command "ping (destination address)"
 - this command will send 4 packets to the destination,
 	- sometimes checking with only 4 packets is not reliable, so we can set the number of packets to send by ping
 - if these packets are sent to the destination, destination device will send an acknowledgment/reply to the sender device
-### 2) Use the "Add simple PDU":
+## 2) Use the "Add simple PDU":
 - on the top left tab, we can select "add simple PDU"
 - click the devices that we want to send the packet to and from
 
@@ -161,10 +161,10 @@ switch(config)# no enable secret
 - `show ip interface brief` will show all the device interfaces
 
 - To change IP address of any device in windows:
+	- mabey first need to enable file sharing on windows computer to even ping other device
 	- change adapter settings
 	- click ethernet, then properties
 	- go to internet protocol version 4
 	- then mark the "use the following IP address"
 	- remember to configure the pc back to assign IP address automatically
-
-- 
+	- can also set the default gateway from there

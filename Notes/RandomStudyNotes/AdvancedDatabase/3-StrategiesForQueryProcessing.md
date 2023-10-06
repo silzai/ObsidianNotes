@@ -1,4 +1,4 @@
-- This part is for Chap-18
+ - This part is for Chap-18
 - Chap-18 and Chap-19 go hand-in-hand like so:
 	- This chapter shows how different evaluation plans (trees) are made, chapter 19 will show how to pick the evaluation plan with the least cost (i.e. query optimization).
 # Table of Contents:
@@ -60,7 +60,7 @@
 	- $\theta$ join: If there is range (greater than, less than)
 	- natural join: Same as Equi-join, but will not contain duplicates (in oracle, will use keyword `DISTINCT`)
 ### Algorithm options: 
-#### J1: Nested-loop join: comparable to sequential search
+#### J1: Nested-loop join (or nested-block join): comparable to sequential search
 - will make the smaller table as the outer table
 - will take one block from the outer table, then search and compare it with all of the block of the second table, cost will be $B_r\times B_s$
 - Give more space in buffer to the outer table, so can make the outer table in buffer even smaller
@@ -100,7 +100,7 @@
 # 2) Selecting the evaluation plan with least cost (query optimization)
 - Will see this in chapter 19 (Query Optimizer).
 # 3) Evaluating The Evaluation Plan:
-- Once the optimization is done, they query can be executed/evaluated in 2 ways:
+- Once the optimization is done, the query can be executed/evaluated in 2 ways:
 - ***pipelined evaluation*** of query tree executes the next statement even while the previous statement has not finished execution. 
 	- Avoids cost and time delay associated with writing intermediate results to disk
 	- Being able to start generating results as quickly as possible
@@ -111,7 +111,10 @@
 
 ___
 - References:
-- [Query Processing ucDavis](https://www.cs.ucdavis.edu/~green/courses/ecs165a-w11/8-query.pdf)
-- [Query Processing Paper, IndianaUni](https://clas.iusb.edu/computer-science-informatics/research/reports/TR-20080105-1.pdf)
-- [Query Processing CMU](https://15445.courses.cs.cmu.edu/fall2021/notes/11-queryexecution1.pdf) (helpful for "evaluating the evaluation plan")
+	- [Query Processing ucDavis](https://www.cs.ucdavis.edu/~green/courses/ecs165a-w11/8-query.pdf)
+	- [Query Processing Paper, IndianaUni](https://clas.iusb.edu/computer-science-informatics/research/reports/TR-20080105-1.pdf)
+	- [Query Processing CMU](https://15445.courses.cs.cmu.edu/fall2021/notes/11-queryexecution1.pdf) (helpful for "evaluating the evaluation plan")
+	- [Query Processing CMUQ](https://web2.qatar.cmu.edu/~mhhammou/15415-s14/lectures/Lecture17-Query-Optimization-MHH-24March-2014.pdf)
+	- [JOINs CMUQ](https://web2.qatar.cmu.edu/~mhhammou/15415-s15/lectures/Lecture18-Relational-Operators-29March-2015.pdf)
+	- [helpful slides for all chapters](https://www.db-book.com/slides-dir/index.html)
 
