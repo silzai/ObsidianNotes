@@ -18,11 +18,11 @@ switch> show mac-address-table
 ```
 router(config)# interface fa0/0
 ```
-- Then will be inside the interface like this:
+- Then will be inside the interface like this, and will set the IP address of the interface and subnet mask like this:
 ```
 Router(config-if)# ip address 192.168.1.1 255.255.255.0
 ```
-- type `no shutdown` to enable the VLAN interface
+- type `no shutdown` to enable the VLAN interface, otherwise the connection will not work.
 - to disable the interface, type `shutdown`
 
 - find MAC address of specific interface in router:

@@ -1,6 +1,6 @@
 ## Rules of Communication:
 ### Message Encoding:
-- Messages are converted into bits by the sending host, then they are encoded into a pattern of sounds, light waves, or electrical impulses depending on the network media, then are decoded by the receiver.
+- Messages are converted into bits by the sending host, then they are encoded into a pattern of sounds, light waves, or electrical pulses depending on the network media, then are decoded by the receiver.
 ### Message Formatting and Encapsulation:
 - message is encapsulated in a Frame where it provides the source and destination hardware addresses.
 ### Message Size:
@@ -30,7 +30,7 @@
 	- takes the data, divides it into parts and marks them, called segments and it establishes the end-to-end connection between devices
 3) Internet Layer (IP): 
 	- encapsulates the segments into packets and giving them an address, and delivering them across the best path to the destination host.
-4) Network Access Protocol (has 2 components):
+4) Network Access (has 2 components):
 	1) communication over a data link: Data-link management protocols take the packets from IP and format them to be transmitted over the media.
 	2) physical transmission of data: The standards and protocols for the physical media govern how the signals are sent and how they are interpreted by the receiving clients.
 

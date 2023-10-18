@@ -1,8 +1,11 @@
+- ***ambiguous chapter, so not completed***
 - This chapter is divided into ==???????????????== parts:
-	1) Signaling method
+	1) physical transmission of digital data
 	2) Frame encoding technique
 
 - The network access layer is the physical layer plus the data link layer in the reference/protocol models.
+
+- 
 ## Analogue: is the transfer of data in waves
 - we modulate the wave then transfer the wave (wave representing data)
 - modulation: 
@@ -13,6 +16,9 @@
 	- A bandwidth is needed to modulate waves and the bandwidth needed for AM is less than FM
 	- FM and AM do not contain bits that are transferred, it is something else
 ## Digital: transfer in bits
+- Suppose we have an analogue signal, and want to convert it into digital:
+	1) sample the analogue signal
+	2) Do PCM on the sampled signal
 - PCM (pulse coded modulation): 
 	- technique to convert analogue to digital
 	- If we actually want to represent waves digitally, we may need infinite amount of bits, but not possible
@@ -27,15 +33,14 @@
 	- then will od 
 	- then will multiply samples/second with bits/sample to get kb/s
 
-> Dear professor, 
-> Regarding chapter 4, In pulse coded modulation, we found the sampling frequency $f_s$, and I am a little confused over some aspects of this.
-> So we used a formula $f_s \ge 2f_{max}$  so the difference between bandwidth in hertz and data rate in kb/s
-
 references: 
 [njit edu on channel capacity](https://web.njit.edu/~joelsd/signals/classwork/BME314signalscw16.pdf)
 and slides
 ## Methods for transmitting over wires:
 - PSK modulation is used to actually transfer bits in waves (used in Wi-Fi).
+	- BPSK
+	- QPSK
+	- 
 - ASK: Transmitting a wave with a specific amplitude signifies whether it is a 0 or 1 bit
 - FSK: Transmitting a wave with a specific frequency signifies whether it is a 0 or 1 bit
 - Then for both, waves, we apply a phase shift $\phi$ to avoid errors, because both waves are at opposite positions, so can see whether a bit was off put from which original bit.
@@ -43,16 +48,19 @@ and slides
 
 - with 
 - with 
-- With 16QAM, we can transfer 4 bits
+- With 16QAM, we can transfer 4 bits, more robust then PSK
 
 - Signaling method: NRZ (non-return to zero) and Manchester encoding
 - With long sequences, NRZ causes synchronization errors, so Manchester encoding is more safe as it will remain synchronized but it is more expensive as it needs more bandwidth
 
 ## Digital Transmission Over Copper Cabling
 - Bit error rate is the probability of bit error: $$Bit\ Error\ Rate =\frac{number\ of\ bits\ in\ error}{Total\ bits\ transmitted}$$
-- It occurs when we have original signal, and there is noise, we obtain a signal to noise ratio, where it is the ratio of the powers of signal and noise, the higher the $SNR$, the better the signal, so $$SNR=\frac{P_s}{P_n}, \quad SNR\propto \frac{1}{BER}$$
+- It occurs when we have original signal, and there is noise, we obtain a signal to noise ratio, where it is the ratio of the powers of signal and noise, the higher the $SNR$, the better the signal, so, $$SNR=\frac{P_s}{P_n} \quad and \quad SNR\propto \frac{1}{BER}$$
 - Then to find the $SNR_{db}$ we have to solve this equation:$$SNR_{db} = 10 \times log_{10}(SNR)$$
 - We can use this against the $BER$ to $SNR_{db}$ table to find what the $Bit \ Error \ Rate$ is against a value of $SNR_{db}$ 
+- So the $BER$ vs $SNR_{db}$ graph, we can read the graph in two ways according to our requirement:
+	- given a $SNR_{db}$, find the $BER$ for a particular modulation scheme (i.e. for QPSK or 16QAM)
+	- given a $BER$, find the $SNR_{db}$ for a particular modulation scheme
 
 - Bandwidth: 
 	- is the amount of bit that can be transmitted over a medium during a given time (i.e. kb/s, Mb/s, Gb/s, etc.) "theoretically".
@@ -65,6 +73,13 @@ and slides
 		3) Frame collisions due to simultaneous transmissions
 - Goodput: 
 	- amount of useable data that is transferred/time
+
+>***to avoid confusion:***
+>- Throughput is how the rate of raw data you can stuff down a transmission medium without error.
+>- Goodput is the rate of ”good data” absorbed and processed by applications, essentially meaning the throughput minus the rate of useless junk arriving.
+>- “Useless junk” includes superfluous retransmissions, packets arriving too late to be useful, queue overruns, and any other discardable data arriving at the network interface.
+
+
 
 - To have less bit errors, we can use:
 	- UTP: length: 100m

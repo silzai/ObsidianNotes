@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "3e53372743ff16a9",
+        "id": "cb2c301beb85fdd0",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd215aae1dc36a0",
+            "id": "7104ceb1ecbb19e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
+                "file": "Network/Lecture/Chap6-NetworkLayer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "726e01fa5a67e81f",
+            "id": "29412d782e8f559b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +138,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md"
+                "file": "SoftwareEngineering/Lecture/part6-SequenceDiagram.md"
               }
             }
+          },
+          {
+            "id": "8cc8b27715051052",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "bde18a25b92150b2",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -156,39 +175,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "726e01fa5a67e81f",
+  "active": "29412d782e8f559b",
   "lastOpenFiles": [
+    "SoftwareEngineering/Lecture/part3-UseCaseDiagrams.md",
+    "Network/Lecture/chap8-IPaddressing.md",
     "Network/Lecture/Chap6-NetworkLayer.md",
-    "AdvancedDatabase/5-ConceptsOfConcurrencyControl.md",
+    "AdvancedDatabase/6-ConcurrencyTechniques.md",
+    "SoftwareEngineering/Lecture/8-SoftwareQuality.md",
+    "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
     "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
-    "Untitled.md",
-    "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
+    "AdvancedDatabase/5-ConceptsOfConcurrencyControl.md",
     "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
-    "AdvancedDatabase/IndexesCanvas.canvas",
-    "AdvancedDatabase/StorageCanvas.canvas",
+    "19-QueryOptimizer.md",
+    "18-QueryProcessing.md",
+    "AdvancedDatabase/4-QueryOptimizer.md",
     "AdvancedDatabase/2-Indexing.md",
     "AdvancedDatabase/1-Storage.md",
-    "AdvancedDatabase/4-QueryOptimizer.md",
-    "Network/Lecture/Chap5-Ethernet.md",
-    "NumericalMethods/Lab/lab2.md",
-    "NumericalMethods/Lab/lab1.md",
-    "NumericalMethods/Lab/Lab3.md",
-    "NumericalMethods/Lab/Lab4.md",
-    "NumericalMethods/Lab/Lab10.md",
-    "NumericalMethods/Lab/Lab9.md",
-    "NumericalMethods/Lab/Lab8.md",
-    "NumericalMethods/Lab/Lab7.md",
-    "NumericalMethods/Lab/Lab6.md",
-    "NumericalMethods/Lab/Lab5-NumMethods.md",
-    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
-    "Network/Lab/part3-Mapping IP Addresses.md",
-    "Network/Lab/part1-IntroNetworks.md",
-    "Network/Lab/part2-Wireshark.md",
+    "Network/Lecture/Chap4-NetworkAccessLayer.md",
     "Network/Lecture/Chap3-Protocols&Communication.md",
-    "SoftwareEngineering/Lab/lab2-UseCaseDiagrams.md",
+    "Network/Lecture/Chap1-Networks.md",
+    "Network/Lecture/Chap5-Ethernet.md",
+    "Prob&Stats/Statistical Inference, Parameter Estimation.md",
+    "Prob&Stats/Statistical Inference, Hypothesis Testing.md",
+    "Network/Lab/part3-Mapping IP Addresses.md",
+    "Network/Lab/part4-RoutingTable.md",
+    "AdvancedDatabase/0-Intro.md",
+    "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
+    "AdvancedDatabase/IndexesCanvas.canvas",
+    "Try clicking on the links.md",
+    "AdvancedDatabase/StorageCanvas.canvas",
+    "NumericalMethods/Lab/lab2.md",
     "NumericalMethods/ODEcanvas.canvas",
     "SoftwareEngineering/Lecture",
     "SoftwareEngineering/Lab",

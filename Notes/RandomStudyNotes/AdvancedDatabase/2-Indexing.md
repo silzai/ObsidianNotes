@@ -9,6 +9,7 @@
 ## We have different types of indexes:
 - We have primary and clustering indexes, and secondary indexes.
 - Have tree indexes (b+ trees), for trees, will read up to the height of the tree, so cost is $treeHeight + 1$, where adding 1 is cost of reading the data
+- $bfr_i$ is the "fan-out" of the tree, and $fanOut=n$ , where n is the value that we divide the tree at each level (or dividing the search space).
 
 ## Good resources on indexes:
 - [Indexes by montanaU](https://www.cs.montana.edu/courses/spring2004/435/lectures/IndexingFiles.html) (try clicking on the link)

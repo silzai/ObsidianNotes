@@ -3,7 +3,7 @@
 
 - VLAN 
 - in broad cast, put FF-FF-FF-FF-FF-FF (all 1s in binary format) in the destination MAC address in frame, and this will send frame to every device.
-- .indication of multicast has 01-00-5E in the first part of the  which in the destination MAC address in frame, and this will send frame to multiple devices
+- indication of multicast has 01-00-5E in the first part of the  which in the destination MAC address in frame, and this will send frame to multiple devices
 - otherwise if the destination MAC does not start with either of the values, it will be unicast to a specific device.
 
 ## Address Resolution Protocol (ARP):

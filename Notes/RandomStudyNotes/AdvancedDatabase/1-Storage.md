@@ -8,7 +8,7 @@ Databases aim to get results quickly, following factors are part of efficient da
 #### techniques for filling and flushing the buffer (buffer replacement strategies):
 - also called page replacement policy
 1) ***least recently used (LRU):***  if the data is in the buffer for a long time, then unlikely we will need it, so override it with different data that we may need.
-2) ***FIFO:*** It is opposite to LRU, so if we just processed some data (occupied longest by a page), so we don't need it anymore, so override it with different data that we may need.
+2) ***FIFO:*** if we just processed some data (occupied longest by a page), so we don't need it anymore, so override it with different data that we may need.
 # 2) Placement of data on hard disc: 
 ## placement of blocks on the hard disc:
 - During formatting, OS allocates how big the size of blocks in hard drive will be.
@@ -27,6 +27,7 @@ Databases aim to get results quickly, following factors are part of efficient da
 - A File is a sequence of records.
 - [Files don't actually exist as separate entities on disk](https://en.wikibooks.org/wiki/Operating_System_Design/File_Systems/Abstraction). (try clicking on the link)
 - a File is something abstract by the operating system, so a file is not stored on the hard disc, but the actually the records are stored physically on the hard disc.
+- To locate all the records of a file a *file header* is used which keeps track of the disk addresses of the file blocks, Information in the file header is used by system software accessing the file records.
 - 2 types of arrangement of records in a file:
 	1) ***unordered records***
 		- Called heap file

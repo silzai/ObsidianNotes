@@ -32,11 +32,14 @@
 ```
 netstat -r
 ```
-- pc needs the routing table to see what to do with the packet, i.e. send to itself or send elsewhere
-- netmask is a value that is used to separate any ip address and get the network part (or we can get the whole ip address also by keeping the subnet mask as 255.255.255.255), we do logical AND with Netmask , the part where netmask is 0 at the end will separate the IP address from the network address.
-- ip address slash a number: the number indicated the number of bits used in the network part
-- We take the IP address to be explored, and do AND with the subnet mask, and compare it with the "network destination" in the same line we did the mask with, if the values match, then we will use that interface==??==
-- when more than one line matches, then use the line where the subnet mask has greatest number of ones, if two match, then use the line with the lowest "metric" (the route with the least cost in the physical layer)
-- the interface column then routes the packet to the desired.==??==
+- pc needs the routing table to see what to do with the packet, i.e. send to itself or send elsewhere on the NIC
+- netmask is a value that is used to separate any IP address and get the network part (or we can get the whole IP address also by keeping the subnet mask as 255.255.255.255), we do logical AND with Netmask , the part where netmask is 0 at the end will separate the IP address from the network address.
+- IP address slash a number: the number indicated the number of bits used in the network part
+- To find destination for packet in routing table for PC:
+	- We take the IP address to be explored, and do AND with the subnet mask, and compare it with the "network destination" in the same line we did the mask with, if the values match, then we will use that interface==??==
+	- when more than one line matches, then use the line where the subnet mask has greatest number of ones, if two match, then use the line with the lowest "metric" (the route with the least cost in the physical layer)
+	- the interface column then routes the packet to the desired.==??==
 
 ## Router Routing:
+- Router has to see which interface it should put the packet on
+- The IP address ??.??.??.0 is for the whole network, and no specific device on the network, 

@@ -1,9 +1,7 @@
 - Chap-20
-
 - Goal is to create 
 	- concurrency manager
 	- recovery manager
-
 - This chapter is about theory only, next chapter is the implementation
 - We have 2 types of DBMS:
 	1) Single-user DBMS
@@ -62,13 +60,32 @@
 	- WW
 	- 
 ## Scheduling:
+- we are good if the transactions are serializable
 - if transaction $t2$ relies on transaction $t1$, then $t1$ should commited before $t2$ otherwise will have dirty read problem
 - if we have a schedule: $w1(X)$; $r2(X)$, then $c1$ should be done before $c2$ to make it recoverable
 - cascading rollback (is bad): the failure of 1 transaction may lead to the failure of the other transaction 
 	- if t1 has to abort, then t2 should also be aborted, (even though it may not have errors)
 	- can apply cascadeless schedule: your read should not read items from uncommitted records
 - String schedule: the transaction neither read or write until last item is committed.
-- difference between serial and serializable:
-	- serial: first t1 finished executing then t2 executes (is always correct, but not practical, we would like interleaved execution)
-	- serializable: is a interleaved schedule, but is equivalent to some serial schedule, and we know that serial execution is always correct (meaning i could find a serial schedule for the interleaved schedule)
-		- 
+
+- result equivalence: not safe
+- conflict equivalence: safe
+- view equivalence: safe, better than conflict equivalence (check is expensive)
+
+- Conflict serializability:
+	- difference between serial and serializable:
+		- serial: first t1 finished executing then t2 executes (is always correct, but not practical, we would like interleaved execution)
+		- serializable: is a interleaved schedule, but is equivalent to some serial schedule, and we know that serial execution is always correct (meaning i could find a serial schedule for the interleaved schedule, since the result would be the same)
+	- if there is a circle in the precedency graph then it the transactions are not serializable, once we design protocols such as 2 phase looking protocol (in chap 21), we need to enforce the transaction always be serializable
+- To enforce serializability:
+	- transactions must always have serial conflict schedule
+- view equivalence accepts blind writes (writing without reading), is better than conflict serializable because allows more schedules. but is NP hard (complete?) to ensure correctness, so not implement commercially.
+- conflict serializable schedules is a subset of view serializable.
+
+- To check for serializability:
+	- 1 condition to check for conflict serializability: check for circle in precedency graph
+	- 3 conditions to check for view serializability: conditions given in document
+
+- as concurrency increases, the errors (dirty read etc.) decreases and vice versa. 
+
+- debit-credit transaction: is also correct
