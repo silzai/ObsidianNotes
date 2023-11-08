@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/DML (Data Manipulation Language).md",
+                "file": "Database/JDBC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/DML (Data Manipulation Language).md",
+                "file": "Database/JDBC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +102,16 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
+            }
+          },
+          {
+            "id": "9722ffd47737ccbd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -124,33 +134,33 @@
   },
   "active": "60710a87947bb251",
   "lastOpenFiles": [
+    "Database/DML (Data Manipulation Language).md",
+    "Database/JDBC.md",
+    "Build Automation/Gradle.md",
+    "Build Automation/Builds.md",
+    "Database/Indexes (not in syllabus of CMPS).md",
+    "Database/DDL (Data Definition Language).md",
     "Useful Links.md",
+    "Database/Oracle.md",
+    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/Additional Topics in DB by Prof Gassemi.md",
     "Java/Random.md",
     "Java/Abstraction.md",
     "DataStructures/SinglyLinkedList VS doublyLinkedList.md",
     "DataStructures/Instruction Format to Hex.md",
     "DataStructures/BB TSP.md",
-    "Build Automation/Builds.md",
-    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
-    "Database/Oracle.md",
-    "Database/Additional Topics in DB by Prof Gassemi.md",
-    "Database/Indexes (not in syllabus of CMPS).md",
-    "Database/DDL (Data Definition Language).md",
     "Build Automation",
     "Final Exams Schedule.md",
     "Phys2 Chap 29, Magnetic Field BY Current.md",
     "Chap 29, Magnetic Field BY Current 1.md",
     "Chap 29, Magnetic Field BY Current.pdf",
-    "Database/DML (Data Manipulation Language).md",
     "dsfgsdfgsdf.md",
     "Database/PL-SQL.md",
     "Database/DCL (Data Control Language).md",
-    "Database/JDBC.md",
     "DataStructures/Algos.md",
     "Java/IO.md",
     "Java/Exceptions.md",
     "Java/Comment Keywords.md",
-    "Java/LabProject.md",
-    "Java/LabProject02.md"
+    "Java/LabProject.md"
   ]
 }

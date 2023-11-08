@@ -1,0 +1,2 @@
+- The root (جدر) is from 3 letters, and at the same time, the root represents the past tense of the verb. 
+- 

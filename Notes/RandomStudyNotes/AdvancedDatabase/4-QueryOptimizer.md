@@ -23,12 +23,15 @@
 - Regarding the equivalence rules, the query optimizer can choose any equivalent relational algebra expression to execute, depending on the statistics of the tables. So the query optimizer can select any one of the relational algebra expressions on the right hand side or the left hand side, it depends on the statistics of the tables.
 ### Cost Functions:
 - Cost functions for `JOIN`
-	- CJ1:  
-	- CJ3: read table once + writing the result + sorting
+	- CJ1:  Nested-loop join
+	- CJ2: index-based nested-loop join
+	- CJ3: Sort-merge join
+		- read table once + writing the result + sorting
 - Cost functions for `JOIN`: 
 	- `JOIN` selectivity ($j_s$): it is the ratio of the resulting file after `JOIN` to the cartesian product.
 	- obtaining the `JOIN` selectivity determines which algorithm to use for `JOIN`
 	- number of blocks needed to store/write the result: $$(js\ * \ |R| \ * \ |S|)/bfr_{RS} $$
+	- $bfr_{RS} \text{ = blocking factor of resultant joined table}$ 
 
 ___
 - Then which operations will I use to execute the operations of the tree, called "evaluation plan", it will resolve how each operation should be executed, eg. will it use sequential search, or indexes, will it use hash join or merge join, DBMS uses statistical information from the catalog to choose an execution option, can use command in Oracle to check the plan: `EXPLAIN PLAN FOR <SQL query>`

@@ -50,18 +50,18 @@
 - Security: We can allow/block traffic/data, TCP/UDP packets using the IOS
 - Routing: We can also do routing (which route to take for best path) 
 - Addressing: switches and routers have many ports, so we can configure them
-## Navigating around the IOS:
-- To access the IOS CLI, we can use the console port of the networking device, and connect it to the computer using RS-232 port of the computer.
+# Navigating around the IOS:
+- To access the IOS CLI, we can use the console port of the networking device, and connect it to the computer using RS-232 port.
 - Then will go to the terminal of the computer, and will see the prompt: 
 ```
 //if we are working with a switch, will get this prompt:
 switch>
 ```
-### User mode
+## User mode
 - (will see a greater than symbol for this in the prompt) 
 - it is just used to check the current configuration, and we cannot the change the device configuration.
 
-### privilege/enable mode 
+## privilege/enable mode 
 - To change to `privilege/enable` mode, we will type:
 ```
 switch> enable
@@ -71,7 +71,7 @@ switch> enable
 switch#
 ```
 - now when we type `?` , we will see all the commands that are available in privilege mode.
-### global configuration mode
+## global configuration mode
 - There is another sub-mode called "global configuration mode".
 - Can only go here through "privilege mode". Have additional commands using this. to go to this, we will type:
 ```
@@ -79,7 +79,7 @@ switch# configure terminal
 ```
 - Now, the prompt will show `switch(config)#` to confirm that we are in global configuration mode.
 
-### line-interface
+## line-interface
 - There is another sub-mode after global configuration mode, called line-interface, will type:
 ```
 switch(config)# line console 0
@@ -89,7 +89,7 @@ switch(config)# line console 0
 #### For Help:
 - can write `cl?` this will list all the commands that starts with `cl`, so `?` acts like a wildcard and lists all the commands that start with this.
 
-### To change device name
+# To change device name
 - In global configuration mode, to name a device `sw-floor-1`, type:
 ```
 switch(config)# hostname sw-floor-1
@@ -107,11 +107,12 @@ switch# copy run start
 ```
 - can `reload` in privilege mode to restart the networking device and see if the changes are saved.
 
-### Securing the Device:
+# Securing the Device:
 - To add a password to the networking device using the IOS:
 - Port number always starts with 0 in a router, to add a password to this:
 - will go to `line console 0` and type:
 ```
+// This will set password to the intial entry to switch's console/terminal
 // if want to set the password to "cisco":
 switch(config-line)# password cisco
 switch(config-line)# login
@@ -120,11 +121,11 @@ switch(config-line)# login
 
 -  Any user can open run file by typing `show run` and see all the passwords listed, so we will also set a password for enable mode:
 ```
+// This will put password to enter privilege/enable mode
 switch(config)# enable password cisco
-// enable secret command will override the enable password, and will encrypt the password in show run config file
+// enable secret <string> command will override the enable password, and will encrypt the password in show run config file
 ```
-
-#### To encrypt all passwords that we have if they are not encrypted:
+#### To encrypt all passwords in run config:
 - From global configuration mode, type:
 ```
 switch(config)# service password-encryption
@@ -147,12 +148,12 @@ router(config)# no hostname newrouter
 switch(config)# no enable secret
 ```
 
-==LAB2, need to complete==
+# IP address of a switch
 - The idea of having an IP address on a switch is to do remote management
 - Switch indicates that it is a LAN
 - IP address of switch does not have physical interface, so we use VLAN for the interface, (v is for Virtual)
 - router has physical interface
-
+## Set IP address of a switch
 - to go to the interface of the switch, type `switch(config)# interface vlan 1`
 - `switch(config-if)#` in prompt means we are in the interface
 - type `no shutdown` to enable the VLAN interface
@@ -160,11 +161,34 @@ switch(config)# no enable secret
 
 - `show ip interface brief` will show all the device interfaces
 
-- To change IP address of any device in windows:
-	- mabey first need to enable file sharing on windows computer to even ping other device
-	- change adapter settings
-	- click ethernet, then properties
-	- go to internet protocol version 4
-	- then mark the "use the following IP address"
-	- remember to configure the pc back to assign IP address automatically
-	- can also set the default gateway from there
+# To change IP address of any device in windows:
+- maybe first need to enable file sharing on windows computer to even ping other device
+- change adapter settings
+- click ethernet, then properties
+- go to internet protocol version 4
+- then mark the "use the following IP address"
+- remember to configure the pc back to assign IP address automatically
+- can also set the default gateway from there
+
+# Set default gateway of switch
+
+```
+%Enter global configuration mode.
+
+S1# configure terminal
+
+%Configure the switch default gateway.
+
+S1(config)# ip default-gateway 172.17.99.1
+
+%Return to privileged EXEC mode.
+
+S1(config)# end
+
+%Save the running config to the startup config.
+
+S1# copy running-config startup-config
+```
+
+>[!note] Default gateway for a PC
+>The default gateway of a PC can be set easily by going to "Desktop" then "IP configuration" of that PC

@@ -1,3 +1,4 @@
+- [missing semester MIT](https://missing.csail.mit.edu/) helpful for general things we need to learn in CS
 - [SS64] [https://ss64.com/] help with DB/shell command line stuff etc. commands
 - [OWASP][https://owasp.org/] application security standards
 - [refactoring.guru][https://refactoring.guru/] OOP design patterns and refactoring

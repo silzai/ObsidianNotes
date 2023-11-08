@@ -4,7 +4,7 @@
 # Table of Contents:
 - There are 4 steps in Query Processing:
 ==ask prof if order is correct==
-1) Translating SQL to relational algebra expressions (making the evaluation plan/tree)
+1) Translating SQL to relational algebra expressions (making the canonical evaluation plan/tree)
 2) Selecting the evaluation plan with least cost (query optimization)
 	- Heuristic based optimization
 	- Cost-based optimization
@@ -36,13 +36,16 @@
 - Used when query has `ORDER BY` clause
 - Sorting and then joining is more efficient
 - to execute `UNION`, `INTERSECT`, and other operations.
+- In databases, external sorting is done as the data is not able to fit in the RAM
 
-- In databases, external sorting is done as the data is not able to fit in the RAM, sorting is done in the DBMS cache in RAM
-- nR: number of runs/partitions
-- nB: number of pages allocated to buffer in a DBMS
-- How many runs will be generated, how many passes we need, what will be the cost?
-- cost: number of blocks written or read
-- **IMPORTANT**: If nB = x (meaning there are x pages available in RAM for sort-merge to use), then 1 page will be reserved for the output, and x-1 pages for the runs.
+### Questions: How many runs (partitions) will be generated, how many passes we need, what will be the cost?
+- $b$: number of blocks of data
+- $nB$: number of buffers allocated to the DBMS
+- $nR$: number of runs/partitions $$nR=\lceil\frac{b}{nB}\rceil$$
+- $dM$: degree of merge (how many buffers are merged in 1 pass) $$dM=min(nB-1,nR)$$
+- Number of merge passes: $$\text{number of passes = }log_{dM}(nR)$$
+- $Cost$: number of blocks written or read $$Cost=(2*b)+(2*b*log_{dM}(nR))$$
+- If $nB$ = x (meaning there are x pages available in RAM for sort-merge to use), then 1 page will be reserved for the output, and x-1 pages for the runs.
 
 ## Algorithms for `SELECT` operations:
 - Query optimizer will choose a from a collection of algorithms to fetch records
@@ -124,4 +127,5 @@ ___
 	- [JOINs CMUQ](https://web2.qatar.cmu.edu/~mhhammou/15415-s15/lectures/Lecture18-Relational-Operators-29March-2015.pdf)
 	- [helpful slides for all chapters](https://www.db-book.com/slides-dir/index.html)
 	- [Cost of Select, UniSouthWales](https://www.cse.unsw.edu.au/~cs9315/16s1/notes/D/notes.html)
+
 

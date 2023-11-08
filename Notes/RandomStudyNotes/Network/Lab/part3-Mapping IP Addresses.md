@@ -1,5 +1,5 @@
-- IP address need to be mapped to the MAC address of a device
-- From the IP address we can identify which device to which network
+- IP address need to be mapped to the MAC address of a device or in other words, assign an IP address to a host 
+- From the IP address we can identify which device belongs to which network
 - how to identify different computers on the same network (LAN)?
 	- Use the MAC address
 	- each computer has an ARP table to identify the MAC address of the other device on the network
@@ -12,7 +12,7 @@ arp -a
 ```
 switch> show mac-address-table
 ```
-- Need default gateway to communicate outside of a network (LAN).
+# Need default gateway to communicate outside of a network (LAN).
 - any router interface belongs to a different network, so each interface has a different IP address
 - To configure a specific interface:
 ```

@@ -4,7 +4,7 @@
 - commit is a check-point, to commit, first do `git add <file name>` into the staging area.
 ##### there are different ways to commit:
 - `git commit -m "message"`  -m flag will only create a commit and display the message.
-- once you have commited, you can write `git log` which will give you a history of commits.
+- once you have committed, you can write `git log` which will give you a history of commits.
 ##### to go back and forth in code changes 
 - `git checkout <hash of commit that you wnat to go back to>` will let you go back and forth to points in your code. 
 - `git branch` will tell me which hash I am on.
@@ -19,3 +19,4 @@
 ##### To merge new/additional branch into master branch if you are satisfied with it
 - to merge the additional branch into branch master, do `git merge <branchName>`
 - Now if you do `git log`, you will see the changes in from the new branch in branch master as well.
+

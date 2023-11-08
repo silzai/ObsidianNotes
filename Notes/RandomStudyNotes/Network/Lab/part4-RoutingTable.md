@@ -14,3 +14,5 @@ for example:
 ```
 router(config)# ip route 10.1.1.0 255.255.255.0 209.165.200.225
 ```
+# Why set static routing?
+- If 2 hosts are on different networks (they have different routers), then they do not know where each other is and cannot communicate, so need to set the static routing in the router.
