@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/JDBC.md",
+                "file": "Java/IO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/JDBC.md",
+                "file": "Java/IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +134,14 @@
   },
   "active": "60710a87947bb251",
   "lastOpenFiles": [
-    "Database/DML (Data Manipulation Language).md",
+    "Database/DCL (Data Control Language).md",
+    "Java/IO.md",
+    "Java/Comment Keywords.md",
+    "Java/GUI.md",
+    "Java/LabProject.md",
+    "Java/LabProject02.md",
     "Database/JDBC.md",
+    "Database/DML (Data Manipulation Language).md",
     "Build Automation/Gradle.md",
     "Build Automation/Builds.md",
     "Database/Indexes (not in syllabus of CMPS).md",
@@ -155,12 +161,6 @@
     "Chap 29, Magnetic Field BY Current 1.md",
     "Chap 29, Magnetic Field BY Current.pdf",
     "dsfgsdfgsdf.md",
-    "Database/PL-SQL.md",
-    "Database/DCL (Data Control Language).md",
-    "DataStructures/Algos.md",
-    "Java/IO.md",
-    "Java/Exceptions.md",
-    "Java/Comment Keywords.md",
-    "Java/LabProject.md"
+    "Database/PL-SQL.md"
   ]
 }

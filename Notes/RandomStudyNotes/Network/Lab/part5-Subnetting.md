@@ -211,7 +211,3 @@ network#1 : broadcast: 192.168.1.255
 | 9   | 17  |
 | 18  | 26  |
 | 34  | 42  |
-
-# Variable Length Subnet Mask (VLSM) (not included in midterm)
-- If want to use IP addresses efficiently (utilizing IP addresses to fit the number of hosts that we want), will use VLSM
-- 

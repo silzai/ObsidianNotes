@@ -115,5 +115,8 @@ in case we don't have a DHCP server, we can use link local address, where the op
 - ICMP has messages
 - ping uses ICMP
 
-
+ >[!info] To find number of devices that a network can contain in IPv6:
+ > $$Number \ of \ hosts=2^n-1$$
+$where \ n = \text{number of bits in host part}$
+ and we are subtracting only 1 because broadcast is not included in this as it has a different address
 

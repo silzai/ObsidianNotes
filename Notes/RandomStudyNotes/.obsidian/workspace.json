@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97dbf125a233dc28",
+        "id": "db509cb8d1233e19",
         "type": "tabs",
         "children": [
           {
-            "id": "8452bc917caeb5fd",
+            "id": "a2b2c2796b7ef3bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md"
+                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md"
               }
             }
           },
@@ -166,34 +166,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8452bc917caeb5fd",
+  "active": "a2b2c2796b7ef3bb",
   "lastOpenFiles": [
+    "AdvancedDatabase/4-QueryOptimizer.md",
+    "SoftwareEngineering/Lab/lab10-Testing.md",
     "SweUseCaseImplementation.md",
+    "Network/Lecture/chap7-TrasportLayer.md",
+    "Network/Lecture/chap9-Subnetting.md",
+    "AdvancedDatabase/9-Security.md",
+    "AdvancedDatabase/5-TransactionProcessing.md",
+    "AdvancedDatabase/6-ConcurrencyTechniques.md",
+    "AdvancedDatabase/7-Recovery.md",
+    "AdvancedDatabase/8-DistributedDatabases.md",
+    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
     "SoftwareEngineering/Lecture/part9-DesignPatterns.md",
-    "Untitled.md",
+    "Dawa/Intro.md",
+    "Network/Lab/part7-Server.md",
+    "Network/Lab/part4-RoutingTable.md",
+    "Network/Lab/part6-VLSM.md",
+    "Network/Lab/part5-Subnetting.md",
+    "AdvancedDatabase/Query Cost Calculator Information.md",
+    "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+    "Arabic/Types of Hamza (ا-أ).md",
+    "Network/Lecture/chap8-IPaddressing.md",
     "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
     "Arabic/The Root (جدر).md",
-    "AdvancedDatabase/8-DistributedDatabases.md",
     "AdvancedDatabase/projectXtra-OptionsForMetadata.md",
-    "Network/Lecture/chap9-Subnetting.md",
     "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
     "Network/Lab/Networks Lab Midterm Practice.md",
-    "Network/Lab/part4-RoutingTable.md",
-    "Network/Lab/part3-Mapping IP Addresses.md",
-    "Network/Lab/part1-IntroNetworks.md",
-    "Network/Lab/part5-Subnetting.md",
-    "Network/Lab/part2-Wireshark.md",
-    "AdvancedDatabase/7-Recovery.md",
-    "Network/Lecture/chap8-IPaddressing.md",
-    "Network/Lecture/Chap6-NetworkLayer.md",
-    "Network/Lecture/Chap1-Networks.md",
-    "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
-    "AdvancedDatabase/4-QueryOptimizer.md",
-    "AdvancedDatabase/6-ConcurrencyTechniques.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
-    "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
-    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
-    "Network/Lab/part6-asdf.md",
     "Arabic",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",

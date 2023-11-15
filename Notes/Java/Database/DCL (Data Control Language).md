@@ -3,7 +3,7 @@
 ```PLSQL
 CREATE USER user1 IDENTIFIED BY userPass
 ```
-#### To GRANT:
+# To GRANT:
 ```PLSQL
 GRANT SELECT, INSERT -- or can write any privilege name instead of SELECT
 ON object_name
@@ -17,7 +17,7 @@ GRANT CREATE TABLE TO user_name
 -- to grant privilege to create table in the the admins account too, will write "ANY" before TABLE:
 GRANT CREATE ANY TABLE to user_name;
 ```
-#### To REVOKE
+# To REVOKE
 ```PLSQL
 REVOKE 
 SELECT ON table_name
@@ -27,7 +27,7 @@ FROM user_name;
 ```PLSQL
 SELECT * FROM granterUserName.emp_table;
 ```
-#### ROLE
+# ROLE
 -  To grant/revoke privileges very quickly to multiple users, we can use roles.
 ```PLSQL
 -- first we will create the role

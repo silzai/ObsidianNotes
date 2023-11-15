@@ -12,5 +12,6 @@
 ___
 # Also
 - all imperative forms of verbs of (sometimes 3,) 5 and 6 letters have the Hamzatul-wasl, aside from these the Hamzatul-Qata\`a remains 
-- حرف:
-	- If a word starts with somewhere in the mouth, it is only then considered a حرف, the long vowels ا, و, and ي are not حرف since they do not "start" from somewhere in the mouth, but just end from the continuation of other letters.
+
+>[!info] Definition of حرف:
+ If a word starts with somewhere in the mouth, it is only then considered a حرف, the long vowels ا, و, and ي are not حرف since they do not "start" from somewhere in the mouth, but just end from the continuation of other letters.
