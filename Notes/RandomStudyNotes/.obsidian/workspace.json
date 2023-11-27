@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db509cb8d1233e19",
+        "id": "62c281a7302b7f2f",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b2c2796b7ef3bb",
+            "id": "82800bc42a538b50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "Network/Lecture/chap7-TrasportLayer.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "Network/Lecture/chap7-TrasportLayer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+                "file": "Network/Lecture/chap7-TrasportLayer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AdvancedDatabase/3-StrategiesForQueryProcessing.md"
+                "file": "Network/Lecture/chap7-TrasportLayer.md"
               }
             }
           },
@@ -166,34 +166,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2b2c2796b7ef3bb",
+  "active": "82800bc42a538b50",
   "lastOpenFiles": [
-    "AdvancedDatabase/4-QueryOptimizer.md",
-    "SoftwareEngineering/Lab/lab10-Testing.md",
-    "SweUseCaseImplementation.md",
+    "Network/Lecture/chap7-TransportLayer-ProblemSet.md",
     "Network/Lecture/chap7-TrasportLayer.md",
-    "Network/Lecture/chap9-Subnetting.md",
-    "AdvancedDatabase/9-Security.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
-    "AdvancedDatabase/6-ConcurrencyTechniques.md",
-    "AdvancedDatabase/7-Recovery.md",
-    "AdvancedDatabase/8-DistributedDatabases.md",
+    "Network/Lecture/Chap6-NetworkLayer.md",
+    "Network/Lab/part1-IntroNetworks.md",
     "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
-    "SoftwareEngineering/Lecture/part9-DesignPatterns.md",
-    "Dawa/Intro.md",
-    "Network/Lab/part7-Server.md",
-    "Network/Lab/part4-RoutingTable.md",
-    "Network/Lab/part6-VLSM.md",
-    "Network/Lab/part5-Subnetting.md",
-    "AdvancedDatabase/Query Cost Calculator Information.md",
-    "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
-    "Arabic/Types of Hamza (ا-أ).md",
-    "Network/Lecture/chap8-IPaddressing.md",
-    "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
+    "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
+    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
+    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "Arabic/Adjective (صفة).md",
     "Arabic/The Root (جدر).md",
-    "AdvancedDatabase/projectXtra-OptionsForMetadata.md",
-    "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
-    "Network/Lab/Networks Lab Midterm Practice.md",
+    "Networks Project Issues.md",
+    "AdvancedDatabase/11-DataMiningConcepts.md",
+    "SweUseCaseImplementation.md",
+    "AdvancedDatabase/9-Security.md",
+    "Arabic/Sentences (جمل).md",
+    "Arabic/Plurals (الجمع).md",
+    "Network/Lecture/Chap10-ApplicationLayer.md",
+    "Network/Lecture/Chap5-Ethernet.md",
+    "Network/Lab/part4-RoutingTable.md",
+    "AdvancedDatabase/6-ConcurrencyTechniques.md",
+    "Network/Lecture/chap8-IPaddressing.md",
+    "Network/Lecture/Chap4-NetworkAccessLayer.md",
+    "Network/Lecture/chap9-Subnetting.md",
+    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
+    "AdvancedDatabase/7-Recovery.md",
+    "AdvancedDatabase/5-TransactionProcessing.md",
     "Arabic",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",

@@ -15,10 +15,12 @@
 
 # another example: 145.45.0.0/21
 
+# 145.45.0000 0001.0
+
 | Network | hosts needed              | subnet addresses/mask | host range | broadcast address | default gateway |
 | ------- | ------------------------- | --------------------- | ---------- | ----------------- | --------------- |
 | 0       | 111 (7 bits for host)/25  |   145.45.1.0                    |            |                   | 0.0             |
-| 1       | 166 (7 bits for host)/24  |  145.45.0.0/24                     |            |                   |   1.0              |
+| 1       | 166 (8 bits for host)/24  |  145.45.0.0/24                     |            |                   |   1.0              |
 | 2       | 33 (7 bits for host)/26   |  145.45.1.128/26                     |            |                   |   2.0              |
 | 3       | 16   (7 bits for host)/27 |   145.45.1.192/26                      |            |                   |    3.0             |
 | 4       | 24   (7 bits for host)/27 |    145.45.1.224/26                     |            |                   |   4.0              |

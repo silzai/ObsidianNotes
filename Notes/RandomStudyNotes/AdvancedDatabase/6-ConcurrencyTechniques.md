@@ -1,5 +1,14 @@
 - Chap 21
 - Implementation of what we studied in chap 20
+
+- Concurrency control manager should prevent these problems:
+	- lost update problem: 
+	- Temporary update problem: 
+	- Incorrect Summary Problem: 
+
+- In concurrency control, the concurrency control manager can lock (using locking protocol) some data (for short amount of time) to not be operated on concurrently when there are multiple queries by users.
+- Locking must be done because update and read statements may conflict, so want to write first then read the latest table.
+
 - To implement conflict serializability, we can do the following:
 - Concurrency control protocols that ensure serializability:
 	1) Two phase locking protocol
@@ -9,7 +18,8 @@
 	3) multi-version concurrency control (MVCC)
 		- will allow multiple transactions
 ## lock manager is responsible for locking: 
-- special kind of metadata, lock table specifies items that have locks
+- It is a special kind of metadata
+- lock table specifies items that have locks
 - is a variable that can hold values: `"write locked" or "read locked" or "unlocked"`
 - granting lock = granting access
 - if locked (`lock=1`), transaction cannot access the unit (except the current one)
@@ -36,7 +46,7 @@
 - Locking is a pessimistic technique because its based on the assumption that transactions are likely to interfere with each other, and so it takes measures accordingly, an alternative is ***optimistic concurrency control*** which has ==????==
 
 # Timestamp Ordering (TO):
-- achieve concurrency using the time the transactions enter the system
+- Achieve concurrency using the time the transactions enter the system
 - There are no deadlocks, the later transaction will be forced to rollback.
 - every transaction passes a test, otherwise transaction is rolled back
 - This ensures conflict serializability
@@ -65,12 +75,12 @@
 > 1) if $write\_TS(X) > TS(T)$, then reject $T$ and rollback.
 > 2) Otherwise if $write\_TS(X)\le TS(T)$ then execute $read(X)$ and set $read\_TS(X)=max(TS(T),current \ read\_TS(X))$
 
-| T1    | T2    | read_TS(x) | write_ts(x) |
-| ----- | ----- | ---------- | ----------- |
-| 1     | 2     | 0          | 0           |
-| readx |       | 1          |             |
-|       | readx | 2           |             |
-|writex       |       |            |             |
+| T1     | T2    | read_TS(x) | write_ts(x) |
+| ------ | ----- | ---------- | ----------- |
+| 1      | 2     | 0          | 0           |
+| readx  |       | 1          |             |
+|        | readx | 2          |             |
+| writex |       |            | INVALID            |
 
 - initially T1 enters the system then T2 enters, so T1 has timestamp of 1, and T2 has 2, while readts(x) and writets(x) are 0
 
@@ -98,6 +108,8 @@
 - does not ensure serializability, if there are errors in transactions, it is not responsibility of the concurrency control manager but the application programmer (human)
 
 # Granularity
+>[!info] Granularity:
+> to specify the size/level of the data to be locked, we can use the term granularity. we can specify which level to lock i.e. on records, or attributes, or disk blocks.
 - There is a hierarchy in the database to grant locks, where the root or 1st node in the hierarchy is the whole database
 - If a parent node has a lock, then the child node will also have a lock
 - transaction doing sequential scan of whole file, will need to lock the whole table

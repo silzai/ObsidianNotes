@@ -1,12 +1,10 @@
 - chap-30
-
 # Types of Database Security Mechanisms:
 1) Discretionary: 
 2) Mandatory:
 	- classify users/data into various security classes
 3) Role-based: 
 	- enforces policies and privileges based on organizational roles
-
 # Control Measures:
 ## 1) Access control: 
 - create accounts and passwords

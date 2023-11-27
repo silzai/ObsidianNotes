@@ -2,6 +2,7 @@
 - 802.3 MAC, 
 
 - VLAN 
+
 >[!info] broadcast
 >put FF-FF-FF-FF-FF-FF (all 1s in binary format) in the destination MAC address in frame, and this will send frame to every device.
 

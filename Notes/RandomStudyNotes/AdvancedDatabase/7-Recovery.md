@@ -1,4 +1,5 @@
- >[!note] A Recovery process restores the database to the most recent consistent state that was before the time of failure.
+ >[!note]
+ >A Recovery process restores the database to the most recent consistent state that was before the time of failure.
 # Recovery strategies:
 1) restore backed-up copy of database:
 	- recommended for catastrophes, to restore data
@@ -16,7 +17,7 @@
 >[!important]
 >Need before image and
 ## Immediate update technique:
-- A transaction can be write to disc before committing
+- A transaction can be written to disc before committing
 - So we don't put pressure on the buffer
 - failure can happen after T1 executes half its statements, so need to undo
 - undo: all modified items by T1 are returned to their before image
@@ -51,6 +52,10 @@
 	2)  transaction commits: commit T1
 	3) transaction reads: read T1
 	4) transaction writes: write T1
+
+>[!important] Checkpoints
+>- A checkpoint record is written into the log periodically at that point when the system writes out to the database on disk all DBMS buffers that have been modified.
+>- As a consequence of this, all transactions that have their (commit, T) entries in the log before a (checkpoint) entry do not need to have their WRITE operations redone in case of a system crash, since all their updates will be recorded in the database on disk during checkpointing.
 
 - A log may grow very large, so we need checkpointing, to take a checkpoint:
 	- temporarily suspend all transactions

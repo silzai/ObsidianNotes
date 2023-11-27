@@ -37,3 +37,22 @@
 >[!note] Application Server
 >application server is used to enable interaction between end-user clients and server-die application code
 
+# 3) Data Flow
+## Pipe and Filter
+## Batch Sequential
+
+- Pipe and filter VS batch sequential
+- 
+
+# 4) Virtual Machines (Its a architectural style, not like our usual VMs)
+## Interpreters
+- We have 
+## Rule-Based Systems
+- also called knowledge based systems
+- inference engine will look at knowledge base 
+# 5) Data-Centric Systems
+## Blackboard Style:
+- the data store is responsible to notify parties of change
+- 
+## Repository Style:
+- the parties check the data-store for changes

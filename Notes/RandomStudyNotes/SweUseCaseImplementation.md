@@ -59,3 +59,11 @@ mainClassName = 'com.tomgregory.GradleTutorial'
 # Model
 dataBufferPackage
 	singleton DataBuffer class to get author, conference and store papers in files
+
+
+# Hallway Testing:
+## Marwan: 
+- And also wanted more beauty in the user interface
+- wanted to change the user interface from red to another color, because it seemed like an error
+- found issues in the user interface, such as placement of buttons, (such as register button)
+- Wanted to change the final scene of submitting paper instead of just "logout and exit" button to maybe go to the home screen or login screen

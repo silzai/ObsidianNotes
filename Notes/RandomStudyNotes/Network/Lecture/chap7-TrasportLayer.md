@@ -3,41 +3,48 @@
 - On the same device, there are different applications sending and receiving packets, so multiplexing is done through segmentation.
 
 # Transport Layer Protocols:
-## TCP:
+# TCP:
 - connection-oriented protocol
 - first establishes TCP session:
 	- does 3 way handshake
-- has flow control:
-	- issue is with the receiver
-	- there is a limit to how many segments a receiver can process, so it drops them, but tells the sender to slow down sending segments
-	- The receiver tells the sender that it can accommodate "this" number of segments at a time, so the sender send that amount.
-	- We will not overwhelm the receiver
-- has congestion control:
-	- issue with the network (as opposed to receiver)
-	- if there is no problem in flow control, and segments are arriving
-	- so TCP handles the 
+## has flow control:
+- issue is with the receiver
+- there is a limit to how many segments a receiver can process, so it drops them, but tells the sender to slow down sending segments
+- The receiver tells the sender that it can accommodate "this" number of segments at a time, so the sender sends that amount.
+- We will not overwhelm the receiver
+## has congestion control:
+- issue with the network (as opposed to receiver)
+- if there is no problem in flow control, and segments are arriving
+- so TCP handles the
+### Scenario 1:
+- Ignore the segment after the lost segment
+### Scenario 2:
+- store the segments after the lost segment
+- in real systems, we store the segments for some time
+
 - reliable, delivers packets in order
 - if packet not received, will retransmit
 - viewing websites or email is required to be error free, so used in this
-- TCP segment:
+## TCP segment:
 
 | Source Port | Destination Port | Sequence Number | Acknowledgment number | 
 | ----------- | ---------------- | --------------- | --------------------- |
 
-- acknowledgment number:
-	- the first byte the receiver is expecting to receive from sender
-- sequence number:
-	- it is the position/number of the byte the thing sender is sending
-	- the initial sequence number is selected randomly by the sender
-- Control bits:
-	- there are 6 bits, for 6 flags
-	- acknowledgment bit: it tell about dummy data or not
-	- urgent bit: if urgent bit is 0, then ignore urgent field
-	- syn flag: 
-- Window:
-	- how many bytes the receiver can process without being overwhelmed
-	- the window value is what a receiver tells the sender how many bytes the it can process at a given time
-	- 
+### acknowledgment number:
+- the first byte the receiver is expecting to receive from sender
+### sequence number:
+- it is the position/number of the first byte the thing sender is sending
+- the initial sequence number is selected randomly by the sender
+- ISN (initial sequence number): the SEQ of the first segment sent from the total segments of the data
+### Control bits:
+- there are 6 bits, for 6 flags
+- acknowledgment bit: it tell about dummy data or not
+- urgent bit: if urgent bit is 0, then ignore urgent field
+- syn flag: 
+ ### Window:
+- how many bytes the receiver can process without being overwhelmed
+- the window value is what a receiver tells the sender how many bytes the it can process at a given time
+
 ## UDP:
 - connection-less protocol
 - There is no acknowledgment by receiver
@@ -73,13 +80,17 @@
 
 # ==need to complete how to establish connection from example of mobile pic== 
 
-- need to establish a connection as follows(as opposed to UDP which is connectionless)
-- A sends SYN to B
-- B sends an acknowledgment for the first segment, and also increments the ack to tell that this is the segment with the SEQ number that it is expecting
-- 
+- need to establish a connection as follows (as opposed to UDP which is connectionless)
+- A sends SYN to B according to the window size of B
+- B sends an acknowledgment for the first segment, and also increments the ACK to tell that this is the segment with the SEQ number that it is expecting
+
+>[!warning]
+>After sending, A sets a timer and waits for an acknowledgment by B, and if not received, then A will send again
+
 - After 3-way handshake and after sending the data, we need to terminate the session
 ## Terminate TCP Session: 
 - any of the 2 host can initiate termination of session
 1) A will send FIN to B
 2) B sends ACK to A
 3) then finally A send an ACK to B to terminate the session
+

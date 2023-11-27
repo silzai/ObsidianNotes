@@ -3,12 +3,11 @@
 	- This chapter shows with which algorithms, operations in the evaluation plans (trees) can be executed, chapter 19 will show how to pick the evaluation plan with the least cost (i.e. query optimization).
 # Table of Contents:
 - There are 4 steps in Query Processing:
-==ask prof if order is correct==
 1) Translating SQL to relational algebra expressions (making the canonical evaluation plan/tree)
 2) Selecting the evaluation plan with least cost (query optimization)
 	- Heuristic based optimization
 	- Cost-based optimization
-3) Each node of the tree may have different ways of executing the queries, which also have different costs:
+3) Each node of the tree may have different ways of executing the queries, which also have different costs, so the processor creates different trees based on the different algorithms for executing different operations, some are listed below:
 	- un-nesting `EXISTS`, `IN`, `ANY` using semi-join
 	- un-nesting `NOT EXISTS`, `NOT IN`, `ALL` using anti-join
 	- sorting
