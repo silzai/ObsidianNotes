@@ -107,9 +107,8 @@ in case we don't have a DHCP server, we can use link local address, where the op
 - then flip the 7th bit
 
 ## Solicited Node Multicast address
-- The prefixes are given: FF02 and ???
+- The prefixes are given: FF02 and ==???==
 - If we have IPv6 address and need to do solicited multicast
-
 # ICMP:
 - ICMP is used with IPv4 or IPv6 for managing the 
 - ICMP has messages

@@ -81,16 +81,17 @@
 - We will use naïve Bayes: we assume that the attributes that make that data are independent of each other.
 - We will assume that the data follows a gaussian/normal distribution to calculate the probabilities
 - class ($C_i$): it is a output/value of the column/feature
-- To build a naive bayes classifier that takes tabular data:
+- To build a naïve Bayes classifier that takes tabular data:
 	1) calculate probabilities of all the classes
-	2) Then for every feature, calculate the probability for every class given that feature
+	2) Then for every feature, calculate the probability for the class given that feature
 	3) Then to make a prediction for $X$ where $X=\text{every feature that we want to predict the class for}$, for example: $X=\text{(age<=30, income = medium, student = yes)}$
 	4) We will calculate $P(X|C_i)$, where $X=\text{product of all the probabilites of the features in X (that we calculated before)}$
 	5) Then, we will multiple that with the class weight, $P(X|C_i) * P(C_i)$
-- Naive bayes gives good results, can improve by using bayesian networks which will measure the interdependence of the features that naive bayesian does not do
-- naive bayes disadvantage:
-	- Zero probability problem (if we multiply the probability of features with a feature that has 0, then result will be 0): to solve it, we use smoothing techniques (such as laplacian correction)
-- Classifier evaluation metrics: Using the confusion matrix
+- Naïve Bayes gives good results, can improve by using Bayesian networks which will measure the interdependence of the features that naïve Bayesian does not do
+- naïve Bayes disadvantage:
+	- Zero probability problem (if we multiply the probability of features with a feature that has 0, then result will be 0): to solve it, we use smoothing techniques (such as Laplacian correction)
+## How to test the accuracy of the model?
+- We can use classifier evaluation metrics: Using the confusion matrix
 
 | Actual class | C_1            | not C_1         |
 | ------------ | -------------- | --------------- |
@@ -106,4 +107,15 @@
 - patterns with time series:
 	- can record stock prices per time
 ## clustering:
-- will divide a population into groups, and members of the same group will be very similiar
+- unsupervised learning from data without classes/labels
+- will divide a population into groups, and members of the same group will be very similar
+- Uses K-means clustering (where k is the number of groups)
+- Goal is to:
+	- minimize inter-similarity between groups
+	- maximize intra-similarity between groups
+- Algorithm:
+	- If suppose k=2, then I will make 2 means, with any arbitrary initialization (the mean doesn't have to be correct)
+	- We are on a cartesian plane, we measure the distance between the 2 means and the data point
+	- The data set will be assigned to the group of the mean with least distance
+	- After going through all data points will repeat, the same as above, but replacing the 2 means with the mean of the previous iterations group
+	- 

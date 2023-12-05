@@ -15,7 +15,7 @@
 - redo is needed
 - the page written may be left in the buffer, so will redo that ???
 >[!important]
->Need before image and
+>Need before image and after image
 ## Immediate update technique:
 - A transaction can be written to disc before committing
 - So we don't put pressure on the buffer
@@ -26,16 +26,12 @@
 > Only need before image for undo on immediate update technique
 - Undo and redo should be idempotent, meaning executing operations multiple times, is equal to executing them once
 	- every recovery should be idempotent
-- buffering:
-	- DBMS has its own buffers, but this can be configured if whether the DBMS can access those buffers itself directly, or through the operating system as a client.
-	- how to know if a page is modified in the buffer so we can write it to disc?
-		- there will be a dirty bit (flag) that will indicate this
-	- how to know whether a page is between a process or not (so not to evict it)?
-		- there will be a pin-unpin (flag) to indicate this
+
 # Main Strategies:
 - in-place updating:
-	- 
+	- The disk version of the data item is overwritten by the cache version.
 - shadow paging:
+	- The modified version of a data item does not overwrite its disk copy but is written at a separate disk location.
 	- don't need undo or redo
 	- we have a directory in the RAM that the DBMS controls
 	- This directory has entries that has pointers to the database page in disc
@@ -70,6 +66,8 @@
 >we prefer immediate updating and in-place updating
 
 # Policies (implementation): 
+>[!info]
+>force/no force: have to do on WHAT to do immediately after a COMMIT happens
 - These are the implementations of the recovery concepts above (immediate update etc.), buffer level deals with steal and no-steal
 	- steal
 		- it is implementation of immediate update
@@ -83,7 +81,12 @@
 	- no-force
 		- buffer manager is free to evict any page
 		- transaction may commit but the modified pages are still in buffer
-
+- buffering:
+	- DBMS has its own buffers, but this can be configured if whether the DBMS can access those buffers itself directly, or through the operating system as a client.
+	- how to know if a page is modified in the buffer so we can write it to disc?
+		- there will be a dirty bit (flag) that will indicate this
+	- how to know whether a page is between a process or not (so not to evict it)?
+		- there will be a pin-unpin (flag) to indicate this
 >[!important]
 >we prefer steal and no-force strategy (UNDO/REDO) (this is from immediate strategy)
 

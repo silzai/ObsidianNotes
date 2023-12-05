@@ -1,12 +1,27 @@
-- Internet at layer 3 at each router processed data, but layer 4 is end-to-end, between sender and receiver in the communication
-
-- On the same device, there are different applications sending and receiving packets, so multiplexing is done through segmentation.
-
+# Why the Transport Layer?
+>[!important] Transport Layer
+>The transport layer is responsible for establishing a temporary communication session between two applications and delivering data between them.
+## It is used for:
+1) Tracking the individual communication between applications on the source and destination hosts.
+2) Segmenting data for manageability and reassembling segmented data into streams of application data at the destination.
+	- Data must be prepared to be sent across the media in manageable pieces.
+	- Most networks have a limitation on the amount of data that can be included in a single packet.
+	- Transport layer protocols have services that segment the application data into blocks of data that are an appropriate size
+	- This service includes the encapsulation required on each piece of data. A header, used for reassembly, is added to each block of data. This header is used to track the data stream.
+	- At the destination:
+	- the transport layer must be able to reconstruct the pieces of data into a complete data stream that is useful to the application layer
+	- The protocols at the transport layer describe how the transport layer header information is used to reassemble the data pieces into streams to be passed to the application layer.
+3) Identifying the proper application for each communication stream.
+	- the transport layer assigns each application an identifier called a port number.
+	- Each software process that needs to access the network is assigned a port number unique in that host.
+	- The transport layer uses ports to identify the application or service
 # Transport Layer Protocols:
 # TCP:
-- connection-oriented protocol
-- first establishes TCP session:
-	- does 3 way handshake
+- 3 basic operations of reliability in TCP:
+	- Tracking transmitted data segments
+	- Acknowledging received data
+	- Retransmitting any unacknowledged data
+- 
 ## has flow control:
 - issue is with the receiver
 - there is a limit to how many segments a receiver can process, so it drops them, but tells the sender to slow down sending segments

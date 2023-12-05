@@ -17,8 +17,14 @@
 	- انا باكستاني
 	- هذا كتاب
 - Here, since all 3 sentences start with a noun (or pronoun/demonstrative pronoun), so these are nominal sentences
-- its more stronger than verbal sentence, because there is more emphasis, and those sentences that do not change are written as nominal sentences. (idk what this means)
+>[!information] Nominal VS Verbal Sentences
+>Nominal sentences are more stronger than verbal sentence, because there is more emphasis, and those sentences that do not change are written as nominal sentences. (idk what this means)
 # Verbal Sentences (جملة فعلية)
+- All verbs start singular, so if I have a nominal sentence:
+>al aolaad yatnaavuloon alfutoor
+- So, when changing it to a verbal sentence, the verb will become singular like this:
+> yatnaavulu al aolaad alfutoor
+
 
 >[!note] Negating Verbs
 >We use لا to negate verbs in present tense and also to negate imperative verbs (commands), for example:

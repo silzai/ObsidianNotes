@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62c281a7302b7f2f",
+        "id": "939c4dc59d8deba3",
         "type": "tabs",
         "children": [
           {
-            "id": "82800bc42a538b50",
+            "id": "d535650122003d88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Network/Lecture/chap7-TrasportLayer.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "service password-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network/Lecture/chap7-TrasportLayer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Network/Lecture/chap7-TrasportLayer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Network/Lecture/chap7-TrasportLayer.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,34 +158,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "82800bc42a538b50",
+  "active": "d535650122003d88",
   "lastOpenFiles": [
-    "Network/Lecture/chap7-TransportLayer-ProblemSet.md",
-    "Network/Lecture/chap7-TrasportLayer.md",
-    "Network/Lecture/Chap6-NetworkLayer.md",
-    "Network/Lab/part1-IntroNetworks.md",
+    "SoftwareEngineering/Lecture/part13-Project Management.md",
     "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
-    "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
-    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
-    "Arabic/Defining a Noun (كلمة معارفة).md",
-    "Arabic/Adjective (صفة).md",
-    "Arabic/The Root (جدر).md",
-    "Networks Project Issues.md",
-    "AdvancedDatabase/11-DataMiningConcepts.md",
-    "SweUseCaseImplementation.md",
-    "AdvancedDatabase/9-Security.md",
-    "Arabic/Sentences (جمل).md",
-    "Arabic/Plurals (الجمع).md",
-    "Network/Lecture/Chap10-ApplicationLayer.md",
-    "Network/Lecture/Chap5-Ethernet.md",
+    "Network/Lab/part1-IntroNetworks.md",
+    "Network/Lab/part7-Server.md",
+    "Network/Lab/part6-VLSM.md",
     "Network/Lab/part4-RoutingTable.md",
+    "Network/Lab/part3-Mapping IP Addresses.md",
+    "Arabic/Sentences (جمل).md",
+    "Networks Project Issues.md",
+    "AdvancedDatabase/9-Security.md",
+    "AdvancedDatabase/5-TransactionProcessing.md",
     "AdvancedDatabase/6-ConcurrencyTechniques.md",
     "Network/Lecture/chap8-IPaddressing.md",
-    "Network/Lecture/Chap4-NetworkAccessLayer.md",
+    "Network/Lecture/Chap10-ApplicationLayer.md",
     "Network/Lecture/chap9-Subnetting.md",
-    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
     "AdvancedDatabase/7-Recovery.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
+    "AdvancedDatabase/8-DistributedDatabases.md",
+    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
+    "AdvancedDatabase/11-DataMiningConcepts.md",
+    "SoftwareEngineering/Lecture/part1-SDLC&Requirements.md",
+    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
+    "SoftwareEngineering/Lecture/part3-UseCaseDiagrams.md",
+    "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
+    "Network/Lecture/Chap6-NetworkLayer.md",
+    "Network/Lecture/Chap5-Ethernet.md",
+    "Network/Lecture/chap7-TransportLayer-ProblemSet.md",
     "Arabic",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",
