@@ -37,8 +37,8 @@
 ## Association rule:
 - generate rules from market-basket data
 - used in commercial/medical data
-- any association that has association greater than minimum support and confidence, then that association is interesting
-- good pattern is that has high support and high confidence
+- any association that has association greater than minimum support and confidence, then that association is interesting (it is useful)
+- good pattern has high support and high confidence
 - To calculate support:
 - To calculate confidence:
 
@@ -76,7 +76,7 @@
 	1) trees
 	2) Bayesian classifier
 	3) etc.
-- We will do only Bayes theorem, which is: $$P(H|X)=\frac{P(H|X)}{}$$
+- We will do only Bayes theorem, which is: $$P(H|X)=\frac{P(H|X)}{P(X)}$$
 - This model will learn a set of probabilities from sets of classes
 - We will use naïve Bayes: we assume that the attributes that make that data are independent of each other.
 - We will assume that the data follows a gaussian/normal distribution to calculate the probabilities
@@ -86,8 +86,8 @@
 	2) Then for every feature, calculate the probability for the class given that feature
 	3) Then to make a prediction for $X$ where $X=\text{every feature that we want to predict the class for}$, for example: $X=\text{(age<=30, income = medium, student = yes)}$
 	4) We will calculate $P(X|C_i)$, where $X=\text{product of all the probabilites of the features in X (that we calculated before)}$
-	5) Then, we will multiple that with the class weight, $P(X|C_i) * P(C_i)$
-- Naïve Bayes gives good results, can improve by using Bayesian networks which will measure the interdependence of the features that naïve Bayesian does not do
+	5) Then, we will multiple that with the class weight, $P(X|C_i) \times P(C_i)$
+- Naïve Bayes gives good results, but can improve by using Bayesian networks which will measure the interdependence of the features that naïve Bayesian does not do
 - naïve Bayes disadvantage:
 	- Zero probability problem (if we multiply the probability of features with a feature that has 0, then result will be 0): to solve it, we use smoothing techniques (such as Laplacian correction)
 ## How to test the accuracy of the model?

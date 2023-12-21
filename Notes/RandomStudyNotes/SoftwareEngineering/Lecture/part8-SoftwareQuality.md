@@ -1,6 +1,8 @@
 # Motivation
-- Software quality is the degree to which software possesses a desired combination of attributes (e.g., reliability, interoperability) (IEEE 1061).
-- The ultimate goal is the ability to quantitatively evaluate and trade off multiple quality attributes to arrive at a better overall system.
+- Software quality is the degree to which software possesses a desired combination of attributes (e.g., reliability, interoperability) (definition by IEEE 1061).
+- ISO 9126 describes the main non-functional requirements to be had in a software system.
+>[!important] What are we doing again?
+>The ultimate goal is the ability to quantitatively evaluate and trade off multiple quality attributes to arrive at a better overall system.
 
 - functional requirements, 
 - non functional requirements
@@ -22,4 +24,3 @@ mindmap
 		Constraints
 ```
 
-ISO 9126

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "939c4dc59d8deba3",
+        "id": "ec82709e67e68001",
         "type": "tabs",
         "children": [
           {
-            "id": "d535650122003d88",
+            "id": "666a760e8c1b35e0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Arabic/Sentences (جمل).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "service password-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Arabic/Sentences (جمل).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Arabic/Sentences (جمل).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Arabic/Sentences (جمل).md"
+              }
             }
           },
           {
@@ -158,34 +166,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d535650122003d88",
+  "active": "666a760e8c1b35e0",
   "lastOpenFiles": [
-    "SoftwareEngineering/Lecture/part13-Project Management.md",
-    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
-    "Network/Lab/part1-IntroNetworks.md",
-    "Network/Lab/part7-Server.md",
-    "Network/Lab/part6-VLSM.md",
-    "Network/Lab/part4-RoutingTable.md",
-    "Network/Lab/part3-Mapping IP Addresses.md",
+    "Arabic/Types of Hamza (ا-أ).md",
+    "Arabic/The Root (جدر).md",
     "Arabic/Sentences (جمل).md",
-    "Networks Project Issues.md",
-    "AdvancedDatabase/9-Security.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
-    "AdvancedDatabase/6-ConcurrencyTechniques.md",
-    "Network/Lecture/chap8-IPaddressing.md",
-    "Network/Lecture/Chap10-ApplicationLayer.md",
-    "Network/Lecture/chap9-Subnetting.md",
+    "Arabic/Plurals (الجمع).md",
+    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "Arabic/Adjective (صفة).md",
+    "Arabic Portfolio.md",
+    "Pasted image 20231212150757.png",
+    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
     "AdvancedDatabase/7-Recovery.md",
-    "AdvancedDatabase/8-DistributedDatabases.md",
-    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
     "AdvancedDatabase/11-DataMiningConcepts.md",
-    "SoftwareEngineering/Lecture/part1-SDLC&Requirements.md",
-    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
-    "SoftwareEngineering/Lecture/part3-UseCaseDiagrams.md",
+    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
+    "AdvancedDatabase/8-DistributedDatabases.md",
+    "AdvancedDatabase/6-ConcurrencyTechniques.md",
+    "AdvancedDatabase/5-TransactionProcessing.md",
+    "SoftwareEngineering/Lecture/part9-DesignPatterns.md",
+    "AdvancedDatabase/1-Storage.md",
+    "SoftwareEngineering/Lecture/part13-Project Management.md",
+    "SoftwareEngineering/Lecture/part14-SoftwareProcesses.md",
+    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
+    "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
+    "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
     "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
     "Network/Lecture/Chap6-NetworkLayer.md",
-    "Network/Lecture/Chap5-Ethernet.md",
-    "Network/Lecture/chap7-TransportLayer-ProblemSet.md",
+    "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
+    "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
+    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
     "Arabic",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",
@@ -207,7 +216,6 @@
     "Pasted image 20230805235419.png",
     "Pasted image 20230805234417.png",
     "Pasted image 20230805234310.png",
-    "Pasted image 20230805234243.png",
     "canvas-export.html",
     "NumericalMethods/Lecture"
   ]

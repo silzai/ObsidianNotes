@@ -1,11 +1,11 @@
-- arc is big field
-- soft architect is a critical person, and gets the highest salary
-- architectural patterns/styles are macro level patterns (as opposed to design patterns that are micro level)
-
-- architectural styles show high level design choices
-- We can use UML (or rarely ADL) to show architectural designs/styles 
+- architectural styles is big field
+- A software architect is a critical person, and gets the highest salary
+>[!info] What are architectural styles?
+>- architectural patterns/styles are macro level patterns (as opposed to design patterns that are micro level)
+>- architectural styles show high level design choices
+>- We can use UML (or rarely ADL) to show architectural designs/styles 
 # Elements of Architectural Styles
-- There are 3 components, sometimes called 3C
+- There are 3 components to show architectural styles, sometimes called 3C:
 1) Component:
 	1) Has a subset of the system functionality
 	2) to access it, we need interfaces

@@ -1,7 +1,18 @@
 - Will do following design patterns:
-	1) as;djfk
-# Factory Method Design Pattern:
-- It is a creation design pattern
+	1) Factory Method (creational design pattern)
+	2) Singleton (creational design pattern)
+	3) Proxy (structural design pattern)
+	4) Adapter (structural design pattern)
+	5) Façade (structural design pattern)
+
+>[!info] Before You Proceed
+>It is good to know the difference between a "creational" design pattern and a "structural" design pattern:
+>- Creational Design Pattern: Code used to "create" objects in a certain way
+>- Structural Design Pattern: Code used to "use/access" the objects in a certain way
+>
+>Note: There are also Behavioral Design Patterns that are not in our syllabus
+# Factory Method:
+- It is a creational design pattern
 - By applying this, we can create objects without exposing creation logic to the client
 
 # Singleton:
@@ -43,8 +54,8 @@ Public class Singleton {
 }
 ```
 # Proxy:
-- Structural design pattern
-- dont let the client directly access an object, make the client use the object through a proxy
+- It is a Structural design pattern
+- don't let the client directly access an object, make the client use the object through a proxy
 - The proxy will instantiate the realSubject object then the realSubject will do the actual operations, the methods of realSubject will be called inside the proxy
 
 # Adapter:

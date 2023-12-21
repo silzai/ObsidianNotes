@@ -1,1 +1,1 @@
-- An adjective always depends on the verb before it, for example, if the noun is female, the adjective will be female, if the noun is plural, the adjective will be plural.
+- An adjective always depends on the noun before it, for example, if the noun is female, the adjective will be female, if the noun is plural, the adjective will be plural.

@@ -79,8 +79,6 @@ and slides
 >- Goodput is the rate of ”good data” absorbed and processed by applications, essentially meaning the throughput minus the rate of useless junk arriving.
 >- “Useless junk” includes superfluous retransmissions, packets arriving too late to be useful, queue overruns, and any other discardable data arriving at the network interface.
 
-
-
 - To have less bit errors, we can use:
 	- UTP: length: 100m
 	- STP: length: 100m
@@ -111,7 +109,7 @@ and slides
 - If a device sends request on a bus, then every device on the bus will get and check the frame, on a switch, everyone will not get the frame, because the switch will forward the frame only to the device with the specified MAC address.
 - router/switch to pc: use straight through cable
 - devices of same type (example, connecting pc to pc): crossover cable
-- will not draw the end devices that are connected to a hub, will just list the end devices ip numbers on the hub
+- In a diagram: will not draw the end devices that are connected to a hub, will just list the end devices IP numbers on the hub
 
 -  CSMA/CD: carrier sense multiple access with collision detection, used by ethernet, but we don't need this if we are using switch, since it will become the switches responsibility to forward frames and finish collisions between different devices
 - The switch has a switching table 

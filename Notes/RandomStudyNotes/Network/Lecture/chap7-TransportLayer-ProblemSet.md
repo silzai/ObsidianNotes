@@ -1,13 +1,14 @@
 # 3 Types of Transport Layer Types of Questions:
 ## A regular problem about segmenting in the transport layer:
-- Question: 
+>[!info] Question
+>how much total data (including headers), in bytes, is passed down from the transport layer to the network layer?
 - The given will be:
-	- The total data size from the application layer
-	- the size of a segment
+	- The total data size from the application layer = 100,100 bytes
+	- the size of a segment = 500 bytes (note that the last byte may not be 500 bytes long, so in that case, will use the regular remaining data)
 	- the size of the segment header (when no additional options are used) = 20 bytes always
-	- So, the $$number \ of \ segments \ needed = \ ceiling(\frac{total \ datasize \ from \ the \ app \ layer}{size \ of \ a \ segment}) $$
-	- And, the size of the data sent to network layer: $$size = number \ of \ segments * (segment \ size + 20)$$ ==???==
-	- And, the size of the last segment size =  total  data size from the application layer 
+- So, the number of segments needed: $$number \ of \ segments = \ ceiling(\frac{total \ datasize \ from \ the \ app \ layer}{size \ of \ a \ segment}) $$
+- To find the size of the last segment = $$ \text{total size from app layer - ((number of segments-1) * size of a segment)} $$
+- And, the size of the data sent to network layer: $$size = number \ of \ segments * (segment \ size + 20) + last \ segment \ size$$
 ## A regular problem about multiplexing in the transport layer:
 - Question: 
 - The given will be:

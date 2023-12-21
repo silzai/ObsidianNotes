@@ -14,8 +14,8 @@
 | T5       | 5                    | 10              | T2, T4 (M3)            |
 
 >[!note] For the Dependency Table:
->- Here, the effort is less than duraiton, this means the people assinged are not working full time
->- if effor exceeds duration, then this means more people are working on the activity
+>- Here, the effort is less than duration, this means the people assigned are not working full time
+>- if effort exceeds duration, then this means more people are working on the activity
 - Will make a activity on node dependency graph using the dependency table, so we can find out the earliest/latest start and finish times.
 
 - Identify key milestones
@@ -25,7 +25,7 @@
 # Critical Paths
 - If this is delayed, then whole project will be delayed
 - Critical path is the longest duration path, cann
-- Slack time = 0 for activities in critical paths
+- Slack time must be 0 for activities in critical paths
 >[!information] Slack Time
 >maximum amount of time a activity can be delayed, and still finish the project in the shortest time possible
 

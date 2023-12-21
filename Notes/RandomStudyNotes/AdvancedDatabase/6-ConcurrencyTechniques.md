@@ -106,7 +106,6 @@
 # Snapshot Isolation
 - There is no read lock, but there are write locks
 - does not ensure serializability, if there are errors in transactions, it is not responsibility of the concurrency control manager but the application programmer (human)
-
 # Granularity
 >[!info] Granularity:
 > to specify the size/level of the data to be locked, we can use the term granularity. we can specify which level to lock i.e. on records, or attributes, or disk blocks.

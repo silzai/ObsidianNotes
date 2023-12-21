@@ -23,7 +23,7 @@
 - undo: all modified items by T1 are returned to their before image
 - redo: commit the transaction
 > [!important] 
-> Only need before image for undo on immediate update technique
+> Only need before image for undo
 - Undo and redo should be idempotent, meaning executing operations multiple times, is equal to executing them once
 	- every recovery should be idempotent
 
@@ -67,7 +67,7 @@
 
 # Policies (implementation): 
 >[!info]
->force/no force: have to do on WHAT to do immediately after a COMMIT happens
+>force/no force: WHAT to do immediately after a COMMIT happens
 - These are the implementations of the recovery concepts above (immediate update etc.), buffer level deals with steal and no-steal
 	- steal
 		- it is implementation of immediate update

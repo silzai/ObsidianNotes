@@ -92,9 +92,11 @@
 - debit-credit transaction: is also correct, but we don't use it, as expensive to check the actual functions
 # What happens if a schedule is not serializable?
 - These are the things that may happen:
-1. Dirty read (or temporary update problem). A transaction T1 may read the update of a transaction T2, which has not yet committed. If T2 fails and is aborted, then T1 would have read a value that does not exist and is incorrect.
-2. Nonrepeatable read. A transaction T1 may read a given value from a table. If another transaction T2 later updates that value and T1 reads that value again, T1 will see a different value.
-3. Phantoms. A transaction T1 may read a set of rows from a table, perhaps based on some condition specified in the SQL WHERE-clause. Now suppose that a transaction T2 inserts a new row r that also satisfies the WHERE-clause condition used in T1, into the table used by T1. The record r is called a phantom record because it was not there when T1 starts but is there when T1 ends. T1 may or may not see the phantom, a row that previously did not exist. If the equivalent serial order is T1 followed by T2, then the record r should not be seen; but if it is T2 followed by T1,then the phantom record should be in the result given to T1. If the system cannot ensure the correct behavior, then it does not deal with the phantom record problem
+1. Lost update Problem
+3. Dirty read (or temporary update problem). A transaction T1 may read the update of a transaction T2, which has not yet committed. If T2 fails and is aborted, then T1 would have read a value that does not exist and is incorrect.
+4. Incorrect Summary Problem
+5. Nonrepeatable read. A transaction T1 may read a given value from a table. If another transaction T2 later updates that value and T1 reads that value again, T1 will see a different value.
+6. Phantoms. A transaction T1 may read a set of rows from a table, perhaps based on some condition specified in the SQL WHERE-clause. Now suppose that a transaction T2 inserts a new row r that also satisfies the WHERE-clause condition used in T1, into the table used by T1. The record r is called a phantom record because it was not there when T1 starts but is there when T1 ends. T1 may or may not see the phantom, a row that previously did not exist. If the equivalent serial order is T1 followed by T2, then the record r should not be seen; but if it is T2 followed by T1,then the phantom record should be in the result given to T1. If the system cannot ensure the correct behavior, then it does not deal with the phantom record problem
 ___
 # References
 - [Concurrency and Recovery paper, WashingtonU](https://courses.cs.washington.edu/courses/cse544/11wi/papers/franklin97.pdf)
