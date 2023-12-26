@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ec82709e67e68001",
+        "id": "fc38fdeb013e451c",
         "type": "tabs",
         "children": [
           {
-            "id": "666a760e8c1b35e0",
+            "id": "bdbd584be6957e6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arabic/Sentences (جمل).md",
+                "file": "AdvancedDatabase/8-DistributedDatabases.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arabic/Sentences (جمل).md",
+                "file": "AdvancedDatabase/8-DistributedDatabases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arabic/Sentences (جمل).md",
+                "file": "AdvancedDatabase/8-DistributedDatabases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arabic/Sentences (جمل).md"
+                "file": "AdvancedDatabase/8-DistributedDatabases.md"
               }
             }
           },
@@ -166,11 +167,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "666a760e8c1b35e0",
+  "active": "bdbd584be6957e6a",
   "lastOpenFiles": [
+    "Arabic/Sentences (جمل).md",
     "Arabic/Types of Hamza (ا-أ).md",
     "Arabic/The Root (جدر).md",
-    "Arabic/Sentences (جمل).md",
     "Arabic/Plurals (الجمع).md",
     "Arabic/Defining a Noun (كلمة معارفة).md",
     "Arabic/Adjective (صفة).md",
