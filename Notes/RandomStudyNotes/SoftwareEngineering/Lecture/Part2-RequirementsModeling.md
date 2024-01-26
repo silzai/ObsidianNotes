@@ -2,7 +2,6 @@
 - SSADM = Structured Systems Analysis and Design Method
 - one of the diagrams under this related to OOP, we use data flow diagrams (DFD).
 - data flow diagram (DFD) are not a formal part of UML, but they can be used to complement UML diagrams and provide additional insight into system requirements and flow.
-
 ## Data Flow Diagrams
 - It is about the flow of data, not the actual processes involved, so will abstract the processes in terms of the data only
 - There are 4 symbols:

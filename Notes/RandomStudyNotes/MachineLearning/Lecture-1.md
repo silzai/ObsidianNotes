@@ -1,0 +1,7 @@
+- Supervised Learning
+	- classification
+		- the labels/objects we pass are enumerable 
+	- regression
+		- if the labels/objects are continuous values:
+- Unsupervised Learning:
+	- clustering

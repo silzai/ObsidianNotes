@@ -1,4 +1,4 @@
->	[!info] Extra Information:
+>[!info] Extra Information:
 >ISTQB is an organization that provides certifications for software testing, Catal has made the slides using some of ISTQB's syllabus 
 # Chapter Overview:
 1. Coverage testing (4 types):

@@ -1,0 +1,8 @@
+- We put metadata in the html `<head>` tag
+- inline tags:
+	- doesn't have endline, so we have to use `<br>` break tag which means new line
+- `<ul>` unordered list, and `<ol>` is ordered list, can have properties such as `type` 
+	- `<li>`: list item
+- `<img src="" height="" width="" alt="">`
+- `<a href="">` anchor tag
+- `<hr>` horizontal row, its just a straight line

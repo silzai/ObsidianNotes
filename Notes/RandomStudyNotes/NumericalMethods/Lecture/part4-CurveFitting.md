@@ -19,7 +19,7 @@
 ### Linear Regression:
 - Simplest method of least-squares approximation is linear regression (fitting a straight line)
 - We will find an equation: $$y=a_0+a_1x+e$$
-- So, mathematically, we already minimize the error $e$ by putting $\frac{\partial{S_r}}{a_1}=0$ and $\frac{\partial{S_r}}{a_0}=0$, and use these to find the simple equations below, so just need to solve these equations to find the constants for line of best fit: 
+- So, mathematically, we already minimized the error $e$ by putting $\frac{\partial{S_r}}{a_1}=0$ and $\frac{\partial{S_r}}{a_0}=0$, and use these to find the simple equations below, so just need to solve these equations to find the constants for line of best fit: 
 - to find the constants $a_0$ and $a_1$: $$a_1=\frac{n\sum x_i y_i-\sum x_i\sum y_i}{n\sum x_i^2 - (\sum x_i)^2},\space a_0=\bar{y}-a_1\bar{x}$$
 where 
 - $n$ = number of pairs of points

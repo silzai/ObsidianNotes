@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc38fdeb013e451c",
+        "id": "ab6ef4cbde7e1026",
         "type": "tabs",
         "children": [
           {
-            "id": "bdbd584be6957e6a",
+            "id": "cd6d11ccbabf8fdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "MachineLearning/Lecture-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "MachineLearning/Lecture-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md",
+                "file": "MachineLearning/Lecture-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AdvancedDatabase/8-DistributedDatabases.md"
+                "file": "MachineLearning/Lecture-1.md"
               }
             }
           },
@@ -136,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -167,46 +168,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bdbd584be6957e6a",
+  "active": "cd6d11ccbabf8fdb",
   "lastOpenFiles": [
-    "Arabic/Sentences (جمل).md",
-    "Arabic/Types of Hamza (ا-أ).md",
-    "Arabic/The Root (جدر).md",
-    "Arabic/Plurals (الجمع).md",
-    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "MachineLearning/Intro.md",
+    "Untitled.md",
+    "MachineLearning/Lecture-1.md",
+    "WebDev/Lab/Lab-1.md",
+    "Media&Soc/Lecture-1.md",
+    "OS/Lecture/Lecture-1.md",
+    "ComputerSecurity/Lecture1.md",
+    "WebDev/Lab",
+    "WebDev",
     "Arabic/Adjective (صفة).md",
-    "Arabic Portfolio.md",
-    "Pasted image 20231212150757.png",
-    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
-    "AdvancedDatabase/7-Recovery.md",
-    "AdvancedDatabase/11-DataMiningConcepts.md",
-    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
-    "AdvancedDatabase/8-DistributedDatabases.md",
-    "AdvancedDatabase/6-ConcurrencyTechniques.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
-    "SoftwareEngineering/Lecture/part9-DesignPatterns.md",
-    "AdvancedDatabase/1-Storage.md",
-    "SoftwareEngineering/Lecture/part13-Project Management.md",
-    "SoftwareEngineering/Lecture/part14-SoftwareProcesses.md",
-    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
-    "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
-    "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
+    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "Arabic/Plurals (الجمع).md",
+    "Arabic/Sentences (جمل).md",
+    "Arabic/The Root (جدر).md",
+    "NumericalMethods/Lecture/part4-CurveFitting.md",
+    "OS/Lab/Lab-1.md",
+    "OS/Lecture/Intro.md",
+    "OS/Lecture",
+    "OS/Lab",
+    "Media&Soc",
+    "MachineLearning",
+    "OS",
+    "ComputerSecurity/Intro.md",
+    "SoftwareEngineering/Lecture/part1-SDLC&Requirements.md",
+    "ComputerSecurity",
     "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
-    "Network/Lecture/Chap6-NetworkLayer.md",
-    "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
+    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
+    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
+    "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
     "SoftwareEngineering/Lecture/part5-ResponsibilitiesOfClasses.md",
-    "SoftwareEngineering/Lecture/part4-Domain Models & Class Diagrams.md",
+    "SoftwareEngineering/Lecture/part6-SequenceDiagram.md",
+    "SoftwareEngineering/Lecture/part7-packagesComponentsDeployment.md",
+    "SoftwareEngineering/Lecture/ExtraInfo.md",
+    "Tayyiba/Chap-12 Current.canvas",
+    "Pasted image 20231212150757.png",
+    "Tayyiba",
     "Arabic",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",
     "NumericalMethods/ODEcanvas.canvas",
-    "SoftwareEngineering/Lecture",
-    "SoftwareEngineering/Lab",
-    "SoftwareEngineering",
-    "Network/Lecture",
-    "Network/Lab",
-    "Network",
-    "AdvancedDatabase",
     "DAWA.canvas",
     "Pasted image 20230805144659.png",
     "Pasted image 20230806060853.png",
@@ -216,8 +219,6 @@
     "Pasted image 20230806060123.png",
     "Pasted image 20230805235419.png",
     "Pasted image 20230805234417.png",
-    "Pasted image 20230805234310.png",
-    "canvas-export.html",
-    "NumericalMethods/Lecture"
+    "Pasted image 20230805234310.png"
   ]
 }
