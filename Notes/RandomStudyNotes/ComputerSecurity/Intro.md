@@ -3,5 +3,5 @@
 
 - need oracle virtualbox to install kali linux
 	- slide 19 in lecture 1, to see different tools needed in course
-	- showdaan/showdown to hack any machine/camera
+	- shodan to hack any machine/camera
 	- csi for computer forensics, to see that things on hard disc always there, i.e. not deleted

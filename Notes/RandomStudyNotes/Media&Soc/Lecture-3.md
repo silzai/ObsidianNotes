@@ -1,0 +1,20 @@
+# Print Media: Newspapers
+- Can differentiate print media (books, magazines, newspapers) from table in slides
+- example of dailies: peninsula
+- example of weeklies: Lusail newspaper (==is it really???==)
+- first Penny press:
+	- Benjamin day: the new York sun, in 1833
+	- James Gordon Bennett (Bennett Model): new York herald in 1835, organized first newsroom and hired reporters
+		- reported exciting events, example, OJ Simpson trial
+		- deadline driven
+		- objectivity
+		- Problems:
+			- no investigative reporting and deadline haste, no quality
+			- missed trends
+			- questions unasked
+			- manipulation
+	- Samuel Morse: telegraph in 1844
+		- did the inverted pyramid, so that if information was lost, after, the most important news came first, so if later news was lost, its not important
+- nickelodeon:
+	- it boosted newspaper industry
+	- 

@@ -38,3 +38,62 @@ OR
 ```bash
 info <the command>
 ```
+
+- can search for regex in help like so:
+```bash
+man -k <regex>
+```
+
+# Sudo
+- to swith to super user:
+```bash
+sudu su
+# then enter password
+```
+- We can create new users directly while in sudo, this is in sudo because we are modifying the OS file system:
+```bash
+useradd -m user1
+```
+- To see privileges or properties of all files:
+```bash
+ls -l
+```
+- To view short file content:
+```bash
+cat <filename>
+```
+- to redirect input from std input to any file (to write to a file):
+```bash
+cat > <fileToWriteTo>
+```
+- to append to the file, as previous text will be overridden:
+```bash
+cat >> <fileToWriteTo>
+```
+# Regex
+- Square brackets represent one character
+
+# Deleting Files/Folders
+- To remove files:
+```bash
+rm <fileName>
+```
+- To remove directory containing files:
+```bash
+rm -r <directoryName>
+```
+# Coping/Moving/Renaming Files
+- To copy files from one dir to another dir:
+```bash
+cp -r dirOne/* dirTwo/
+```
+- the `-r` is used because `dirOne/` may contain folders also, so we also want to copy those folders also.
+
+- To rename a dir to another dir:
+```bash
+mv dirOne/ dirTwo
+```
+- to move a dir to another dir:
+```bash
+mv dirOne dirTwo/
+```

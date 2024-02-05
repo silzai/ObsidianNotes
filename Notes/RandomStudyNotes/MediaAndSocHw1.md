@@ -1,0 +1,20 @@
+- Who? 
+	- Arabic for non-native speakers center
+- Says What?
+	- come learn Arabic
+	- view of the faculty:
+		- 
+- In Which Channel?
+	- leaflet
+- To Whom?
+	- students
+- With What Effect (measurement)?
+	- is it targeted to residents? or internationals?  how much of each demographic is showing up? 
+		- based on the universities agreements between the: 
+		- not only for college students: not now, 
+	- is it targeted to only college students? if not, how many are enrolled?
+		- 
+	- any external organizations that endorsed this center, either locally or internationally?
+		- 
+	
+	- any feedback from any students?

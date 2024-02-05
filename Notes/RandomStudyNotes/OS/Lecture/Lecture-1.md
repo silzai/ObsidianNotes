@@ -40,7 +40,7 @@
 - can separate services by OS to $m$ layers
 - every layer can communicate with adjacent layer above and below only
 - is modifiable, has modularity
-- example: OS/2 (its an architecture for a Solaris distro)
+- example: OS/2 
 - disadvantages:
 	- performance is slow (intercommunication between layers is time consuming)
 	- don't know the appropriate number of layers to apply (layers may be too much, or too less)
@@ -59,4 +59,21 @@
  - one kernel program that manages all services of OS
  - example: UNIX
 # SYSGEN
-- 
+- ==?????==
+# Virtual Machines
+- exact copy of an underlying hardware
+- each runs on separate address space, but actually runs on same hardware
+# SHELL
+- Two implementation of Command-Interpreter:
+	- implementation A: all commands (functions) are loaded and the  
+	- implementation B: one main function, and all commands are called one by one from the /bin directory
+- (for windows, the same is batch scripting with .bat extension, which is same as shell script)
+## Commands
+- to list the the permissions that a user has:
+	- `ls -l test.sh`
+- we can assign permissions by octal numbers, because the permissions such as `rwx` is 7 (u), `rw-` is 6 (g), `r--` is 4 (o) 
+- so to assign all permissions: `chmod 777 test.sh` or `chmod a+rwx` instead of `chmod ugo+rwx`
+## Scripting
+- `$` with the variable is used to get the actual value in the variable
+- any arithmetic should be with `let`
+- to store keywords in string, will need to use back quotes \`\` or `$(pwd)` in the string

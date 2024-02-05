@@ -1,7 +1,7 @@
 - mass media: vehicles through which messages are sent to mass audiences
 - mass communication: related to a technology and size of its audience
 	- process of dividing the message to send to a people of a specific interest (targeted communication to people)
-- mass comm is a subset of mass media
+- mass communication is a subset of mass media
 
 - some Germans/Americans came up with the term mass communication, that means that receiver receives the message exactly as the sender sent it.
 - but not every information is understood the same way by people of different age/race etc.
@@ -30,4 +30,3 @@
 	- noise may be bias with the sender and receiver, their background, or any 
 - showed a video by vox about misinformation on vox
 	- told that elections were now like a reality show instead of actual real world discussions
-	- 
