@@ -1,7 +1,9 @@
 >[!info!] ML
 >defined in one line as function approximation to produce an output for a given input
-
-- Supervised Learning
+# Contents:
+1) EDA
+2) data preprocessing
+3) Supervised Learning
 	- classification
 		- the labels/objects we pass are enumerable 
 	- regression
@@ -9,8 +11,8 @@
 			- Linear regression
 			- Logistic regression
 	- Decision Tree and Random Forest
-	- Convulational Neural Network
-- Unsupervised Learning:
+	- Convolutional Neural Network
+4) Unsupervised Learning:
 	- clustering:
 		- Centroid based:
 			- Kmeans

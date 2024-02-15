@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5d3b42bc673bcbe7",
+        "id": "31c5ba86104bd8c1",
         "type": "tabs",
         "children": [
           {
-            "id": "607cf9806094b853",
+            "id": "07ea522622571e34",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "MachineLearning/Lecture-2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MachineLearning/Lecture-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "MachineLearning/Lecture-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "MachineLearning/Lecture-2.md"
+              }
             }
           },
           {
@@ -160,23 +168,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "607cf9806094b853",
+  "active": "07ea522622571e34",
   "lastOpenFiles": [
-    "MachineLearning/Lecture-2.md",
     "MachineLearning/Lecture-1.md",
-    "Media&Soc/Lecture-3.md",
-    "Media&Soc/Lecture-2.md",
     "OS/Lecture/Lecture-2.md",
+    "OS/Lab/Lab-1.md",
+    "MachineLearning/Lecuture-3.md",
+    "MachineLearning/Lecture-2.md",
+    "Arabic/Reason (لماذا).md",
+    "OS/Lecture/Lecture-1.md",
+    "MachineLearning/Intro.md",
+    "MachineLearning/PythonPrimer.md",
+    "Media&Soc/Lecture-3.md",
     "ComputerSecurity/Lecture-2.md",
-    "ComputerSecurity/Lecture-1.md",
+    "Media&Soc/Lecture-2.md",
+    "WebDev/Lecture/Lecture-3.md",
     "WebDev/Lecture/Lecture-2.md",
+    "ComputerSecurity/Lecture-1.md",
     "MediaAndSocHw1.md",
     "WebDev/Lecture/Lecture-1.md",
     "WebDev/Lab/Lab-1.md",
-    "MachineLearning/Intro.md",
-    "MachineLearning/PythonPrimer.md",
-    "OS/Lab/Lab-1.md",
-    "OS/Lecture/Lecture-1.md",
     "Media&Soc/Lecture-1.md",
     "WebDev/Lecture",
     "Untitled",
@@ -189,15 +200,12 @@
     "Arabic/Defining a Noun (كلمة معارفة).md",
     "Arabic/Plurals (الجمع).md",
     "Arabic/Sentences (جمل).md",
-    "Arabic/The Root (جدر).md",
-    "NumericalMethods/Lecture/part4-CurveFitting.md",
     "OS/Lecture",
     "OS/Lab",
     "Media&Soc",
     "MachineLearning",
     "OS",
     "ComputerSecurity",
-    "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
     "Tayyiba/Chap-12 Current.canvas",
     "Pasted image 20231212150757.png",
     "AdvancedDatabase/IndexesCanvas.canvas",

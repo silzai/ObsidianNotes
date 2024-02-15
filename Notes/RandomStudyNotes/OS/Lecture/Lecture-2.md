@@ -7,17 +7,18 @@
 
 # At which stage are code instructions binded to the memory?
 ## Absolute code
-- binding to physical memory locations happens at compilation time, every instruction is defined by a specific address that programmer has to define, is written in low level language, such as assembly
+- In this code, binding to physical memory locations happens at compilation time, every instruction is defined by a specific address that programmer has to define, is written in low level language, such as assembly
 ## Relocatable code 
 - high level language is first compiled to a binary file, and that is when the OS assigns the instructions to the memory, called dynamic binding
-	- OS does not produce the physical addresses for the instructions but makes it in logical addresses
-	- allocation is done on execution time
+	- OS does not produce the physical addresses for the instructions but uses logical addresses
+	- physical allocation is done on execution time
 	- MMU (memory management unit) uses a relocation register to do mapping from logical address to physical address
 	
 >[!info]
 >Slide10: Logical and physical addresses are the same in Compile-time and Load-time address-binding schemes; logical and physical addresses differ in execution-time address-binding scheme.
 
-- Dynamic Loading is same as Overlays:
+- Dynamic Loading???
+- Overlays:
 	- to allocate a process a certain amount of memory that is less than its size
 
 - question by P=NP
@@ -30,7 +31,7 @@
 
 - All below is done by MMU, and for absolute code, this is not needed:
 	- for single partition contiguous memory allocation:
-		- for a certain process reloaction sddress : 5000, the limit: 500
+		- for a certain process relocation address : 5000, the limit: 500
 			- first physical address starts from 5000
 			- will go upto 499
 			- only contain processes that will be loaded into memory
@@ -60,7 +61,7 @@
 	- internal frag: memory allocated for process (difference of allocated memory and process size) $$Internal\ fragmentation=allocated\ memory - process\ size$$
 		- cannot solve this
 - Because of fragment issues, we need 
-## non-contiguous memory allocation algorithms:
+# Non-contiguous memory allocation schemes:
 ## Paging:
 - memory is divided into fixed blocks called frames with values of powers of 2
 	- this is from memory perspective
@@ -82,5 +83,22 @@
 		- so will just add 200 to 17, and will allocate physical address
 - Disadvantage:
 	- internal fragmentation will be worse if last frame is not completely full, so worst case will be: $allocated\ memory - 1$
+- Address Translation scheme:
+	- CPU generates logical address with 2 parts: `<page number, page offset>`
+	- if logical address is m bits, then if n bits are the offset, then m-n is the page number where this address exists
+	- 
 ## Segmentation:
+- another way to generate logical addreses
+- in paging we divided program into fixed sized blocks, in segmentation same is done but blocks are of different sizes called segments
+- we don't have frames and pages, only segments
+- there is no internal fragmentation
+- consists of: `<segment number, offset>`
+- segment tables:
+	- shows num of entries 
+	- entries are equal to num of instrucitons process has
+	- each entry has base and limit
+	- STLR stores the number of segments this process consists of.
+		- segment number `s` is illegal if `s < STLR`
+		- offset should be less than the limit
+	- tip: to get the size of the whole process from segment table, can add all the limits 
 - 

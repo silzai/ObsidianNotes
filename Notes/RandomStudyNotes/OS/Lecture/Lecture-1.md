@@ -65,7 +65,7 @@
 - each runs on separate address space, but actually runs on same hardware
 # SHELL
 - Two implementation of Command-Interpreter:
-	- implementation A: all commands (functions) are loaded and the  
+	- implementation A: all commands (functions) are loaded when the program is running 
 	- implementation B: one main function, and all commands are called one by one from the /bin directory
 - (for windows, the same is batch scripting with .bat extension, which is same as shell script)
 ## Commands

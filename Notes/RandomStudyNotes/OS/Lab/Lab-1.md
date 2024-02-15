@@ -45,9 +45,9 @@ man -k <regex>
 ```
 
 # Sudo
-- to swith to super user:
+- to switch to super user:
 ```bash
-sudu su
+sudo su
 # then enter password
 ```
 - We can create new users directly while in sudo, this is in sudo because we are modifying the OS file system:
@@ -65,6 +65,7 @@ cat <filename>
 - to redirect input from std input to any file (to write to a file):
 ```bash
 cat > <fileToWriteTo>
+# then to save, do ctrl + d
 ```
 - to append to the file, as previous text will be overridden:
 ```bash
@@ -82,7 +83,7 @@ rm <fileName>
 ```bash
 rm -r <directoryName>
 ```
-# Coping/Moving/Renaming Files
+# Copying/Moving/Renaming Files
 - To copy files from one dir to another dir:
 ```bash
 cp -r dirOne/* dirTwo/
@@ -97,3 +98,6 @@ mv dirOne/ dirTwo
 ```bash
 mv dirOne dirTwo/
 ```
+# grep
+- to search for a string in a file
+- 
