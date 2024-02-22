@@ -1,9 +1,9 @@
-- if there is limaza, then we can use the following after it:
+- if there is limaza in a question, then we can reply with the following:
 	- L
-		- will do L + fi'al, and will not use the below ones
+		- will do L + fi'al, (also will not start with the ones below if we use this)
+	- Li anni:
+		 - can only do Li anni + fi'al
 	- Li anna ni
-		- can only do Li anna ni + fi'al 
-	- Li anna
-	- Li anni
-	
-- 
+		- same as li anni, but with more surety
+	- Li anna:
+		- can only do li anna + noun

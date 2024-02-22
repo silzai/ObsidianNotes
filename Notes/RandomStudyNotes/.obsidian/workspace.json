@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31c5ba86104bd8c1",
+        "id": "cfdbbd03d6142598",
         "type": "tabs",
         "children": [
           {
-            "id": "07ea522622571e34",
+            "id": "def4cc47ace2f9b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Lecture-2.md",
+                "file": "OS/Lecture/Lecture-4.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Lecture-2.md",
+                "file": "OS/Lecture/Lecture-4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Lecture-2.md",
+                "file": "OS/Lecture/Lecture-4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Lecture-2.md"
+                "file": "OS/Lecture/Lecture-4.md"
               }
             }
           },
@@ -168,19 +168,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "07ea522622571e34",
+  "active": "def4cc47ace2f9b8",
   "lastOpenFiles": [
-    "MachineLearning/Lecture-1.md",
-    "OS/Lecture/Lecture-2.md",
-    "OS/Lab/Lab-1.md",
-    "MachineLearning/Lecuture-3.md",
-    "MachineLearning/Lecture-2.md",
+    "OS/Lab/os_project.md",
+    "OS/Lab/Lab-5.md",
+    "MachineLearning/Lecture-4.md",
     "Arabic/Reason (لماذا).md",
+    "OS/Lecture/Lecture-4.md",
+    "ComputerSecurity/Lecture-2.md",
+    "OS/Lecture/Lecture-3.md",
+    "MachineLearning/Lecture-2.md",
+    "MachineLearning/Lecuture-3.md",
+    "OS/Lecture/Lecture-2.md",
+    "Media&Soc/Lecture-3.md",
+    "MachineLearning/Lecture-1.md",
+    "OS/Lab/Lab-1.md",
     "OS/Lecture/Lecture-1.md",
     "MachineLearning/Intro.md",
     "MachineLearning/PythonPrimer.md",
-    "Media&Soc/Lecture-3.md",
-    "ComputerSecurity/Lecture-2.md",
     "Media&Soc/Lecture-2.md",
     "WebDev/Lecture/Lecture-3.md",
     "WebDev/Lecture/Lecture-2.md",
@@ -193,13 +198,8 @@
     "Untitled",
     "OS/Lecture/Intro.md",
     "ComputerSecurity/Intro.md",
-    "SoftwareEngineering/Lecture/part1-SDLC&Requirements.md",
     "WebDev/Lab",
     "WebDev",
-    "Arabic/Adjective (صفة).md",
-    "Arabic/Defining a Noun (كلمة معارفة).md",
-    "Arabic/Plurals (الجمع).md",
-    "Arabic/Sentences (جمل).md",
     "OS/Lecture",
     "OS/Lab",
     "Media&Soc",

@@ -1,0 +1,12 @@
+# Decision Trees (Classification):
+- Big advantage: Model is interpretable, it gives the actual rules of the model, as opposed to other models that are simply black boxes
+- decision trees have problem of overfitting, so will use random forests to solve this problem
+- the root of the tree that is chosen is the most prediction power feature that has the best accuracy against other features by building decision stumps of those features, most powerful feature that decides the root can be:
+	- feature is a pure node (all are true, and so it is a leaf node)
+	- has highest accuracy
+- metrics to decide most powerful feature:
+	- accuracy
+	- Gini impurity index
+		- impurity: the elements of a node have multiple labels
+		- 
+	- entropy

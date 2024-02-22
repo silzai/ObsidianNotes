@@ -1,0 +1,11 @@
+- 3 different techniques:
+	- fast registers if entries are very small
+	- PTBR, register that contains the address of the page table in memory
+	- TLB: is the best if affordable
+- to speed up page table search time:
+	- hierarchical: 
+		- divide the page table to 2 or more page tables
+		- number of bits to represent page: 5 bits
+		- want to design it as 2 level hierarchy, 3 bits first level, 2 bits second level
+		- ==??==
+- LRU approximation: ==????==
