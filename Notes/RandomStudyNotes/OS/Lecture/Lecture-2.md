@@ -95,10 +95,10 @@
 - consists of: `<segment number, offset>`
 - segment tables:
 	- shows num of entries 
-	- entries are equal to num of instrucitons process has
+	- entries are equal to num of instructions process has
 	- each entry has base and limit
 	- STLR stores the number of segments this process consists of.
-		- segment number `s` is illegal if `s < STLR`
+		- segment number `s` is legal if `s < STLR`
 		- offset should be less than the limit
 	- tip: to get the size of the whole process from segment table, can add all the limits 
 - 

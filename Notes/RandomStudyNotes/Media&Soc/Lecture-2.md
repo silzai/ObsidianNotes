@@ -4,7 +4,7 @@
 	- but a person with Alzheimer's may not be properly classified as intrapersonal communication
 	- grows self-confidence
 	- preparation for the future
-- interpersonal: 2 people
+- interpersonal (dyadic communication): 2 people
 - group communication: 
 	- small group communication: 
 		- 3-12 people, ideas can be shared
@@ -47,13 +47,13 @@
 
 # Evolution of Communication
 ## past:
-- johannes Gutenberg:
-	- invented printing press in late 16th century
+- Johannes Gutenberg:
+	- invented printing press in late 15th century
 	- first book printed was Gutenberg bible
 	- shortened print time from 7-15 years to 3 years
 - industrial revolution:
 	- invention of steam engine changed the game
-	- gutnberg press was automated using this
+	- Gutenberg press was automated using this
 - newspaper was distributed/sold by pitching the news/shouting it out from paper boy
 ## future:
 - 4th industrial evolution where we have IoT, networks, etc.

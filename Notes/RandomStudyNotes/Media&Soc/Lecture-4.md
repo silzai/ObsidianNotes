@@ -1,0 +1,14 @@
+# Movies:
+- Persistence of Vision:
+	- colshawl effect: fast-changing motion stays still in brain, in 25 frames per second, 
+- First movie:
+	- Edward Muybridge
+	- Horse in motion: 1878
+- creative endeavors:
+	- First special effects (which was "larger than life"):
+		- "Trip to the moon"
+		- 1902
+	- Another creative movie:
+		- "Great Train robbery"
+		- 1903
+- 

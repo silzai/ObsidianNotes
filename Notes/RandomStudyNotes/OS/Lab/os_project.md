@@ -27,3 +27,13 @@
 - ssh
 - sftp
 - rsync: used to send `client_timestamp_invalid_attempts.log` to the server to consolidate in `unsuccessful_attempts.log`
+
+# Questions:
+- how do servers work? how to view it? demonstrate it to dr (and ask about bridged network)
+- differentiate:
+	- unsuccessful_attempt.log 
+	- invalid_attemtps.log 
+	- client_timestamp_invalid_attempts.log
+	- which client logs will be sent to the server log?
+- how will meshping.sh run 3 times when vm1 pings only vm2 and vm3?
+- meaning of "Expand on the filenames and structure"

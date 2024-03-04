@@ -7,7 +7,14 @@
 - but not every information is understood the same way by people of different age/race etc.
 - mass communication is not really a word nowadays, so just the term communication or strategic communication is in hit, 
 
-- media is everywhere, 
+- media ubiquity: 
+	- media is everywhere, and we consume it consciously or unconsciously
+	- we do media multitasking (the word is self explanatory)
+		- ex: we will have multiple types of media giving us different messages at the same time
+	- inescapable symbiosis:
+		- personal dependence on media
+		- and without us (consumes), media cannot survive
+		- "when one falls, the other does"
 
 - How do we use mass media in daily life?
 	- for example, mass comm can be even with ourself, so we can just convince ourself of doing something
@@ -25,8 +32,12 @@
 - AI is rampant, so there should be literacy in AI, and need to be careful
 - We may fall for false news if we WANT it to happen; it will make us benefit; will make us happier
 
-- sender and receiver cycle (diagram):
-	- sender encodes the message, and passes it through a channel and receiver decodes it and gives feedback to the sender, all the while noise being present from the sender, on the channel, or at the receiver
-	- noise may be bias with the sender and receiver, their background, or any 
-- showed a video by vox about misinformation on vox
+# sender and receiver cycle (diagram):
+- sender encodes the message (the way the sender frames the message, hoping it is understood that way to the receiver) ->
+- and passes it through a channel -> 
+- and receiver decodes it -> 
+- and gives feedback to the sender (could be body language or verbal, anything), 
+- all the while noise being present from the sender, on the channel, or at the receiver, noise may be bias with the sender and receiver, their background, or anything
+
+- showed a video by vox about misinformation
 	- told that elections were now like a reality show instead of actual real world discussions

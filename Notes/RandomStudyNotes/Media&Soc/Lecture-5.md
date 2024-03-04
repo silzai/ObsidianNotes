@@ -1,0 +1,15 @@
+# Television
+- Programming (not the computer science kind):
+	- Orson Welles known for creative tv such as citizen kane and war of the worlds
+- characteristics of tv:
+	- very diverse content
+	- audiovisual
+	- its close and personal
+	- low involvement/casual
+- cultivation theory:
+	- name comes from that media plants seeds in our minds and cultivates/repeat them (the idea) into a social reality
+	- media exposure by different producers shapes our social reality
+	- 2 step process:
+		- ==???==
+- Television producers have a responsibility to promote particular social values
+- 

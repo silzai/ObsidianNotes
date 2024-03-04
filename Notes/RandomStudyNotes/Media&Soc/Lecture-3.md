@@ -21,7 +21,7 @@
 # Types of Journalisms
 - Yellow Press:
 	- Used cartoon characters to show "3S" 
-	- any news that showed entertainment as news were called Yellow press which included Crime, sex scandals etc.
+	- any news that showed news as entertainment were called Yellow press which included Crime, sex scandals etc.
 - Muckrakers and investigative journalism:
 	- uncovered corruption and mismanagement
 	- journalism "pushed" public policy forward (encouraged good governance)

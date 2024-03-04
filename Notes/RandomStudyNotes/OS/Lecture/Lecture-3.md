@@ -1,7 +1,7 @@
 - 3 different techniques:
 	- fast registers if entries are very small
 	- PTBR, register that contains the address of the page table in memory
-	- TLB: is the best if affordable
+	- TLB: is the best if affordable, replacement for page table ==??==
 - to speed up page table search time:
 	- hierarchical: 
 		- divide the page table to 2 or more page tables

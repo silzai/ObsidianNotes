@@ -1,5 +1,10 @@
 # Data Preprocessing
-- We do it this to:
+# Contents:
+1) Data Cleaning
+2) Data Transformation
+3) Data Reduction
+
+- We do data preprocessing to:
 	- reduce training time
 	- boost performance of algorithm
 # 1) Data Cleaning:
