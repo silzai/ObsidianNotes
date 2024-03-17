@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "62d17b31e5ecb252",
+        "id": "1330fa21808708fb",
         "type": "tabs",
         "children": [
           {
-            "id": "333abff25ef4e1da",
+            "id": "88bf6b8271854e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Lecture-5.md",
+                "file": "Media&Soc/Lecture-9.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Lecture-5.md",
+                "file": "Media&Soc/Lecture-9.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Lecture-5.md",
+                "file": "Media&Soc/Lecture-9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Lecture-5.md"
+                "file": "Media&Soc/Lecture-9.md"
               }
             }
           },
@@ -169,35 +168,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "881ac662a2c41a9f",
+  "active": "88bf6b8271854e4d",
   "lastOpenFiles": [
-    "OS/Lecture/Lecture-2.md",
-    "OS/Lecture/Lecture-3.md",
-    "OS/Lecture/Lecture-4.md",
-    "OS/Lecture/Lecture-1.md",
-    "Media&Soc/Lecture-1.md",
-    "Media&Soc/Lecture-2.md",
-    "Media&Soc/Lecture-3.md",
-    "style-guide.md",
-    "Media&Soc/Lecture-4.md",
-    "Media&Soc/Lecture-5.md",
+    "OS/Lecture/Lecture-7.md",
+    "OS/Lecture/Lecture-6.md",
+    "Media&Soc/Lecture-9.md",
+    "Media&Soc/Lecture-8.md",
+    "OS/Lecture/Lecture-5.md",
+    "Media&Soc/Lecture-7.md",
     "MachineLearning/Lecture-5.md",
-    "OS/Lab/os_project.md",
+    "MachineLearning/Lecture-2.md",
     "MachineLearning/Lecture-3.md",
     "MachineLearning/Lecture-4.md",
-    "Media&Soc/Lecture-6.md",
-    "Media&Soc/project.md",
-    "OS/Lab/Lab-5.md",
-    "OS/Lab/Lab-1.md",
-    "README.md",
-    "Tayyiba/Chap-12 Current.canvas",
-    "Media&Soc/MediaAndSocHw1.md",
-    "WebDev/Lab/Lab-1.md",
-    "Arabic/Reason (لماذا).md",
-    "ComputerSecurity/Lecture-2.md",
-    "MachineLearning/Lecture-2.md",
     "MachineLearning/Lecture-1.md",
-    "MachineLearning/Intro.md",
+    "ComputerSecurity/Lecture-1.md",
+    "ComputerSecurity/Lecture-2.md",
+    "ComputerSecurity/Lecture-3.md",
+    "ComputerSecurity/Lecture-4.md",
+    "README.md",
+    "style-guide.md",
+    "OS/Lab/os_project.md",
+    "Media&Soc/Lecture-3.md",
+    "Media&Soc/Lecture-4.md",
+    "Media&Soc/Lecture-2.md",
+    "Media&Soc/Lecture-1.md",
+    "Media&Soc/Lecture-6.md",
+    "Media&Soc/Lecture-5.md",
+    "Media&Soc/MediaAndSocHw1.md",
+    "Media&Soc/project.md",
+    "Tayyiba/Chap-12 Current.canvas",
     "WebDev/Lecture",
     "Untitled",
     "WebDev/Lab",

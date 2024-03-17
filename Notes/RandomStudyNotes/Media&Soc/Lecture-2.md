@@ -28,7 +28,7 @@
 	- to measure effect on audiences who got a message:
 		- make a survey 
 		- ignores feedback, and ignores noise
-		- TV providers use the nielsen system:
+		- TV providers use the Nielsen system:
 			- to see what is prime time tv for everyone, so track people on their IPtv to see that, and broadcaster can see what you are seeing.
 		- some electoral sites asked every sixth person who they voted for
 		- can see the sales of the product after the advertisement

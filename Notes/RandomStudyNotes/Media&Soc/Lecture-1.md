@@ -13,7 +13,7 @@
 		- ex: we will have multiple types of media giving us different messages at the same time
 	- inescapable symbiosis:
 		- personal dependence on media
-		- and without us (consumes), media cannot survive
+		- and without us (consumers), media cannot survive
 		- "when one falls, the other does"
 
 - How do we use mass media in daily life?

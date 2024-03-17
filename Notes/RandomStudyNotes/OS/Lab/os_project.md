@@ -1,26 +1,26 @@
 # Server Side:
 - Make scripts for:
-	- Webserver Setup
-	- SSH Configuration
-	- SFTP Configuration
-	- DNS Configuration
-	- Managing Unsuccessful Attempts Log:
-		- make `unsuccessful_attempts.log` using `rsync` tool, do this by taking the logs from client side and consolidate them. 
-		- Automatically erase this log after one week
+	- [x] Webserver Setup
+	- [x]  SSH Configuration
+	- [ ] SFTP Configuration
+	- [x] DNS Configuration
+	- [ ] Managing Unsuccessful Attempts Log:
+		- [ ] make `unsuccessful_attempts.log` do this by taking the client side logs and consolidate them. 
+		- [x] Automatically erase this log after one week   
 # Client Side:
-- `main.sh`: to manage user credentials 
-	1) Check User Group Membership
-	2) Log Invalid Attempts: save in `invalid_attempts.log`
-	3) Handle Excessive Invalid Attempts: save in `unsuccessful_attempts.log` and send to server using `rsync`
-	4) Schedule user logout: `gnome-session-quit - -no-prompt`
-- `verify.sh`:
-	- test by creating an `admin` group and adding `techuser` to it
+- [ ] `main.sh`: to manage user credentials 
+	- [ ] Check User Group Membership
+	- [ ] Log Invalid Attempts: save in `invalid_attempts.log`
+	- [ ] Handle Excessive Invalid Attempts: save in `unsuccessful_attempts.log` and send to server using `rsync`
+	- [ ] Schedule user logout: `gnome-session-quit-no-prompt`
+- [ ] `verify.sh`:
+	- [ ] test by creating an `admin` group and adding `techuser` to it
 # Testing:
-- Scripts:
-	- `meshping.sh` to ping all ==???? Who is pinging who and vice versa and how many times ????==
-	- `traceroute.sh` check connectivity using trace route, and reboots the machine in case the target cannot be reached.
-		- all info is saved in `network.log`
-	- otherwise show the current date with this message `Connectivity with $target_IP is ok`
+- [ ] Scripts:
+	- [ ] `meshping.sh` to ping all ==???? Who is pinging who and vice versa and how many times ????==
+	- [ ] `traceroute.sh` check connectivity using trace route, and reboots the machine in case the target cannot be reached.
+		- [ ] all info is saved in `network.log`
+	- [ ] otherwise show the current date with this message `Connectivity with $target_IP is ok`
 # tools to use, just fyi:
 - apache http server
 - quad9 for dns
@@ -28,12 +28,3 @@
 - sftp
 - rsync: used to send `client_timestamp_invalid_attempts.log` to the server to consolidate in `unsuccessful_attempts.log`
 
-# Questions:
-- how do servers work? how to view it? demonstrate it to dr (and ask about bridged network)
-- differentiate:
-	- unsuccessful_attempt.log 
-	- invalid_attemtps.log 
-	- client_timestamp_invalid_attempts.log
-	- which client logs will be sent to the server log?
-- how will meshping.sh run 3 times when vm1 pings only vm2 and vm3?
-- meaning of "Expand on the filenames and structure"

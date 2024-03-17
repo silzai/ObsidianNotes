@@ -27,7 +27,7 @@
 	- difference of before splitting and after splitting, so will have to maximize information gain
 # Determining the split point:
 - for categorical features:
-	- can do multi-way split or two-way split, can see the split point here with split that is least impure (yes we will choose this also using ginis impurity index)
+	- can do multi-way split or two-way split, can see the split point here with split that is least impure (yes we will choose this also using Gini's impurity index)
 - for Continuous features:
 	- first sort all values
 	- then make splits between pairs of all values (which is the average of the pair)

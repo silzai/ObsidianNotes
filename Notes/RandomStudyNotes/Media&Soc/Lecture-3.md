@@ -31,5 +31,3 @@
 	- Coverage of conflicts:
 
 - Gave example on apple vision and how maybe they advertised the product, as opposed to putting it on newspapers
-
-- 
