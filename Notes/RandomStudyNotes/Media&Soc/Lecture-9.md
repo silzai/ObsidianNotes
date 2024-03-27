@@ -2,7 +2,7 @@
 - Mcqual:
 	- its not really sure that there are effects by media, but
 ## The four theories of Press:
-- by 3 people
+- by 3 people in 1956
 - They are: 
 	- Authoritarian:
 		- media serves interests of the state, and media may be censored
@@ -12,7 +12,7 @@
 		- individuals should have the right to publish whatever they want
 	- Soviets Communists:
 		- media is controlled by state
-		- but supposed to server the working class
+		- but supposed to serve the working class
 	- Social Responsibility:
 		- media should be free from government control
 		- but also should serve the interests of the people

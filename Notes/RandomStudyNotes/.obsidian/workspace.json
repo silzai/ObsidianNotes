@@ -13,13 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Media&Soc/Lecture-9.md",
+                "file": "MachineLearning/Lecture-7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d77330b3b39da326",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
+            "id": "d89a6be7af1689da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Media&Soc/Lecture-9.md",
+                "file": "MachineLearning/Lecture-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Media&Soc/Lecture-9.md",
+                "file": "MachineLearning/Lecture-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,7 +138,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Media&Soc/Lecture-9.md"
+                "file": "MachineLearning/Lecture-7.md"
               }
             }
           },
@@ -150,7 +173,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -168,15 +191,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "88bf6b8271854e4d",
+  "active": "d77330b3b39da326",
   "lastOpenFiles": [
-    "OS/Lecture/Lecture-7.md",
-    "OS/Lecture/Lecture-6.md",
+    "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
+    "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
+    "MachineLearning/Lecture-7.md",
+    "NumericalMethods/Lecture/part4-CurveFitting.md",
     "Media&Soc/Lecture-9.md",
+    "OS/Lecture/Lecture-6.md",
+    "OS/Lecture/Lecture-7.md",
+    "ComputerSecurity/Lecture-5.md",
+    "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+    "MachineLearning/Lecture-6.md",
+    "MachineLearning/Lecture-5.md",
     "Media&Soc/Lecture-8.md",
     "OS/Lecture/Lecture-5.md",
     "Media&Soc/Lecture-7.md",
-    "MachineLearning/Lecture-5.md",
     "MachineLearning/Lecture-2.md",
     "MachineLearning/Lecture-3.md",
     "MachineLearning/Lecture-4.md",
@@ -189,13 +219,6 @@
     "style-guide.md",
     "OS/Lab/os_project.md",
     "Media&Soc/Lecture-3.md",
-    "Media&Soc/Lecture-4.md",
-    "Media&Soc/Lecture-2.md",
-    "Media&Soc/Lecture-1.md",
-    "Media&Soc/Lecture-6.md",
-    "Media&Soc/Lecture-5.md",
-    "Media&Soc/MediaAndSocHw1.md",
-    "Media&Soc/project.md",
     "Tayyiba/Chap-12 Current.canvas",
     "WebDev/Lecture",
     "Untitled",

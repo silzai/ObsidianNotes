@@ -1,17 +1,16 @@
 # CPU Scheduling
 # Types of Scheduling
-response time = ==WHat is it??==
-## Non-preemptive
-$$\text{waiting time = response time = start time - arrival}$$
-turnaround = end time - arrival time OR waiting time + burst time
-## Preemptive
-### Waiting time
-$$\text{waiting time = turnaround time - burst time}$$ OR $$\text{waiting time = arrival time + start time + (anything in the middle)}$$
-### Turnaround time:
-$$\text{turnaround time = end time - arrival time}$$
-
- OR 
- $$\text{turnaround time = waiting time + burst time}$$
+response time = time from arrival time upto when the process is first executed
+# Non-preemptive
+## Waiting time
+$$\text{waiting time = response time = start time - arrival \ time}$$
+## Turnaround time
+$$\text{turnaround = end \ time - arrival \ time}$$
+- OR $$\text{turnaround=waiting \ time + burst \ time}$$
+# Preemptive
+## Waiting time
+$$\text{waiting \ time = turnaround \ time - burst \ time}$$
+- OR $$\text{waiting \ time = arrival \ time + start \ time + (anything\  in \ the \ middle)}$$
 # Multilevel Queue Scheduling
 - Usually we had just one ready queue, in this the ready queue is split into multiple level queues
 - those ready queues will have their own scheduling algorithm
