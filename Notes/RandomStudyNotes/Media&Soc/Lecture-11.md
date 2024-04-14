@@ -1,0 +1,36 @@
+# Media In Qatar
+- Qatars media system follows galandars Amiri system
+- in 2004 media laws:
+	- article 46
+	- article 47
+	- article 48
+- in 1995 that abolished censorship of press
+- press law 1979:
+	- became outdated with the era, but is still used
+- Condition for newspapers and journalistic work:
+	- law of 1979 does not apply here
+	- article 2 requires obtaining a license
+# History of Press in Qatar
+- Media in Qatar started in 1961, before that local news was spread through word of mouth etc.
+- newspaper in Arabic, ==dates are important==:
+	- Al raya
+	- al sharq
+	- al arab: the oldest
+	- Al watan
+- newspapers in english:
+	- qatar tribune
+	- gulf times
+	- peninsula
+# Media Institutions in Qatar
+- QMC: has multiple channels (previously situated in television roundabout):
+	- Qatar Television
+		- this also had a english branch on channel 37
+- QNA: official agency of state of qatar
+- Al Rayyan:
+	- people stopped watching qatar tv in 2012, so this started
+	- it represets the qatari society, but not all of its society, only of those who tuned into them
+	- many of its programs focused on bedouin tribes, which is a reason why people outside of Qatar watched it also
+	- Al-Rayyan used the bedouin dialect and depicted bedoin culture
+- Al-Jazeera Network:
+	- will come in final exam:
+	- ==documentary in slides about Al-Jazeera==

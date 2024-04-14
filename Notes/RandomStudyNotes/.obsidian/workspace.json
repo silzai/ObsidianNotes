@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1330fa21808708fb",
+        "id": "0acc02c757c5b819",
         "type": "tabs",
         "children": [
           {
-            "id": "88bf6b8271854e4d",
+            "id": "a595ec08e08b38f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MachineLearning/Lecture-7.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d77330b3b39da326",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "d89a6be7af1689da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumericalMethods/Lecture/part4-CurveFitting.md",
-                "mode": "source",
+                "file": "OS/Lab/os_project_2.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MachineLearning/Lecture-7.md",
+                "file": "OS/Lab/os_project_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MachineLearning/Lecture-7.md",
+                "file": "OS/Lab/os_project_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MachineLearning/Lecture-7.md"
+                "file": "OS/Lab/os_project_2.md"
               }
             }
           },
@@ -191,34 +168,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d77330b3b39da326",
+  "active": "a595ec08e08b38f7",
   "lastOpenFiles": [
-    "NumericalMethods/Lecture/Part6-SolutionsOfODE.md",
-    "NumericalMethods/Lecture/part5-NumInteg&Diff.md",
-    "MachineLearning/Lecture-7.md",
-    "NumericalMethods/Lecture/part4-CurveFitting.md",
-    "Media&Soc/Lecture-9.md",
-    "OS/Lecture/Lecture-6.md",
-    "OS/Lecture/Lecture-7.md",
+    "OS/Lab/Lab-1.md",
+    "OS/Lab/os_project_2.md",
+    "NumericalMethods/Lecture/part3-LinearSystemOfEqs.md",
+    "OS/Lab/os_project_1.md",
+    "ComputerSecurity/Lecture-4.md",
     "ComputerSecurity/Lecture-5.md",
-    "AdvancedDatabase/3-StrategiesForQueryProcessing.md",
+    "AdvancedDatabase/9-Security.md",
+    "ComputerSecurity/Lecture-3.md",
+    "ComputerSecurity/Lecture-2.md",
+    "ComputerSecurity/Lecture-1.md",
+    "ComputerSecurity/Intro.md",
+    "MachineLearning/Lecture-3.md",
+    "MachineLearning/Lecture-1.md",
+    "MachineLearning/Lecture-2.md",
+    "MachineLearning/Lecture-4.md",
     "MachineLearning/Lecture-6.md",
     "MachineLearning/Lecture-5.md",
-    "Media&Soc/Lecture-8.md",
-    "OS/Lecture/Lecture-5.md",
-    "Media&Soc/Lecture-7.md",
-    "MachineLearning/Lecture-2.md",
-    "MachineLearning/Lecture-3.md",
-    "MachineLearning/Lecture-4.md",
-    "MachineLearning/Lecture-1.md",
-    "ComputerSecurity/Lecture-1.md",
-    "ComputerSecurity/Lecture-2.md",
-    "ComputerSecurity/Lecture-3.md",
-    "ComputerSecurity/Lecture-4.md",
-    "README.md",
-    "style-guide.md",
-    "OS/Lab/os_project.md",
+    "WebDev/Lab/React-Rules.md",
+    "MachineLearning/Lecture-7.md",
+    "OS/Lecture/Lecture-7.md",
+    "OS/Lecture/Lecture-8.md",
+    "Media&Soc/Lecture-11.md",
+    "Media&Soc/Lecture-1.md",
+    "Media&Soc/Lecture-2.md",
     "Media&Soc/Lecture-3.md",
+    "Media&Soc/Lecture-4.md",
     "Tayyiba/Chap-12 Current.canvas",
     "WebDev/Lecture",
     "Untitled",

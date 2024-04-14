@@ -1,0 +1,16 @@
+.note {
+  stroke: #decc93 !important;
+  fill: #fff5ad !important;
+}
+
+.loopLine {
+  stroke-width: 2 !important;
+  stroke-dasharray: '2 2' !Important;
+  stroke: #ccccff !Important;
+}
+
+.loopText {
+  fill: black !important;
+  stroke: none !important;
+  font-family: 'trebuchet ms', verdana, arial !important;
+}

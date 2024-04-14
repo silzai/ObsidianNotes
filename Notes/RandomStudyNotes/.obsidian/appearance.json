@@ -1,6 +1,9 @@
 {
   "accentColor": "",
   "baseFontSize": 21,
-  "theme": "obsidian",
-  "translucency": false
+  "theme": "moonstone",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "snippet"
+  ]
 }
