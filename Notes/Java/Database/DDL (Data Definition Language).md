@@ -51,7 +51,7 @@ ADD (SALARY NUMBER(6)); -- ADD will put a column on the table, while insert is u
 ALTER TABLE TAXT
 RENAME COLUMN tax TO saltax; -- RENAME will change name of column
 
-------------change data type of column
+------------change data type of column---------    
 
 ALTER TABLE TAXT
 MODIFY (salary NUMBER(10));

@@ -5,7 +5,7 @@
 # Role
 - role comes with set of tasks
 - task is subset of role
-- session: mapping between individul
+- session: mapping between individual
 - example: TA has 3 tasks as a role,
 	- reading lab
 	- teaching lab

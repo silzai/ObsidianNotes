@@ -5,12 +5,14 @@ autonumber
 
 actor client
 participant server
+participant serverUtility
 participant LeaderBoard
-participant Game
-
 
 server-->>client: "identify yourself"
 client->>server: pseudo "name"
+
+server->>serverUtility: parse(String) 
+
 server->>server: check if name already exists, if not, then generate a ticket and store it
 server-->>client: displays ticket
 server-->>client: "welcome 'name'"
@@ -26,6 +28,9 @@ server-->>client: displays list of players
 server-->>client: displays list of games
 
 client->>server: join "game-name"
+
+server->>serverUtility: parse(String) 
+
 loop after every player joins
 server-->client: "player 'name' has joined"
 end

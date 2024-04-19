@@ -102,7 +102,7 @@ END;
 - difference bw procedures and funtions:
 	- procedures: We can call it like a function and can pass values to update any attribute, there is no return value
 	- funtions: there is return value
-
+## Procedure
 - creating procedure will store the procedure into the dbms:
 ```PLSQL
 CREATE OR REPLACE PROCEDURE dept_sal(deptid NUMBER, sal_raise NUMBER)
@@ -117,8 +117,8 @@ END;
 ```PLSQL
 EXEC dept_sal(10, 0.05);
 ```
-
-- creating function will store the funtion into the dbms:
+## Function
+- creating function will store the function into the dbms:
 ```PLSQL
 CREATE OR REPLACE FUNCTION count_emp(deptid NUMBER)
 RETURN NUMBER IS total NUMBER(5) := 0; -- declaring variables
@@ -142,7 +142,7 @@ BEGIN
 END:
 ```
 
-#### Triggers:
+## Triggers:
 - When doing DML, we have triggers, they will run automatically BEFORE or AFTER any DML operation that we can specify:
 	  - 2 types:
 		  - statement triggers: will run on background (default)
@@ -166,4 +166,5 @@ ALTER TRIGGER check_hire_date DISABLE;
 DROP TRIGGER check_hire_date;
 ```
 
-Questionable note: we will not add 'declare' block for function/procedure, but can add for triggers.
+>[!note] Questionable note: 
+>we will not add 'declare' block for function/procedure, but can add for triggers.

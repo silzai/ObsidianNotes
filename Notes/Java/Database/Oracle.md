@@ -9,7 +9,7 @@
 		- This affects the rows of the table i.e. tuples/records
 	- DCL: revoke, grant
 
-## Language Queries:
+# Different Language Queries: (week 1 to 3)
 - can use > or < for DATE datatype
 - <> is not equals
 ```SQL
@@ -64,11 +64,11 @@ FROM EMP;
 ```SQL
 SELECT
 HIREDATE, HIREDATE + 1, HIREDATE -1, -- will give date value adding a day
-SYSDATE - HIREDATE, -- date - date will give number of days 
+SYSDATE - HIREDATE, ---- date - date will give number of days 
 MONTHS_BETWEEN(SYSDATE, HIREDATE), -- will give number of months between the arguments (SYSDATE gives todays date) (will do ROUND so that it does not give too much decimal places)
 ADD_MONTHS(HIREDATE, 6),
-TO_CHAR(HIREDATE, ''), -- this will convert the format of the date to your choice e.g. 'mm dd yy', 'yyyy month DAY' etc.
-TO_DATE() -- 1st arg will have string of the date, and 2nd arg will have the date format
+TO_CHAR(HIREDATE, ''), ---- this will convert the format of the date to your choice e.g. 'mm dd yy', 'yyyy month DAY' etc.
+TO_DATE() ---- 1st arg will have string of the date, and 2nd arg will have the date format
 
 FROM EMP;
 ```
@@ -76,7 +76,7 @@ FROM EMP;
 #### Multiple-Row functions
 - can use MIN, MAX, SUM, COUNT, AVG
 
-### Joins
+## Joins
 1) equi-join/inner join: when doing a JOIN based on the primary key and foreign key being the same. example:
 ```SQL
 SELECT emp.ename, dept.dname -- calling the attribute like speedups processing
@@ -112,8 +112,8 @@ FROM emp RIGHT OUTER JOIN dept ON (emp.deptno = dept.deptno);
 HOW TO WRITE (+) NOTATION????
 ```
 
->note: SUBQUERIES are like nested functions where an inner function returns a value to an outer function who in turn, uses that value to process info
-
+>[!info] SUBQUERIES
+>SUBQUERIES are like nested functions where an inner function returns a value to an outer function who in turn, uses that value to process info
 
 ### DML: (week 4)
 1) Insert
@@ -220,8 +220,7 @@ DROP COLUMN salary;
 DROP (salary, saltax);
 ```
 4) Truncate:
-
-- View:
+## View:
 ```SQL
 CREATE VIEW VU_SIMPLE
 AS
@@ -230,7 +229,7 @@ WHERE job LIKE 'SALESMAN';
 
 SELECT * FROM VU_SIMPLE;
 ```
-- Sequence:
+## Sequence:
 ```SQL
 CREATE SEQUENCE seq_id
 INCREMENT BY 10
@@ -251,7 +250,7 @@ VALUES (seq_id.NEXTVAL, 'AHMED');
 4) FOREIGN KEY
 5) CHECK
 
-- can add contraint when creating table, also can use 'alter' to add constraints, example:
+- can add constraint when creating table, also can use 'alter' to add constraints, example:
 ```SQL
 CREATE TABLE DEPT1 -- CONSTRAINTs when creating table
 (

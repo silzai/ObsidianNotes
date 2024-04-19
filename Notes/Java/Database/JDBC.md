@@ -6,7 +6,7 @@
 	- Statement
 	- ResultSet
 
-### Connecting to the database
+# Connecting to the database
 -  need JDBC Driver of the database that we are connecting to, in this case Oracle Driver, so will need to download that from Oracle website, and import it to the IDE and every project that will use JDBC.
 
 - To connect to the database:

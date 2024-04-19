@@ -66,13 +66,3 @@
 
 # Types of distributed systems
 - federated databases are a "boom" in medical systems because of the privacy with it.
-
-,السلام علیكم
-
-I am Basil and I study CS at Qatar University (I'm in my 3rd year). I got your contact from my father who took it from your brother as he works in the same company (QAFAC).
-
-If you have the time, then I would like to meet on phone or physically (on the time and place of your choice as I have winter holidays).
-
-I wanted advice about the general job market here in Qatar, how to apply to companies and internships in the upcoming summer.
-
-thnkss a lot.
