@@ -32,7 +32,7 @@ ResultSet resultSet = statement.executeQuery(sql);
 ```java
 while (resultSet.next()) {
 	int no = resultSet.getInt(1);
-	String name = resultSet.GetString(2);
+	String name = resultSet.getString(2);
 	Double Salary = resultSet.getDouble(3);
 	System.out.println(no + " " + name + " " + salary);
 }

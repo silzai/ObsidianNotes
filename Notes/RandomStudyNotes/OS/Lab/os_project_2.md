@@ -8,8 +8,10 @@ participant server
 participant serverUtility
 participant LeaderBoard
 
+client->>client: "Enter the ip address of the server"
+client->>server: connected
 server-->>client: "identify yourself"
-client->>server: pseudo "name"
+client->>server: pseudo "name/ticket"
 
 server->>serverUtility: parse(String) 
 
@@ -19,7 +21,7 @@ server-->>client: "welcome 'name'"
 
 Note right of LeaderBoard: LeaderBoard is a static class and will store a TreeMap of all players
 
-loop for each game
+loop after each game
 server->>LeaderBoard: get leaderboard
 LeaderBoard-->>server: leaderboard of top 5 players: String
 server-->>client: displays leaderboard

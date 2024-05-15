@@ -6,9 +6,9 @@
 - Invented by:
 	- William Henry Vanderbilt:
 		- made railroad tracks
-		- take it if you want it, we will not accomodate you
+		- take it if you want it, we will not accommodate you
 	- Charles Darwin:
-		- social darwinism:
+		- social Darwinism:
 			- certain people become powerful in societies just because they are better people
 				- example: is present in friend groups:
 					- where 1 friend is picked on in a friend group, and if that guy leaves, a new one will be picked on

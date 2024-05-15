@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fd0d0f094c536c09",
+        "id": "9d66b8964b69787a",
         "type": "tabs",
         "children": [
           {
-            "id": "302e02f778d28086",
+            "id": "a30341d75a36e10a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerSecurity/project-documentation.md",
+                "file": "Final Exams Schedule.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83b24164404072b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "==",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerSecurity/project-documentation.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerSecurity/project-documentation.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerSecurity/project-documentation.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -164,61 +177,62 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "302e02f778d28086",
+  "active": "83b24164404072b6",
   "lastOpenFiles": [
+    "MachineLearning/Lecture-5.md",
+    "Untitled.md",
+    "Final Exams Schedule.md",
+    "Arabic/Reason (لماذا).md",
+    "Arabic/Plurals (الجمع).md",
+    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "Arabic/Arabic Portfolio.md",
+    "Arabic/Adjective (صفة).md",
+    "MachineLearning/Lecture-6.md",
+    "MachineLearning/Lecture-7.md",
+    "MachineLearning/Lecture-4.md",
+    "MachineLearning/Lecture-3.md",
+    "Pasted image 20240511190614.png",
+    "Pasted image 20240511191316.png",
+    "SoftwareEngineering/Lecture/ExtraInfo.md",
+    "Pasted image 20240511190952.png",
+    "Media&Soc/Lecture-11.md",
+    "Media&Soc/Lecture-10.md",
+    "Media&Soc/Lecture-9.md",
+    "Media&Soc/Lecture-8.md",
+    "Media&Soc/Lecture-7.md",
+    "Media&Soc/Lecture-12.md",
+    "Media&Soc/Lecture-13.md",
+    "OS/Lecture/Lecture-4.md",
+    "Media&Soc/Lecture-6.md",
+    "Media&Soc/Lecture-5.md",
+    "Media&Soc/Lecture-3.md",
+    "Media&Soc/Lecture-2.md",
+    "Media&Soc/Lecture-1.md",
+    "Pasted image 20240419212818.png",
+    "Pasted image 20240419212656.png",
+    "Pasted image 20240420185507.png",
+    "ComputerSecurity/toP8D37.html",
+    "ComputerSecurity/toP4716.html",
+    "ComputerSecurity/toPD273.html",
+    "ComputerSecurity/toP61D8.pdf",
+    "ComputerSecurity/toP61C7.html",
+    "ComputerSecurity/project-documentation1.pdf",
+    "ComputerSecurity/~$oject-documentation1.docx",
+    "ComputerSecurity/project-documentation1.docx",
+    "Pasted image 20240420033650.png",
+    "Pasted image 20240420033602.png",
+    "Pasted image 20240420033322.png",
+    "Pasted image 20240420033034.png",
     "ComputerSecurity/~$oject-documentation.docx",
     "ComputerSecurity/project-documentation.docx",
-    "ComputerSecurity/project-documentation.pdf",
-    "ComputerSecurity/Lecture-5.md",
-    "ComputerSecurity/project-documentation.md",
-    "OS/Lecture/Lecture-9.md",
-    "OS/Lecture/Lecture-8.md",
-    "OS/Lecture/Lecture-7.md",
-    "WebDev/Lab/React-Rules.md",
-    "Media&Soc/Lecture-12.md",
-    "Media&Soc/Lecture-11.md",
-    "OS/Lecture/Lecture-6.md",
-    "ComputerSecurity/Lecture-4.md",
-    "WebDev/Lecture/Lecture-3.md",
-    "SoftwareEngineering/Lecture/part8-SoftwareQuality.md",
-    "SoftwareEngineering/Lecture/part9-DesignPatterns.md",
-    "SoftwareEngineering/Lecture/part10-ArchitectureStyles.md",
-    "SoftwareEngineering/Lecture/part11-WhiteBoxTesting.md",
-    "SoftwareEngineering/Lecture/part12-BlackBoxTesting.md",
-    "SoftwareEngineering/Lecture/part13-Project Management.md",
-    "SoftwareEngineering/Lecture/part14-SoftwareProcesses.md",
-    "SoftwareEngineering/Lab/lab10-Testing.md",
-    "AdvancedDatabase/8-DistributedDatabases.md",
-    "AdvancedDatabase/9-Security.md",
-    "AdvancedDatabase/10-DataWarehousing&OLAP.md",
-    "AdvancedDatabase/Query Cost Calculator Information.md",
-    "AdvancedDatabase/5-TransactionProcessing.md",
-    "AdvancedDatabase/6-ConcurrencyTechniques.md",
     "NumericalMethods/ODEcanvas.canvas",
     "Tayyiba/Chap-12 Current.canvas",
-    "WebDev/Lecture",
-    "Untitled",
-    "WebDev/Lab",
-    "WebDev",
-    "OS/Lecture",
-    "OS/Lab",
-    "Media&Soc",
-    "MachineLearning",
-    "Pasted image 20231212150757.png",
     "AdvancedDatabase/IndexesCanvas.canvas",
     "AdvancedDatabase/StorageCanvas.canvas",
-    "DAWA.canvas",
-    "Pasted image 20230805144659.png",
-    "Pasted image 20230806060853.png",
-    "Pasted image 20230806060821.png",
-    "Pasted image 20230806060803.png",
-    "Pasted image 20230806060736.png",
-    "Pasted image 20230806060123.png",
-    "Pasted image 20230805235419.png",
-    "Pasted image 20230805234417.png",
-    "Pasted image 20230805234310.png"
+    "DAWA.canvas"
   ]
 }

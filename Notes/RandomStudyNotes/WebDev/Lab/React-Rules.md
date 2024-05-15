@@ -7,3 +7,9 @@
 # Server Side vs Client Side
 - server side data is pre-rendered, or we can say it is fast
 - to make `page.jsx` into a client side script, will add `'use client'` line at the beginning of the script
+
+# we have the following hooks:
+- use state
+- use effect
+- use params
+- use router

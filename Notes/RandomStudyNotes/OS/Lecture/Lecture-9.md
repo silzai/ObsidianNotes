@@ -17,14 +17,15 @@ synchronized(x) {
 // this is the critical section
 }
 ```
-- furnace policy
-- spinning:
+- fairness policy: goal is to have more fairness
+
+- If we have *race condition* then we will use `wait/notify()`
 	- thread yield: stop the thread, put it back into ready queue
 		- to give turn to other threads
 	- problem: doesn't release the lock, so only good for object that doesn't have locks
 	- to solve `yield()` will use `wait/notify()`: 
 		- if blocked then, will make `wait()` , this will put thread in `waiting set`
-		- `notify()` will move from `waiting set` to `entry set` to make it runnable
+		- `notify()` will move random thread from `waiting set` to `entry set` to make it runnable
 		- can use `notifyAll()` to move all threads in wait set to `entry set`
 - Recursive Lock:
 	- method with lock on object can run in another synchronized method
@@ -38,4 +39,11 @@ synchronized(x) {
 - binary semaphore:
 	- if number of resources is 1, then will have this
 	- behaves like a normal locking mechanism
-	- 
+
+- semaphore does mutual exclusion on the method `mutex.acquire` plus mutual exclusion on the shared object `db.acquire`
+# Reentrant Locks
+- is optimized locking
+- Created just to enforce fairness policy
+- thread that is longest in the `waiting set` is selected to `entry set`
+- if problem requires longest fairness policy, then will use this class
+- 

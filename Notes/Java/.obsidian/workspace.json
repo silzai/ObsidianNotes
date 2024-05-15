@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3d1efd03e365a093",
+        "id": "12c98c75ac8ac267",
         "type": "tabs",
         "children": [
           {
-            "id": "ec2ff61703fcee6b",
+            "id": "dc0eddf323897ae4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cursor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Comment Keywords.md",
+                "file": "Database/SELECTING AND OTHER QUERIES WITH IT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,8 +134,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "671873ace68dbf23",
+  "active": "dc0eddf323897ae4",
   "lastOpenFiles": [
+    "Database/PL-SQL.md",
+    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/Oracle.md",
+    "Database/DML (Data Manipulation Language).md",
+    "Database/JDBC.md",
+    "Database/DDL (Data Definition Language).md",
     "Java/Random.md",
     "Java/Polymorphism.md",
     "Java/LabProject02.md",
@@ -141,19 +151,13 @@
     "Java/Exceptions.md",
     "DataStructures/BB TSP.md",
     "DataStructures/SinglyLinkedList VS doublyLinkedList.md",
-    "Database/Oracle.md",
     "Database/~$Oracle.docx",
     "Database/Oracle.docx",
-    "Database/PL-SQL.md",
-    "Database/JDBC.md",
     "Database/~$JDBC.docx",
     "Database/JDBC.docx",
-    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
     "Database/Indexes (not in syllabus of CMPS).md",
-    "Database/DML (Data Manipulation Language).md",
     "Database/Additional Topics in DB by Prof Gassemi.md",
     "Database/DCL (Data Control Language).md",
-    "Database/DDL (Data Definition Language).md",
     "DataStructures/Instruction Format to Hex.md",
     "Useful Links.md",
     "Java/IO.md",

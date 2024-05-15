@@ -1,5 +1,5 @@
-## SDLC: Waterfall
-### 1) requirements analysis (elicitation) (IEEE uses the term SRS (software requirements specification))
+# SDLC: Waterfall
+## 1) requirements analysis (elicitation) (IEEE uses the term SRS (software requirements specification))
 - specifications
 - Use-case models, ==data flow diagrams==
 - conceptual domain models
@@ -24,7 +24,7 @@
 	- Observation
 	- Interviewing
 	- Note: Scope of the system should be determined, and will need to ignore some requirements by the client that are not in the scope of the system
-### 2) design: the solution, the features of the software (software design description)
+## 2) design: the solution, the features of the software (software design description)
 - There are 2 parts: high-level design and detailed design
 - UML diagrams (minus use-case diagrams)
 	- Class diagrams
@@ -34,10 +34,10 @@
 - database design
 - UI design
 - will use diagrams and text 
-### 3) implementation: coding
-### 4) testing
+## 3) implementation: coding
+## 4) testing
 - Create 2 docs, software test plan, software test document (detailed) specifies all test cases, software test report (requirements passed or failed)
 - White-box testing
 - black-box testing
-### 5) maintenance
+## 5) maintenance
 

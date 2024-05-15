@@ -37,3 +37,12 @@ w = np.zeros(n_features)
 - can use `GridSearchCV` to get the best degree to set the model (basically to get lowest variance (lowest test error) )
 # Practical Aspects
 - regularization
+# Logistic Regression
+- used for classification 
+- logistic regression will estimate an "s" shaped curve that will be the probability
+- the prediction by the curve will be between 0 and 1
+- typically we use 0.5 as the normal threshold of accept or not accept, 
+	- but when cost of false positive if higher, then we will use ==??==
+	- but when cost of false negative if higher, then we will use ==??==
+- cost function used: binary cross entropy
+	- penalizes predicting wrong probability
