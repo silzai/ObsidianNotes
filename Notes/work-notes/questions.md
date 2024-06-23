@@ -1,0 +1,6 @@
+- will we deploy kubernetes on cloud (with managed clusters), or local cluster?
+	- if local, then will we use kubeadm?
+- apache airflow and kafka are 2 different architectural ideas, 
+	- because one is scheduled batch processing, and the other is stream processing, so which one will be appropriate to our usecase?
+- is apache spark only for stream processing?
+	- if so, then apache kafka already has streams processing api on its consumers
