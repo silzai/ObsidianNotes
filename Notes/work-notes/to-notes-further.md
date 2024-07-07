@@ -1,0 +1,20 @@
+- how the monitoring will happen from the demultiplexer towards the VMs.
+	- the dmplxr may have a class called `Vm` which has the properties:
+		- `is_executing_task : bool`, `currently_executing_taskname : str`, (also a connection property to the actual vm) etc. basically some properties that will tell the state of the `Vm` object such as if it is running any task, and that tasks name, etc.
+	- the dmplxr will have a list of `Vm` objects
+	- to monitor if a task is running/finished:
+		- run the task with a custom process name
+		- loop through the list of `Vm` objects periodically using a `cronjob` and do the following:
+			- check if a process is running there using `pgrep` or a c-script with `waitpid()`
+			- update the property in the `Vm` object to reflect the vms current condition
+	- to check what messages are queued, there will be a `shadow_queue` in the `task_or_vm_monitor`, with this we can check which tasks exactly are queued. (we are doing this since there is no way to check to check the exact content of a queue in rabbitmq)
+- how will the logging happen throughout the application (research how to conduct and centralize logging for a system)
+	- we can log access and actions on the `task_assigner`, `cloud_demultiplexer`, `monitor` and the tasks queued in the `task_queue` to one log file
+	- we can use the `logging` library for python
+- how to initialize the VMs (what is the most standard/easy technology to use)
+	- if we just want the vms up, and need no further configuration on the vms then `terraform` will do, otherwise for further configuration on the vms, we would need `ansible`
+- different options to port codebases/modules that will do the crawling/other stuff
+	- one way would be containerizing the applications and pushing them to `dockerhub` and then simply doing `docker image pull` and then `docker container run` (but first the image needs to be created by the developers of the app, and docker should be installed on the vms)
+	- pulling the codebase from a remote (version control) repository and then from the developers/users side, have them include an argument from the interface or a one-line manifest that has the name of the entry-point of the application, so that could be executed on the vm.
+- when codebases/modules are updated, how would we propagate the new changes towards the already running VMs
+	- have a cronjob check versions of the project periodically and pull them if there is a new one, stop the current running one, and run the new version

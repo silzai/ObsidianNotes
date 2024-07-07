@@ -1,4 +1,4 @@
-1. Bot detection for Arabic social media spaces based on existing open source work
+ 1. Bot detection for Arabic social media spaces based on existing open source work
 ~~2. Contributing towards Arabic data processing modules~~
 ~~3. Benchmarking Large Language Models for Arabic on multiple subjects/topics (Up to 3 members to assign)  ~~
 4. Task Orchestrator across Linux Environments

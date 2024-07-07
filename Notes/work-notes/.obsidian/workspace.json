@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3caa190ce50347bd",
+        "id": "d41b1ae8760d455a",
         "type": "tabs",
         "children": [
           {
-            "id": "6931b3e39d2f0a7b",
+            "id": "3f9e9b65c1dc0412",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "to-notes-further.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.51103591918945
+    "width": 302.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "f732d5d95168c311",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "to-notes-further.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "to-notes-further.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "to-notes-further.md"
+              }
             }
           }
         ],
@@ -139,19 +148,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6931b3e39d2f0a7b",
+  "active": "3f9e9b65c1dc0412",
   "lastOpenFiles": [
-    "python/os.md",
-    "questions.md",
-    "project-checklist.md",
-    "Devops.md",
-    "vim.md",
+    "to-notes-further.md",
     "task-orchestrator-notes.md",
+    "ssh.md",
+    "questions.md",
+    "vim.md",
+    "plan.md",
+    "project-checklist.md",
+    "this.md",
+    "python/os.md",
+    "Devops.md",
     "task-orchestrator-notes.md~",
     "vim.md~",
-    "questions.md",
     "_TOC_.md",
-    "ssh.md",
     "AsuCrawlerWithAutoFaculty.md",
     "python/bs4.md",
     "python/chromedriver.md",
