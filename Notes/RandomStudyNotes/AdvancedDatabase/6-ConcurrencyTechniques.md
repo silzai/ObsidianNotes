@@ -80,7 +80,7 @@
 | 1      | 2     | 0          | 0           |
 | readx  |       | 1          |             |
 |        | readx | 2          |             |
-| writex |       |            | INVALID            |
+| writex |       |            | INVALID     |
 
 - initially T1 enters the system then T2 enters, so T1 has timestamp of 1, and T2 has 2, while readts(x) and writets(x) are 0
 
