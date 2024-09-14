@@ -1,6 +1,7 @@
 # Contents
-1) RBAC
-2) ABAC
+1) Access Control Matrix
+2) RBAC
+3) ABAC
 # RBAC
 # Role
 - role comes with set of tasks

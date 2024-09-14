@@ -1,0 +1,16 @@
+- partnership
+- reponsible consupmotion and production
+- 
+- life below water
+- clean water and sanitation
+- climate aciton
+- life on land
+- peace and justice
+- afforadbal eand clean ecnergy
+- gender equality
+- quality education
+- zero hunger
+- infrastrucutre
+- reduced inequ
+- sustanaible cities
+- no poverty

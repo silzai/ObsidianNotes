@@ -1,12 +1,12 @@
 # CPU Scheduling
 # Types of Scheduling
-response time = time from arrival time upto when the process is first executed
+response time = time from arrival time up to when the process is first executed
 # Non-preemptive
 ## Waiting time
 $$\text{waiting time = response time = start time - arrival \ time}$$
 ## Turnaround time
 $$\text{turnaround = end \ time - arrival \ time}$$
-- OR $$\text{turnaround=waiting \ time + burst \ time}$$
+- OR $$\text{turnaround = waiting \ time + burst \ time}$$
 # Preemptive
 ## Waiting time
 $$\text{waiting \ time = turnaround \ time - burst \ time}$$
@@ -19,7 +19,7 @@ $$\text{waiting \ time = turnaround \ time - burst \ time}$$
 	- so we can do time slicing to solve this:
 ## Multilevel Feedback Queue
 - This is implemented in Linux
-- special case of multilevel queue: multi-feedback Qeueue:
+- special case of multilevel queue: multi-feedback Queue:
 - the queue will have priorities
 - feedback: 
 	- if a process from a certain queue is preempted (interrupted), then instead of going to the tail of the same queue, insert it to the next queue

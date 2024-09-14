@@ -1,6 +1,6 @@
 # Processes and System Calls
 # process states transition:
-- fork will create a process -> process comes in job queue -> scheduler assign it to -> ready queue (processes that are loaded into memory, process will become "running" but can also be swapped to the disk if no space is available) -> short???queue (this is where cpu executes the processes)
+- fork will create a process -> process comes in job queue -> scheduler assign it to -> ready queue (processes that are loaded into memory, process will become "running" but can also be swapped to the disk if no space is available) -> short???queue (this is where CPU executes the processes)
 - every process has a block in memory called PCB (process control block), its like the identity of process, as it contains the information about the process, such as process number.
 - process may be executed, or waiting for io, in this case we suspend the process and sends it back to ready queue and choose another process
 	- will use context switching to do this

@@ -1,0 +1,15 @@
+- wellness/health is a holisitic approach to life, fitness is a component of the components of wellness
+# physical fitness:
+- 5 health related (more important for normal person, and this is what we will do in the course)
+	- body composition (amount of fat/body/muscle etc.)
+	- cardiovascular fitness (lungs, heart fitness)
+	- flexibility (stretchiness)
+	- muscular endurance (amount of repetition)
+	- muscle strength ()
+- 6 skill related (more related to sports performance)
+	- agility
+	- balance
+	- coordination
+	- power
+	- reaction time
+	- speed

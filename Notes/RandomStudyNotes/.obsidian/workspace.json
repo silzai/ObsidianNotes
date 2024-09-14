@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9d66b8964b69787a",
+        "id": "7e624c01b83dc767",
         "type": "tabs",
         "children": [
           {
-            "id": "a30341d75a36e10a",
+            "id": "0e354e48db349f78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Final Exams Schedule.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "83b24164404072b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
+                "file": "SDP/3-researching architectures.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "==",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 273.5,
+    "collapsed": true
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "SDP/3-researching architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "SDP/3-researching architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "SDP/3-researching architectures.md"
               }
             }
           },
@@ -181,54 +169,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83b24164404072b6",
+  "active": "0e354e48db349f78",
   "lastOpenFiles": [
-    "MachineLearning/Lecture-5.md",
-    "Untitled.md",
+    "SDP/2-researching MLLMs.md",
+    "SDP/1-researching databases.md",
+    "SDP/3-researching architectures.md",
+    "Human Biology/chap-2 cells.md",
+    "Human Biology/Untitled.md",
+    "projManagement/2-business model canvas.md",
+    "Human Biology/chap-1.md",
+    "physFitness/chap-2.md",
+    "physFitness/chap-1.md",
+    "Pasted image 20240902001754.png",
+    "UNIV200/SDG-presentation.md",
+    "Pasted image 20240905002719.png",
+    "Pasted image 20240904235559.png",
+    "UNIV200/SDG.md",
+    "SDP",
+    "SDP.md",
+    "projManagement/Entrepreneurship.md",
+    "UNIV200",
+    "projManagement/startup idea.md",
+    "physFitness",
+    "MobileDev/Intro.md",
+    "projManagement",
+    "delete.md",
+    "Pasted image 20240828175519.png",
+    "MobileDev",
+    "Apache Kafka.md",
+    "Human Biology",
+    "Internship/Projects.md",
+    "Internship/project-checklist.md",
+    "short-story.md",
+    "Keyboard Shortcuts.md",
     "Final Exams Schedule.md",
-    "Arabic/Reason (لماذا).md",
-    "Arabic/Plurals (الجمع).md",
-    "Arabic/Defining a Noun (كلمة معارفة).md",
-    "Arabic/Arabic Portfolio.md",
-    "Arabic/Adjective (صفة).md",
-    "MachineLearning/Lecture-6.md",
-    "MachineLearning/Lecture-7.md",
-    "MachineLearning/Lecture-4.md",
-    "MachineLearning/Lecture-3.md",
+    "what to do.md",
+    "Internship",
+    "Media&Soc/Lecture-9.md",
+    "Media&Soc/Lecture-13.md",
+    "Media&Soc/Lecture-12.md",
     "Pasted image 20240511190614.png",
     "Pasted image 20240511191316.png",
-    "SoftwareEngineering/Lecture/ExtraInfo.md",
     "Pasted image 20240511190952.png",
-    "Media&Soc/Lecture-11.md",
-    "Media&Soc/Lecture-10.md",
-    "Media&Soc/Lecture-9.md",
-    "Media&Soc/Lecture-8.md",
-    "Media&Soc/Lecture-7.md",
-    "Media&Soc/Lecture-12.md",
-    "Media&Soc/Lecture-13.md",
-    "OS/Lecture/Lecture-4.md",
-    "Media&Soc/Lecture-6.md",
-    "Media&Soc/Lecture-5.md",
-    "Media&Soc/Lecture-3.md",
-    "Media&Soc/Lecture-2.md",
-    "Media&Soc/Lecture-1.md",
     "Pasted image 20240419212818.png",
     "Pasted image 20240419212656.png",
     "Pasted image 20240420185507.png",
     "ComputerSecurity/toP8D37.html",
     "ComputerSecurity/toP4716.html",
     "ComputerSecurity/toPD273.html",
-    "ComputerSecurity/toP61D8.pdf",
-    "ComputerSecurity/toP61C7.html",
-    "ComputerSecurity/project-documentation1.pdf",
-    "ComputerSecurity/~$oject-documentation1.docx",
-    "ComputerSecurity/project-documentation1.docx",
-    "Pasted image 20240420033650.png",
-    "Pasted image 20240420033602.png",
-    "Pasted image 20240420033322.png",
-    "Pasted image 20240420033034.png",
-    "ComputerSecurity/~$oject-documentation.docx",
-    "ComputerSecurity/project-documentation.docx",
     "NumericalMethods/ODEcanvas.canvas",
     "Tayyiba/Chap-12 Current.canvas",
     "AdvancedDatabase/IndexesCanvas.canvas",

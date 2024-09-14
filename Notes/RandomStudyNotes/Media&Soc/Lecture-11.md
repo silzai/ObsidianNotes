@@ -13,24 +13,24 @@
 # History of Press in Qatar
 - Media in Qatar started in 1961, before that local news was spread through word of mouth etc.
 - newspaper in Arabic, ==dates are important==:
-	- Al raya
-	- al sharq
-	- al arab: the oldest
-	- Al watan
+	- Al raya: 1979
+	- al sharq: 1987
+	- al arab: the oldest, 1972
+	- Al watan: 1996
 - newspapers in english:
-	- qatar tribune
-	- gulf times
-	- peninsula
+	- qatar tribune: 2006
+	- gulf times: 1987
+	- peninsula: 1996
 # Media Institutions in Qatar
 - QMC: has multiple channels (previously situated in television roundabout):
 	- Qatar Television
-		- this also had a english branch on channel 37
-- QNA: official agency of state of qatar
+		- this also had a English branch on channel 37
+- QNA: official agency of state of Qatar
 - Al Rayyan:
-	- people stopped watching qatar tv in 2012, so this started
-	- it represets the qatari society, but not all of its society, only of those who tuned into them
-	- many of its programs focused on bedouin tribes, which is a reason why people outside of Qatar watched it also
-	- Al-Rayyan used the bedouin dialect and depicted bedoin culture
+	- people stopped watching Qatar tv in 2012, so this started
+	- it represents the Qatari society, but not all of its society, only of those who tuned into them
+	- many of its programs focused on Bedouin tribes, which is a reason why people outside of Qatar watched it also
+	- Al-Rayyan used the Bedouin dialect and depicted Bedouin culture
 - Al-Jazeera Network:
 	- will come in final exam:
 	- ==documentary in slides about Al-Jazeera==

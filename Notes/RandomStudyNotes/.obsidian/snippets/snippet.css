@@ -14,3 +14,7 @@
   stroke: none !important;
   font-family: 'trebuchet ms', verdana, arial !important;
 }
+
+body {
+     --code-size: 0.7em;
+}

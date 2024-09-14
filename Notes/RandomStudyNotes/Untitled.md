@@ -1,7 +1,0 @@
-- [x]  Compute Accuracy, Precision, Recall and F1 score from a given confusion matrix (no formulas will be provided for this task).
-- [ ]  Underfitting & Overfitting issues and how to address them.
-- [x]  Apply kNN Algorithm to a simple example to classify a given point having 2 attributes x and y.
-- [x]  Apply Naïve Bayes Classifier to a simple scenario to classify a data object given precomputed Conditional Probabilities.
-- [x]  Apply the gradient descent algorithm given a simple function.
-- [x]  Compute the values of neurons and the output of a given simple Neural Network (similar to slide 30 of the NN lecture).
-- [x]  Find out how many parameters (weights and biases) a given simple network needs to compute.

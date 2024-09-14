@@ -1,0 +1,36 @@
+- forum: satellite town planner
+	- short description: A lot of developing countries have bad town planning or no planning at all which leads to congested or narrow roads and house locations, vehicle parking, and most of the time no access for emergency vehicles and normal transportation or utilities, that is why the "satellite town planner" will use AI/ML models to redraw/re-structure the town/area to conform to standards for safety, ease-of-living and ease-of-transportation and the environment.
+		- offering: It is a web app and on the main page of the user interface, a satellite view of the earth will be shown, and the client will select the area on the earth where the town needs to be re-planned, and the the web app will return another map of a properly standardized town with standards on road width, house and parking placements (with the house of the same size as was initially in the old map), green-belt placements, and the piping and electricity layout.
+			- what type of offering is envisioned: service
+			- sketch...![[Pasted image 20240902001754.png]]
+			- references:
+				- https://tribune.com.pk/story/1050067/housing-plans-govt-regularises-katchi-abadis-established-till-1997
+				- https://www.istockphoto.com/photo/aerial-view-of-residential-houses-at-autumn-american-neighborhood-suburb-real-estate-gm1181134074-331147738
+				- google maps
+		- value proposition:
+			- why is the offering important to the user:
+				- it has a user-friendly web interface and is more accessible to non-experts compared to traditional or technical tools like GIS software.
+				- it will provide blazing fast output of standardized civil infrastructure compared to traditional town planning/adjustment means
+			- why is the offering important to the buyer:
+				- it is a cost and time efficient solution
+				- the buyer will ensure that the specific safety, environmental, and living standards are ensured
+				- if the buyer is a political/social party then they will be benefitted with appreciation of good development schemes in developing countries
+			- what substitutes do people have to what you are offering:
+				- traditional human planning
+				- GIS software
+				- government inhouse tools
+		- customers: customer segments are governments, town/urban planners, community/housing scheme planners
+			- **Who is the user or beneficiary?** Users include local government officials, urban planners, and community leaders who will utilize the app to visualize and implement town planning.
+			- **How does the user use your offering?** Users will interact with the web app by selecting specific areas on a satellite view, after which the app will generate a redesigned map with standardized infrastructure layouts.
+			- **Who is the economic buyer or decision maker?** Economic buyers could be government entities, NGOs, or private developers who have the budget authority to invest in town planning solutions.
+			- **How many buyers are there?** The number of buyers can vary widely depending on the region, but there could be hundreds of potential buyers in each developing country, including various municipalities and private developers.
+		- truly distinctive competencies: 
+			- use of sophisticated AI and machine learning algorithms to analyze and restructure town layouts
+			- having a friendly user interface that increases the usability
+			- it will deliver quick results, as other providers time consuming
+			- cost efficient
+		- people: The team involved in this initiative should comprise individuals with expertise in urban planning, software development, AI/ML, and business development.
+			- **Who are the people involved in starting this initiative or venture?** The team could include urban planners, data scientists, software engineers, and business strategists.
+			- **What relevant experience do they bring to the table?** Team members may have experience in urban development projects, AI technology implementation, and software design
+			- **What specific knowledge do they bring to the table?** Knowledge in urban planning standards, machine learning algorithms, user interface design, and market analysis
+			

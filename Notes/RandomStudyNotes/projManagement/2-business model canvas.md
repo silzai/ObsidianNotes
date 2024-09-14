@@ -1,0 +1,5 @@
+- big idea sketchpad 
+- create 8 threads
+	- each thread: one block the business model canvas
+- each block is a hypthesis and you are sure not about it and you will research about it more in the future
+- focus on one value proposition, even if your offering has more value propositions

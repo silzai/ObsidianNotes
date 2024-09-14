@@ -1,0 +1,4 @@
+- How data should be collected/used (consent issue)?
+- how tor is used?
+- how cookies are used?
+- see the laws.
