@@ -4,6 +4,14 @@
 - why dont bigger animals have bigger cells?
 	- our dominant functions is absorption and for absorption the surface area is very important, 
 	- all processes are based on absorption, for example stomach lining has larger surface area to absorb nutrients faster
+# order of things
+1) plasma membrane get things from outside (or vice versa)
+2) gene expression is done to produce proteins from dna
+3) then the endomembrane system works to modify the proteins (or lipid or carbohydrates)
+4) cytoskeleton
+5) Metabolism: uses enzymes
+6) cellular respiration (in order see the following)
+	1) first glycolysis which produces pyruvate -> then if oxygen present then do krebs cycle then electron transport chain || if oxygen is not present then just produce alcohol and lactic acid
 # cell membrane
 - has semi/selectively-permeable layer:
 	- SLIDE TOPIC 3.3

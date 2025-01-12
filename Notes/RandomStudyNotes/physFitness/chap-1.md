@@ -1,4 +1,4 @@
-- wellness/health is a holisitic approach to life, fitness is a component of the components of wellness
+- wellness/health is a holistic approach to life, fitness is a component of the components of wellness
 # physical fitness:
 - 5 health related (more important for normal person, and this is what we will do in the course)
 	- body composition (amount of fat/body/muscle etc.)

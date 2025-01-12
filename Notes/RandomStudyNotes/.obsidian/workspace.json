@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e624c01b83dc767",
+        "id": "35cdc8bf97243ff9",
         "type": "tabs",
         "children": [
           {
-            "id": "0e354e48db349f78",
+            "id": "3109263252808520",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDP/3-researching architectures.md",
-                "mode": "preview",
+                "file": "scripts/graphviz-project-manag-python-script.md",
+                "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "graphviz-project-manag-python-script"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dns",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,15 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 262.5086555480957
   },
   "right": {
     "id": "974a6709fbc1b25d",
@@ -86,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SDP/3-researching architectures.md",
+                "file": "projManagement/project-pert-table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for project-pert-table"
             }
           },
           {
@@ -103,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SDP/3-researching architectures.md",
+                "file": "projManagement/project-pert-table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from project-pert-table"
             }
           },
           {
@@ -117,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": false
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SDP/3-researching architectures.md"
-              }
+                "file": "exam-f2024.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of exam-f2024"
             }
           },
           {
@@ -139,7 +154,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -147,15 +164,17 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
+    "width": 965.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -169,45 +188,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e354e48db349f78",
+  "active": "3109263252808520",
   "lastOpenFiles": [
-    "SDP/2-researching MLLMs.md",
-    "SDP/1-researching databases.md",
-    "SDP/3-researching architectures.md",
-    "Human Biology/chap-2 cells.md",
-    "Human Biology/Untitled.md",
-    "projManagement/2-business model canvas.md",
-    "Human Biology/chap-1.md",
-    "physFitness/chap-2.md",
-    "physFitness/chap-1.md",
-    "Pasted image 20240902001754.png",
-    "UNIV200/SDG-presentation.md",
-    "Pasted image 20240905002719.png",
-    "Pasted image 20240904235559.png",
-    "UNIV200/SDG.md",
-    "SDP",
-    "SDP.md",
-    "projManagement/Entrepreneurship.md",
-    "UNIV200",
+    "scripts/graphviz-project-manag-python-script.md",
+    "projManagement/whole-course-summary.md",
     "projManagement/startup idea.md",
-    "physFitness",
-    "MobileDev/Intro.md",
-    "projManagement",
-    "delete.md",
-    "Pasted image 20240828175519.png",
-    "MobileDev",
-    "Apache Kafka.md",
-    "Human Biology",
-    "Internship/Projects.md",
-    "Internship/project-checklist.md",
+    "projManagement/project-pert-table.md",
+    "projManagement/Entrepreneurship.md",
+    "projManagement/PERT.md",
+    "projManagement/cost-estimation.md",
+    "projManagement/2-business model canvas.md",
+    "Algorithms/Backtracking, chap 5.md",
+    "acm-algos-practice.md",
+    "Arabic/Plurals (الجمع).md",
+    "Arabic/Reason (لماذا).md",
+    "Arabic/Sentences (جمل).md",
+    "Arabic/The Root (جدر).md",
+    "Arabic/Types of Hamza (ا-أ).md",
+    "Arabic/Defining a Noun (كلمة معارفة).md",
+    "Arabic/Adjective (صفة).md",
+    "Arabic/Arabic Portfolio.md",
+    "exam-f2024.md",
+    "sdp-presentation.md",
     "short-story.md",
     "Keyboard Shortcuts.md",
-    "Final Exams Schedule.md",
-    "what to do.md",
+    "MobileDev/mobile-lab-final-tips.md",
+    "UNIV200/Univ200-revision_summary.md",
+    "Human Biology/bio-slides-distribution.md",
+    "Human Biology/group work-1.md",
+    "Untitled.canvas",
+    "Human Biology/Untitled.canvas",
+    "scripts",
+    "Pasted image 20240902001754.png",
+    "projManagement/proj-manag-hw-1.canvas",
+    "canvas-export.html",
+    "Pasted image 20240905002719.png",
+    "Pasted image 20240904235559.png",
+    "SDP",
+    "UNIV200",
+    "physFitness",
+    "projManagement",
+    "Pasted image 20240828175519.png",
+    "MobileDev",
+    "Human Biology",
     "Internship",
-    "Media&Soc/Lecture-9.md",
-    "Media&Soc/Lecture-13.md",
-    "Media&Soc/Lecture-12.md",
     "Pasted image 20240511190614.png",
     "Pasted image 20240511191316.png",
     "Pasted image 20240511190952.png",
@@ -215,8 +239,6 @@
     "Pasted image 20240419212656.png",
     "Pasted image 20240420185507.png",
     "ComputerSecurity/toP8D37.html",
-    "ComputerSecurity/toP4716.html",
-    "ComputerSecurity/toPD273.html",
     "NumericalMethods/ODEcanvas.canvas",
     "Tayyiba/Chap-12 Current.canvas",
     "AdvancedDatabase/IndexesCanvas.canvas",

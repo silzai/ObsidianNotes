@@ -5,9 +5,14 @@
 ## Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., ... & Sutskever, I. (2021, July). Learning transferable visual models from natural language supervision. In _International conference on machine learning_ (pp. 8748-8763). PMLR.
 - CLIP-ViT performed better than CLIP-ResNet
 ## Xu, X., Wu, C., Rosenman, S., Lal, V., Che, W., & Duan, N. (2023, June). Bridgetower: Building bridges between encoders in vision-language representation learning. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 37, No. 9, pp. 10637-10647).
-- found from the video about multi-modal rag sent by prof catal. where they used LLaVA as the LVLM (large vision language model, it uses CLIP for image encoding and LLaMA for the text (but we can integrate any LLM, it is allowable)).
+- found from the video about multi-modal rag sent by prof catal. where they used LLaVA as the LVLM (large vision language model, it uses CLIP for image encoding and LLaMA for the text (but we can integrate any LLM, it is allowable))..
 - use it to embed image-caption pairs in a multi-modal semantic space
+## interVL
+## LLaVa
+## Pixtral
+## MVLM
 # Non-image encoder architectures (they are all-in-one)
+## SOLO
 ## https://www.adept.ai/blog/fuyu-8b
 - On the architecture side, other multimodal models involve a separate image encoder, the output of which tends to be connected to an existing LLM via either cross-attention or through some kind of adapter that feeds directly into the LLM’s embedding-space. [PALM-e](https://arxiv.org/pdf/2303.03378.pdf), [PALI-X](https://arxiv.org/pdf/2305.18565.pdf), [QWEN-VL](https://arxiv.org/pdf/2308.12966.pdf), [LLaVA 1.5](https://arxiv.org/abs/2310.03744), and [Flamingo](https://www.deepmind.com/blog/tackling-multiple-tasks-with-a-single-visual-language-model) all look more-or-less like this. These models also tend to work on a fixed image resolution. At inference time, all images at greater resolution than this must be downsampled, and all images whose aspect ratio doesn’t match must be padded or distorted.
 ## Li, B., Zhang, P., Yang, J., Zhang, Y., Pu, F., & Liu, Z. (2023). Otterhd: A high-resolution multi-modality model. _arXiv preprint arXiv:2311.04219_.
@@ -17,3 +22,5 @@
 # recommendation by chatgpt-4o
 - **If symptoms are localized** (e.g., visible spots, lesions, or discoloration confined to certain areas of the plant), and you need to know both **where** and **what** the disease is, use **YOLO**. YOLO’s object detection capabilities will help you detect these regions and classify them.
 - **If the symptoms are diffuse or spread across the entire plant** (e.g., general discoloration, wilting, or texture changes), and your primary goal is to classify the disease, use a **Vision Transformer (ViT)**. ViT will handle the task well by capturing global patterns across the image for classification.
+# past related sdp project
+- Project ID = SDP2324 CS F 29

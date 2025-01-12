@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/SELECTING AND OTHER QUERIES WITH IT.md",
-                "mode": "source",
+                "file": "Database/7. Indexes (not in syllabus of CMPS).md",
+                "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "7. Indexes (not in syllabus of CMPS)"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 343.5
   },
   "right": {
     "id": "f8d2d644b06ac3c5",
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+                "file": "Java/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Inheritance"
             }
           },
           {
@@ -101,7 +111,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -113,7 +125,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -136,17 +150,20 @@
   },
   "active": "dc0eddf323897ae4",
   "lastOpenFiles": [
-    "Database/PL-SQL.md",
-    "Database/SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/6. JDBC.md",
+    "Database/5. PL-SQL.md",
+    "Database/4. DML (Data Manipulation Language).md",
+    "Database/3. DCL (Data Control Language).md",
+    "Database/2. DDL (Data Definition Language).md",
+    "Database/1. SELECTING AND OTHER QUERIES WITH IT.md",
+    "Database/7. Indexes (not in syllabus of CMPS).md",
     "Database/Oracle.md",
-    "Database/DML (Data Manipulation Language).md",
-    "Database/JDBC.md",
-    "Database/DDL (Data Definition Language).md",
+    "Database/Additional Topics in DB by Prof Gassemi.md",
+    "Java/Inheritance.md",
     "Java/Random.md",
     "Java/Polymorphism.md",
     "Java/LabProject02.md",
     "Java/LabProject.md",
-    "Java/Inheritance.md",
     "Java/GUI.md",
     "Java/Exceptions.md",
     "DataStructures/BB TSP.md",
@@ -155,9 +172,6 @@
     "Database/Oracle.docx",
     "Database/~$JDBC.docx",
     "Database/JDBC.docx",
-    "Database/Indexes (not in syllabus of CMPS).md",
-    "Database/Additional Topics in DB by Prof Gassemi.md",
-    "Database/DCL (Data Control Language).md",
     "DataStructures/Instruction Format to Hex.md",
     "Useful Links.md",
     "Java/IO.md",

@@ -1,0 +1,1 @@
+This whole course boils down to using the **lean startup methodology** by eric reiss, with the **customer development model** by steve blank and the **business model and value proposition canvas** by alex osterwalder.
